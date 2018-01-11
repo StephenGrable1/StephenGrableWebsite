@@ -26,8 +26,9 @@
 }
 
 .css {
-  width:111px;
+  width:110px;
   margin-left: 20px;
+  margin-top:-2px;
 }
 
 .node{
