@@ -31,6 +31,8 @@ class Home extends Component {
           on the web.
         </p>
 
+        <h2 className="tech-title">Technologies</h2>
+
         <div className="logo-outer">
           <div className="logo-inner">
 
