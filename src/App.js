@@ -16,7 +16,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <ul>
+        <h2>Stephen Grable</h2>
+          <ul className="app-menu">
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/bio'>Bio</Link></li>
             <li><Link to='/projects'>Projects</Link></li>

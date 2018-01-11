@@ -1,0 +1,15 @@
+.intro-img{
+  width:300px;
+}
+
+.intro-text{
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+}
+
+.tech-logo{
+  width:150px;
+  float:left;
+  margin-right:40px;
+}
