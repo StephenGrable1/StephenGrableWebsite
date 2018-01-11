@@ -13,6 +13,7 @@ import js from './media/JavaScript_logo.svg.png'
 import webpack from './media/webpack_logo.png'
 import html from './media/HTML5_logo.svg.png'
 import css from './media/CSS3_logo.svg.png'
+import github from './media/Github.svg'
 
 class Home extends Component {
   render() {
@@ -72,11 +73,15 @@ class Home extends Component {
             </div>
 
             <div className="logo">
-              <img src={firebase} className="logo-img"></img>
+              <img src={firebase} className="logo-img firebase"></img>
             </div>
 
             <div className="logo">
-            <img src={webpack} className="logo-img"></img>
+            <img src={webpack} className="logo-img webpack"></img>
+            </div>
+
+            <div className="logo">
+            <img src={github} className="logo-img github"></img>
             </div>
 
           </div>

@@ -40,6 +40,20 @@
   margin-top:50px;
 }
 
+.firebase{
+  margin-top:40px;
+}
+
+.github{
+  width:100px;
+  margin-left:20px;
+}
+
+.webpack{
+  width:110px;
+  margin-left:20px;
+}
+
 .logo{
   width:150px;
   height:150px;
@@ -51,7 +65,7 @@
 
 @media screen and (max-width:2500px) and (min-width:900px){
   .logo-inner{
-    width:600px;
+    width:650px;
     margin: auto;
     background-color: blue;
   }
@@ -59,10 +73,21 @@
 
 
 
-@media screen and (max-width:900px) and (min-width:300px){
+@media screen and (max-width:900px) and (min-width:500px){
   .logo-inner{
-    width:900px;
+    width:460px;
     margin: auto;
     background-color: blue;
+  }
+}
+
+@media screen and (max-width:500px) and (min-width:300px){
+  .logo-inner{
+    width:240px;
+    margin: auto;
+    background-color: blue;
+  }
+  .logo{
+    margin-bottom:30px;
   }
 }
