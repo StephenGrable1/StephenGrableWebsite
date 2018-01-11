@@ -30,17 +30,57 @@ class Home extends Component {
           on the web.
         </p>
 
-        <img src={reactImg} className="tech-logo"></img>
-        <img src={digitalOcean} className="tech-logo"></img>
-        <img src={firebase} className="tech-logo"></img>
-        <img src={nginx} className="tech-logo"></img>
-        <img src={express} className="tech-logo"></img>
-        <img src={node} className="tech-logo"></img>
-        <img src={redux} className="tech-logo"></img>
-        <img src={js} className="tech-logo"></img>
-        <img src={webpack} className="tech-logo"></img>
-        <img src={html} className="tech-logo"></img>
-        <img src={css} className="tech-logo"></img>
+        <div className="logo-outer">
+          <div className="logo-inner">
+
+            <div className="logo">
+            <img src={html} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={css} className="logo-img css"></img>
+            </div>
+
+            <div className="logo">
+            <img src={js} className="logo-img"></img>
+            </div>
+
+
+            <div className="logo">
+              <img src={reactImg} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={redux} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={node} className="logo-img node"></img>
+            </div>
+
+            <div className="logo">
+            <img src={express} className="logo-img express"></img>
+            </div>
+
+
+            <div className="logo">
+              <img src={digitalOcean} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={nginx} className="logo-img nginx"></img>
+            </div>
+
+            <div className="logo">
+              <img src={firebase} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={webpack} className="logo-img"></img>
+            </div>
+
+          </div>
+        </div>
       </div>
     );
   }
