@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import defaultImage from './media/default.png'
+import StephenImg from './media/Stephen_img.png'
 
 import reactImg from './media/react.png'
 import digitalOcean from './media/DigitalOcean_logo.svg.png'
@@ -14,13 +15,16 @@ import webpack from './media/webpack_logo.png'
 import html from './media/HTML5_logo.svg.png'
 import css from './media/CSS3_logo.svg.png'
 import github from './media/Github.svg'
+import heroku from './media/heroku.svg'
+import reactRouter from './media/react-router.png'
+import jest from './media/jestlogo.png'
 
 class Home extends Component {
   render() {
     return (
       <div>
         <h3>Home</h3>
-        <img src={defaultImage} className="intro-img"></img>
+        <img src={StephenImg} className="intro-img"></img>
         <p className="intro-text">
           Hi, my name is Stephen and welcome to my website.
           I'm a web developer who is believes in clean code,
@@ -48,13 +52,16 @@ class Home extends Component {
             <img src={js} className="logo-img"></img>
             </div>
 
-
             <div className="logo">
               <img src={reactImg} className="logo-img"></img>
             </div>
 
             <div className="logo">
             <img src={redux} className="logo-img"></img>
+            </div>
+
+            <div className="logo">
+            <img src={reactRouter} className="logo-img router"></img>
             </div>
 
             <div className="logo">
@@ -71,6 +78,10 @@ class Home extends Component {
             </div>
 
             <div className="logo">
+            <img src={heroku} className="logo-img heroku"></img>
+            </div>
+
+            <div className="logo">
             <img src={nginx} className="logo-img nginx"></img>
             </div>
 
@@ -83,8 +94,14 @@ class Home extends Component {
             </div>
 
             <div className="logo">
+            <img src={jest} className="logo-img jest"></img>
+            </div>
+
+            <div className="logo">
             <img src={github} className="logo-img github"></img>
             </div>
+
+
 
           </div>
         </div>
