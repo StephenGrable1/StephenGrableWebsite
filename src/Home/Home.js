@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import defaultImage from './media/default.png'
 import StephenImg from './media/Stephen_img.png'
+import StephenSVG from './media/stephen.svg'
 
 import reactImg from './media/react.png'
 import digitalOcean from './media/DigitalOcean_logo.svg.png'
@@ -24,7 +25,7 @@ class Home extends Component {
     return (
       <div>
         <h3>Home</h3>
-        <img src={StephenImg} className="intro-img"></img>
+        <img src={StephenSVG} className="intro-img"></img>
         <p className="intro-text">
           Hi, my name is Stephen and welcome to my website.
           I'm a web developer who is believes in clean code,
