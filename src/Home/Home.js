@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
+
+import IconMarketing from './IconMarketing/IconMarketing.js'
+
 import defaultImage from './media/default.png'
 import StephenImg from './media/Stephen_img.png'
 import StephenSVG from './media/stephen.svg'
@@ -35,6 +38,8 @@ class Home extends Component {
           Contact me at stephengrable@gmail.com to see how I can help your business
           on the web.
         </p>
+
+        <IconMarketing />
 
         <h2 className="tech-title">Technologies</h2>
 
