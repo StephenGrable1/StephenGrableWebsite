@@ -172,7 +172,7 @@
 
 }
 
-@media screen and (max-width:500px) and (min-width:290px){
+@media screen and (max-width:500px) and (min-width:10px){
   .logo-outer{
     height:2200px;
   }
