@@ -90,12 +90,12 @@
 
 .webpack{
   width:110px;
-  margin-left:20px;
+  margin-left:10px;
 }
 
 .heroku {
   width:80px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .router{
@@ -106,7 +106,7 @@
 
 .jest{
   width:110px;
-  margin-left:20px;
+  margin-left:10px;
 }
 
 .logo{
@@ -305,13 +305,25 @@
 @media screen and (max-width:500px) and (min-width:10px){
   .logo-outer{
     padding-top:25px;
-    height:2500px;
-    background-color: pink;
+    height:3150px;
+    margin-bottom:30px;
   }
   .logo-inner{
     width:240px;
     margin: auto;
     background-color: blue;
+  }
+  .logo{
+    margin-bottom:60px;
+  }
+
+  .heroku{
+    margin-left:0px;
+  }
+  .css{
+    margin-top:2px;
+    margin-left: 0px;
+    margin-right: 20px;
   }
 
   .stephen-intro-outer{
