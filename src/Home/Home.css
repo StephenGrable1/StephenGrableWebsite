@@ -30,8 +30,8 @@
 
 .intro-text-inner{
   background-color: orange;
-  height:200px;
-  margin-top:50px;
+  height:400px;
+  margin-top:0px;
 }
 
 .intro-text-inner p{
@@ -128,7 +128,7 @@
 
   .intro-img{
     width:30%;
-    margin-top:60px;
+    margin-top:-18px;
     margin-left:100px;
   }
 
@@ -292,7 +292,7 @@
   }
 
   .intro-text{
-    margin-right:40px;
+    margin-right:20px;
     width:80%;
   }
 
@@ -338,12 +338,12 @@
   }
 
   .intro-text{
-    margin-right:40px;
+    margin-right:5px;
     width:80%;
   }
 
   .intro-text-inner p{
-    height:280px;
+    height:340px;
   }
 
 }
