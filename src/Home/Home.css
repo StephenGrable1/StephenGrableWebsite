@@ -302,7 +302,7 @@
 
 }
 
-@media screen and (max-width:500px) and (min-width:10px){
+@media screen and (max-width:500px) and (min-width:20px){
   .logo-outer{
     padding-top:25px;
     height:3150px;
@@ -334,16 +334,16 @@
 
   .intro-img{
     margin-left:0px;
-    margin-top:180px;
+    margin-top:150px;
   }
 
   .intro-text{
-    margin-right:5px;
-    width:80%;
+    margin-right:10px;
+    width:70%;
+    font-size: 28px;
   }
 
   .intro-text-inner p{
-    height:340px;
+    height:220px;
   }
-
 }
