@@ -27,11 +27,13 @@ class Home extends Component {
       <div>
         <div className="stephen-intro-outer">
           <div className="intro-text-outer">
-            <p className="intro-text">
-              Hi, my name is Stephen and welcome to my website.
-              I'm a web developer who is believes in clean code,
-              elegant design and exceptional user experiences.
-            </p>
+            <div className="intro-text-inner">
+              <p className="intro-text">
+                Hi, my name is Stephen and welcome to my website.
+                I'm a web developer who is believes in clean code,
+                elegant design and exceptional user experiences.
+              </p>
+            </div>
           </div>
           <img src={StephenSVG} className="intro-img" alt="Stephen Character"></img>
         </div>
