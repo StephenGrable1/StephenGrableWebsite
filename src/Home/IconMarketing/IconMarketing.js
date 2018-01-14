@@ -7,11 +7,11 @@ import responsive from './icons/responsive.svg';
 class IconMarketing extends Component {
   render(){
     return (
-      <div>
+      <div className="icon-marketing-section">
         <h3>IconMarketing</h3>
-        <img src={analytics}></img>
-        <img src={calendar}></img>
-        <img src={responsive}></img>
+        <img src={analytics} alt="analytics"></img>
+        <img src={calendar} alt="calendar"></img>
+        <img src={responsive} alt="responsive screens"></img>
       </div>
     )
   }

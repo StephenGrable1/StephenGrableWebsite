@@ -3,8 +3,6 @@ import './Home.css';
 
 import IconMarketing from './IconMarketing/IconMarketing.js'
 
-import defaultImage from './media/default.png'
-import StephenImg from './media/Stephen_img.png'
 import StephenSVG from './media/stephen.svg'
 
 import reactImg from './media/react.png'
@@ -27,8 +25,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h3>Home</h3>
-        <img src={StephenSVG} className="intro-img"></img>
+        <div className="stephen-character-outer">
         <p className="intro-text">
           Hi, my name is Stephen and welcome to my website.
           I'm a web developer who is believes in clean code,
@@ -38,6 +35,8 @@ class Home extends Component {
           Contact me at stephengrable@gmail.com to see how I can help your business
           on the web.
         </p>
+          <img src={StephenSVG} className="intro-img" alt="Stephen Character"></img>
+        </div>
 
         <IconMarketing />
 
@@ -47,64 +46,64 @@ class Home extends Component {
           <div className="logo-inner">
 
             <div className="logo">
-            <img src={html} className="logo-img"></img>
+            <img src={html} className="logo-img" alt="HTML5"></img>
             </div>
 
             <div className="logo">
-            <img src={css} className="logo-img css"></img>
+            <img src={css} className="logo-img css" alt="CSS3"></img>
             </div>
 
             <div className="logo">
-            <img src={js} className="logo-img"></img>
+            <img src={js} className="logo-img" alt="Javascript"></img>
             </div>
 
             <div className="logo">
-              <img src={reactImg} className="logo-img"></img>
+              <img src={reactImg} className="logo-img" alt="React"></img>
             </div>
 
             <div className="logo">
-            <img src={redux} className="logo-img"></img>
+            <img src={redux} className="logo-img" alt="Redux"></img>
             </div>
 
             <div className="logo">
-            <img src={reactRouter} className="logo-img router"></img>
+            <img src={reactRouter} className="logo-img router" alt="React Route"></img>
             </div>
 
             <div className="logo">
-            <img src={node} className="logo-img node"></img>
+            <img src={node} className="logo-img node" alt="Node.js"></img>
             </div>
 
             <div className="logo">
-            <img src={express} className="logo-img express"></img>
+            <img src={express} className="logo-img express" alt="Express.js"></img>
             </div>
 
 
             <div className="logo">
-              <img src={digitalOcean} className="logo-img"></img>
+              <img src={digitalOcean} className="logo-img" alt="DigitalOcean"></img>
             </div>
 
             <div className="logo">
-            <img src={heroku} className="logo-img heroku"></img>
+            <img src={heroku} className="logo-img heroku" alt="Heroku"></img>
             </div>
 
             <div className="logo">
-            <img src={nginx} className="logo-img nginx"></img>
+            <img src={nginx} className="logo-img nginx" alt="Nginx"></img>
             </div>
 
             <div className="logo">
-              <img src={firebase} className="logo-img firebase"></img>
+              <img src={firebase} className="logo-img firebase" alt="Firebase"></img>
             </div>
 
             <div className="logo">
-            <img src={webpack} className="logo-img webpack"></img>
+            <img src={webpack} className="logo-img webpack" alt="Webpack"></img>
             </div>
 
             <div className="logo">
-            <img src={jest} className="logo-img jest"></img>
+            <img src={jest} className="logo-img jest" alt="Jest"></img>
             </div>
 
             <div className="logo">
-            <img src={github} className="logo-img github"></img>
+            <img src={github} className="logo-img github" alt="GitHub"></img>
             </div>
 
 
