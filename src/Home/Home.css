@@ -38,9 +38,9 @@
   background-color: white;
   height:200px;
   margin-top:50px;
-  border-radius: 5px;
+  border-radius: 85px;
   border: 1px solid #ccc;
-  padding:10px;
+  padding:30px;
 }
 
 
@@ -58,13 +58,13 @@
 
 .logo-img{
   width:100%;
-  margin-right:100px;
 }
 
 .css {
-  width:110px;
-  margin-left: 20px;
-  margin-top:-2px;
+  width:106px;
+  padding-left: 20px;
+  margin-right:10px;
+  margin-top:-5px;
 }
 
 .node{
@@ -115,6 +115,10 @@
   float: left;
   margin-left: 50px;
   margin-bottom:15px;
+}
+
+.logo-outer{
+  padding-top:25px;
 }
 
 @media screen and (max-width:2500px) and (min-width:1215px){
@@ -300,36 +304,34 @@
 
 @media screen and (max-width:500px) and (min-width:10px){
   .logo-outer{
-    height:2200px;
+    padding-top:25px;
+    height:2500px;
+    background-color: pink;
   }
   .logo-inner{
     width:240px;
     margin: auto;
     background-color: blue;
   }
-  .logo{
-    margin-bottom:30px;
-  }
 
   .stephen-intro-outer{
     height:800px;
     background-color: purple;
+
   }
+
   .intro-img{
     margin-left:0px;
-    margin-top:170px;
+    margin-top:180px;
   }
 
   .intro-text{
     margin-right:40px;
     width:80%;
   }
+
   .intro-text-inner p{
-    background-color: white;
-    height:330px;
-    margin-top:50px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding:10px;
+    height:280px;
   }
+
 }
