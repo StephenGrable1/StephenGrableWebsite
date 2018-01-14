@@ -29,11 +29,7 @@ class Home extends Component {
         <p className="intro-text">
           Hi, my name is Stephen and welcome to my website.
           I'm a web developer who is believes in clean code,
-          elegant design and exceptional user experiences. I am comfortable
-          operating throughout the full stack with an emphasis on responsive
-          design and lightning fast, cost effective backend architecture.
-          Contact me at stephengrable@gmail.com to see how I can help your business
-          on the web.
+          elegant design and exceptional user experiences.
         </p>
           <img src={StephenSVG} className="intro-img" alt="Stephen Character"></img>
         </div>

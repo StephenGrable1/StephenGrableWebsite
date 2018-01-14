@@ -96,7 +96,7 @@
 }
 
 
-@media screen and (max-width:2500px) and (min-width:900px){
+@media screen and (max-width:2500px) and (min-width:1100px){
   .logo-outer{
     height:700px;
   }
@@ -110,6 +110,10 @@
     background-color: yellow;
   }
 
+  .intro-text{
+    margin-right: 200px;
+  }
+
   .logo-inner{
     width:650px;
     margin: auto;
@@ -117,6 +121,24 @@
   }
 }
 
+@media screen and (max-width:1100px) and (min-width:900px){
+  .intro-img{
+    margin-left: 150px;
+    margin-top:20px;
+    width:25%;
+  }
+
+  .stephen-character-outer{
+    height:800px;
+    background-color: yellow;
+  }
+
+  .intro-text{
+    margin-right: 90px;
+  }
+
+
+}
 
 
 @media screen and (max-width:900px) and (min-width:500px){
@@ -127,6 +149,22 @@
     width:460px;
     margin: auto;
     background-color: blue;
+  }
+
+  .stephen-character-outer{
+    height:800px;
+    background-color: purple;
+
+  }
+
+  .intro-img{
+    margin-left:0px;
+    margin-top:150px;
+  }
+
+  .intro-text{
+    margin-right:40px;
+    width:80%;
   }
 }
 
@@ -141,5 +179,21 @@
   }
   .logo{
     margin-bottom:30px;
+  }
+
+  .stephen-character-outer{
+    height:800px;
+    background-color: purple;
+
+  }
+
+  .intro-img{
+    margin-left:0px;
+    margin-top:150px;
+  }
+
+  .intro-text{
+    margin-right:40px;
+    width:80%;
   }
 }
