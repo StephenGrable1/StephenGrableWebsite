@@ -6,7 +6,7 @@
 }
 
 
-.stephen-character-outer{
+.stephen-intro-outer{
   height:300px;
   background-color: blue;
   width:100%;
@@ -16,7 +16,7 @@
 .intro-text{
   width:40%;
   float:right;
-  margin-right:200px;
+  margin-right:170px;
   margin-bottom:-130px;
   padding-top:15px;
   font-size: 24px;
@@ -104,16 +104,16 @@
   .intro-img{
     width:30%;
     margin-top:100px;
-    margin-left:80px;
+    margin-left:100px;
   }
 
-  .stephen-character-outer{
+  .stephen-intro-outer{
     height:800px;
     background-color: yellow;
   }
 
   .intro-text{
-    margin-right: 160px;
+    margin-right: 100px;
   }
 
   .logo-inner{
@@ -130,7 +130,7 @@
     width:30%;
   }
 
-  .stephen-character-outer{
+  .stephen-intro-outer{
     height:800px;
     background-color: yellow;
   }
@@ -153,7 +153,7 @@
     background-color: blue;
   }
 
-  .stephen-character-outer{
+  .stephen-intro-outer{
     height:800px;
     background-color: purple;
 
@@ -168,6 +168,8 @@
     margin-right:40px;
     width:80%;
   }
+
+
 }
 
 @media screen and (max-width:500px) and (min-width:290px){
@@ -183,12 +185,10 @@
     margin-bottom:30px;
   }
 
-  .stephen-character-outer{
+  .stephen-intro-outer{
     height:800px;
     background-color: purple;
-
   }
-
   .intro-img{
     margin-left:0px;
     margin-top:170px;

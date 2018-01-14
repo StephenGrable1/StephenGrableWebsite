@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './IconMarketing.css'
 
 import analytics from './icons/analytics.svg';
 import calendar from './icons/calendar.svg';
