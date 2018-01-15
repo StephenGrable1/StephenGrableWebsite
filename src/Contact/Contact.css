@@ -1,0 +1,33 @@
+.copy-email-input{
+  width:900px;
+}
+
+
+.copy-to-clipboard-btn button{
+  font-size: 24px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  color:white;
+  background-color: blue;
+  padding:15px;
+}
+
+
+.contact-inner{
+  width:90%;
+  margin:auto;
+  background: white;
+  height:400px;
+  margin-bottom:50px;
+  margin-top:140px;
+}
+
+.my-email{
+  font-size: 26px;
+  padding-top:50px;
+}
+
+.contact-outer p{
+  margin-top:20px;
+  font-size: 22px;
+}

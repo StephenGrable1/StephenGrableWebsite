@@ -26,7 +26,6 @@
   padding-left:60px;
   width:90%;
   margin:auto;
-  background-color: purple;
 }
 
 .image-outer{
@@ -60,12 +59,10 @@
     padding-left: 0px;
     width:100%;
     margin:auto;
-    background-color: purple;
   }
 
   .image-outer{
     height:500px;
-    background-color: red;
     float:none;
     width:100%;
     margin:auto;
@@ -87,14 +84,12 @@
     padding-left: 0px;
     width:100%;
     margin:auto;
-    background-color: purple;
   }
 
   .image-outer{
     height:500px;
-    background-color: red;
     float:none;
-    width:100%;
+    width:80%;
     margin:auto;
     margin-bottom:15px;
   }
