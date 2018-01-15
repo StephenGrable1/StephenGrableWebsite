@@ -4,14 +4,19 @@
 
 }
 
+.services-section-title{
+  font-size: 32px;
+  padding-top:40px;
+}
+
 .icon-marketing-section{
   margin-top:100px;
 }
 
 .icon-inner{
   margin-top:150px;
-  height:600px;
-  background-color: blue;
+  height:900px;
+  background-color: white;
   width:100%;
   margin:auto;
 }
@@ -27,7 +32,9 @@
 .image-outer{
   width:30%;
   height:500px;
-  background-color: yellow;
+  background-color: #efefef;
+  border:1px solid #ccc;
+  border-radius:4px;
   float:left;
   margin-right:3%;
 }
@@ -36,8 +43,8 @@
 @media screen and (max-width:760px) and (min-width:400px){
   .icon-inner{
     margin-top:150px;
-    height:1600px;
-    background-color: blue;
+    height:1850px;
+    background-color: white;
     width:100%;
     margin:auto;
   }
@@ -62,6 +69,7 @@
     float:none;
     width:100%;
     margin:auto;
+    margin-bottom:25px;
   }
 }
 
@@ -69,8 +77,8 @@
 @media screen and (max-width:400px){
   .icon-inner{
     margin-top:150px;
-    height:1600px;
-    background-color: blue;
+    height:1850px;
+    background-color: white;
     width:100%;
     margin:auto;
   }
@@ -88,5 +96,6 @@
     float:none;
     width:100%;
     margin:auto;
+    margin-bottom:15px;
   }
 }
