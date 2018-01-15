@@ -8,7 +8,7 @@ import {
 
 import './App.css';
 import Projects from './Projects/Projects.js'
-import Bio from './Bio/Bio.js'
+import Contact from './Contact/Contact.js'
 import Home from './Home/Home.js'
 
 class App extends Component {
@@ -19,12 +19,12 @@ class App extends Component {
         <h2 className="website-title">Stephen Grable</h2>
           <ul className="app-menu">
             <li><Link to='/' className="nav-link">Home</Link></li>
-            <li><Link to='/bio' className="nav-link">Bio</Link></li>
+            <li><Link to='/contact' className="nav-link">Contact</Link></li>
             <li><Link to='/projects' className="nav-link">Projects</Link></li>
           </ul>
 
           <Route exact path='/' component={Home}/>
-          <Route exact path='/bio' component={Bio}/>
+          <Route exact path='/contact' component={Contact}/>
           <Route exact path='/projects' component={Projects}/>
         </div>
       </Router>
