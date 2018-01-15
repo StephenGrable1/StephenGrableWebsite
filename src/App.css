@@ -1,12 +1,18 @@
 .App {
   text-align: center;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lora', serif;
+  height:inherit;
+  overflow: hidden;
 }
 
 .app-menu{
   width:200px;
   padding:0;
   margin-right:20px;
-  margin-top:27px;
+  margin-top:30px;
   list-style: none;
   float:right;
 }
@@ -15,9 +21,9 @@
   width:100%;
   margin:auto;
   display: inline;
-  margin-right:15px;
+  margin-right:20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .nav-link{
@@ -28,6 +34,9 @@
 .website-title{
   float: left;
   margin-left:15px;
+  margin-top:20px;
+  font-family: 'Lora', serif;
+  font-size: 32px;
 }
 
 @media screen and (max-width:500px){
@@ -35,6 +44,9 @@
     float: none;
     text-align: center;
     margin-left:0px;
+    margin-bottom:-10px;
+    margin-top:0px;
+    padding-top:10px;
   }
 
   .app-menu{
@@ -42,6 +54,7 @@
     padding:0;
     margin:auto;
     margin-top:27px;
+    margin-bottom:15px;
     list-style: none;
     float:none;
   }
