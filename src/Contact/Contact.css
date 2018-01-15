@@ -2,14 +2,28 @@
   width:900px;
 }
 
+.contact-question {
+  padding-top:25px;
+  font-size: 24px;
+  font-weight: 800;
+  float:left;
+  clear:both;
+}
+
 
 .copy-to-clipboard-btn button{
-  font-size: 24px;
+  font-size: 16px;
   border:1px solid #ccc;
   border-radius: 4px;
   color:white;
   background-color: blue;
   padding:15px;
+  float:left;
+  clear:both;
+}
+
+.copy-to-clipboard-btn button:hover{
+  cursor: pointer;
 }
 
 
@@ -17,17 +31,76 @@
   width:90%;
   margin:auto;
   background: white;
-  height:400px;
+  height:700px;
   margin-bottom:50px;
   margin-top:140px;
+  padding-left:40px;
 }
 
 .my-email{
-  font-size: 26px;
-  padding-top:50px;
+  font-size: 18px;
+  padding-top:0px;
+  float:left;
+  clear:both;
 }
 
 .contact-outer p{
-  margin-top:20px;
+  margin-top:2px;
   font-size: 22px;
+  float:left;
+  clear: both;
+}
+
+.question{
+  height:190px;
+  margin-bottom:20px;
+}
+.question p {
+  float:left;
+  display: inline;
+  text-align: left;
+}
+
+
+@media screen and (max-width:600px) and (min-width:40px){
+  .contact-inner{
+    width:90%;
+    margin:auto;
+    background: white;
+    height:860px;
+    margin-bottom:50px;
+    margin-top:60px;
+    padding:8px;
+    border-radius:4px;
+  }
+
+  .question{
+    height:250px;
+    margin-bottom:20px;
+  }
+
+  .contact-outer p{
+    margin-top:2px;
+    font-size: 22px;
+    float:none;
+  }
+  .copy-to-clipboard-btn button{
+    font-size: 16px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color:white;
+    background-color: blue;
+    padding:15px;
+    margin-top:40px;
+    float:none;
+    clear:both;
+  }
+
+  .contact-question {
+    padding-top:25px;
+    font-size: 24px;
+    font-weight: 800;
+    float:none;
+  }
+
 }
