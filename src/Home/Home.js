@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+
 import './Home.css';
 
 import IconMarketing from './IconMarketing/IconMarketing.js'
@@ -37,6 +43,9 @@ class Home extends Component {
             </div>
           </div>
           <img src={StephenSVG} className="intro-img" alt="Stephen Character"></img>
+          <div className="intro-action-btn-outer">
+            <Link to="/projects" className="intro-action-btn">See My Projects</Link>
+          </div>
         </div>
 
         <IconMarketing />
