@@ -13,9 +13,15 @@ class IconMarketing extends Component {
           <h3>IconMarketing</h3>
 
           <div className="icon-section-inner">
-            <img src={analytics} alt="analytics"></img>
-            <img src={calendar} alt="calendar"></img>
-            <img src={responsive} alt="responsive screens"></img>
+            <div className="image-outer">
+              <img src={analytics} alt="analytics"></img>
+            </div>
+            <div className="image-outer">
+              <img src={calendar} alt="calendar"></img>
+            </div>
+            <div className="image-outer">
+              <img src={responsive} alt="responsive screens"></img>
+            </div>
           </div>
         </div>
       </div>

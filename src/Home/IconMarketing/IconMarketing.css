@@ -1,21 +1,33 @@
 .icon-marketing-section img{
-  width:280px;
+  width:60%;
   margin-top:30px;
-  margin-right:70px;
 
 }
 
-
+.icon-marketing-section{
+  margin-top:100px;
+}
 
 .icon-inner{
   margin-top:150px;
+  height:600px;
   background-color: blue;
+  width:96%;
+  margin:auto;
 }
 
 
 .icon-section-inner{
   padding-left:60px;
-  width:80%;
+  width:90%;
   margin:auto;
   background-color: purple;
+}
+
+.image-outer{
+  width:30%;
+  height:500px;
+  background-color: yellow;
+  float:left;
+  margin-right:3%;
 }
