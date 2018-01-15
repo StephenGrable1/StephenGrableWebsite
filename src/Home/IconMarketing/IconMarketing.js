@@ -9,10 +9,12 @@ class IconMarketing extends Component {
   render(){
     return (
       <div className="icon-marketing-section">
-        <h3>IconMarketing</h3>
-        <img src={analytics} alt="analytics"></img>
-        <img src={calendar} alt="calendar"></img>
-        <img src={responsive} alt="responsive screens"></img>
+        <div className="icon-inner">
+          <h3>IconMarketing</h3>
+          <img src={analytics} alt="analytics"></img>
+          <img src={calendar} alt="calendar"></img>
+          <img src={responsive} alt="responsive screens"></img>
+        </div>
       </div>
     )
   }
