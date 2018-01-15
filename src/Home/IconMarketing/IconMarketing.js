@@ -15,12 +15,21 @@ class IconMarketing extends Component {
           <div className="icon-section-inner">
             <div className="image-outer">
               <img src={analytics} alt="analytics"></img>
+              <p className="marketing-text">
+              This is the marketing text and I am makeing it longer
+              </p>
             </div>
             <div className="image-outer">
               <img src={calendar} alt="calendar"></img>
+              <p className="marketing-text">
+              This is the marketing text
+              </p>
             </div>
             <div className="image-outer">
               <img src={responsive} alt="responsive screens"></img>
+              <p className="marketing-text">
+              This is the marketing text
+              </p>
             </div>
           </div>
         </div>
