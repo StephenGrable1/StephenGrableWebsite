@@ -9,7 +9,7 @@ import './Home.css';
 
 import IconMarketing from './IconMarketing/IconMarketing.js'
 
-import StephenSVG from './media/stephen.svg'
+import StephenSVG from './media/stephen.png'
 
 import reactImg from './media/react.png'
 import digitalOcean from './media/DigitalOcean_logo.svg.png'
