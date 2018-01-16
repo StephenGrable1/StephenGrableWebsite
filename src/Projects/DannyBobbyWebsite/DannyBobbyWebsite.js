@@ -23,7 +23,7 @@ class DannyBobbyWebsite extends Component {
           <div className="backend-section">
             <div>
               <h4>User Login and Scheduling</h4>
-              <h5>Admin Login and Scheduling Dashboard</h5>
+              <h5>User Signin and Scheduling Dashboard</h5>
               <img src={backendUserRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
             </div>
           </div>
