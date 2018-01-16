@@ -10,9 +10,13 @@ class DannyBobbyWebsite extends Component {
         <div className="danny-bobby-inner">
           <h3 className="project-title">Danny Bobby Scheduling App</h3>
           <img src={computerDisplay} alt="computer-preview" className="computer-preview"></img>
-          <p>
-            An online studio booking solution for the Danny Bobby.
+          <p className="danny-website-intro">
+            An online studio booking solution for Danny Bobby.
           </p>
+
+          <div className="danny-website-link">
+            <a href="https://dannybobby.com/home" >Visit DannyBobby.com</a>
+          </div>
         </div>
       </div>
     )

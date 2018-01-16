@@ -39,12 +39,17 @@ class IconMarketing extends Component {
             </div>
             <div className="image-outer">
               <img src={responsive} alt="responsive screens"></img>
-              <h3 className="marketing-title">Design</h3>
+              <h3 className="marketing-title">Design for everyone.</h3>
+
               <p className="marketing-text">
               Visitors expect your website to look good on every screen.
               My website designs will help you look great at any screen size.
-              (Flip your phone to the side or resize your browser to see it in action)
               </p>
+
+              <p className="flip-screen-text">
+              (Flip your phone to the side or resize your browser to see what I am talking about.)
+              </p>
+
             </div>
           </div>
         </div>

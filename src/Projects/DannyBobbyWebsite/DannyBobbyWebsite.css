@@ -22,3 +22,39 @@
   float:left;
   margin-left:4%;
 }
+
+
+.danny-website-link a{
+  font-style: normal;
+  text-decoration: none;
+  background-color: #f47a27;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  color:white;
+}
+
+.danny-website-link{
+  margin-top:70px;
+}
+
+.danny-website-intro{
+  margin-top:140px;
+  font-size: 22px;
+}
+
+@media screen and (max-width:1100px) and (min-width:600px){
+  .computer-preview{
+    width:450px;
+    float:none;
+    margin:auto;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width:300px){
+  .computer-preview{
+    width:80%;
+    float:none;
+    margin:auto;
+  }
+}
