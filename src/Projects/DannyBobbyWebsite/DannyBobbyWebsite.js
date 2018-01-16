@@ -3,6 +3,7 @@ import './DannyBobbyWebsite.css'
 
 import computerDisplay from './media/computer_website_display.png';
 import backendRequests from './media/backend-requests.gif'
+import backendUserRequests from './media/backend-user-view.gif'
 
 class DannyBobbyWebsite extends Component {
   render(){
@@ -21,11 +22,39 @@ class DannyBobbyWebsite extends Component {
 
           <div className="backend-section">
             <div>
-              <h4>Fully Integrated User Login and Booking Management</h4>
+              <h4>User Login and Scheduling</h4>
+              <h5>Admin Login and Scheduling Dashboard</h5>
+              <img src={backendUserRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
+            </div>
+          </div>
+
+          <div className="backend-section">
+            <div>
+              <h4>Fully Integrated Admin Login and Booking Management</h4>
               <h5>Admin Login and Scheduling Dashboard</h5>
               <img src={backendRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
             </div>
           </div>
+
+
+          <div className="danny-bobby-overview-outer">
+            <div className="danny-bobby-overview-outer">
+            <h5>Project Overview:</h5>
+              <p>
+              Project overview will go here. Want to keep this long so the user reads into how we worked and the requirements. Do
+              sections about 2-3 senteces max like this. Want to make this compelling.
+              </p>
+              <p>
+              Project overview will go here. Want to keep this long so the user reads into how we worked and the requirements. Do
+              sections about 2-3 sentke this compelling. eces max like this. Want to ma eces max like this. Want to maeces max like this. Want to ma
+              </p>
+              <p>
+              Project oveces max like this. Want to maerview will go here. eces muser reads into how we worked and the requirements. Do
+              sections aeces max like this. Want to mabout 2-3 senteces max like this. Want to make this compelling.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     )
