@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './DannyBobbyWebsite.css'
 
 import computerDisplay from './media/computer_website_display.png';
+import backendRequests from './media/backend-requests.gif'
 
 class DannyBobbyWebsite extends Component {
   render(){
@@ -21,6 +22,8 @@ class DannyBobbyWebsite extends Component {
           <div className="backend-section">
             <div>
               <h4>Fully Integrated User Login and Booking Management</h4>
+              <h5>Admin Login and Scheduling Dashboard</h5>
+              <img src={backendRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
             </div>
           </div>
         </div>
