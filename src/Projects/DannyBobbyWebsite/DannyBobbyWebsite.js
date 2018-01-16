@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom'
+
 import './DannyBobbyWebsite.css'
 
 import computerDisplay from './media/computer_website_display.png';
@@ -53,6 +55,10 @@ class DannyBobbyWebsite extends Component {
               sections aeces max like this. Want to mabout 2-3 senteces max like this. Want to make this compelling.
               </p>
             </div>
+          </div>
+
+          <div className="project-action-btn">
+            <Link to="/contact" className="project-action-link">Request a Quote</Link>
           </div>
 
         </div>
