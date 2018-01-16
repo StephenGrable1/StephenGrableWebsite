@@ -31,8 +31,8 @@
   width:90%;
   margin:auto;
   background: white;
-  height:700px;
-  margin-bottom:50px;
+  height:560px;
+  margin-bottom:170px;
   margin-top:140px;
   padding-left:40px;
 }
@@ -52,8 +52,8 @@
 }
 
 .question{
-  height:190px;
-  margin-bottom:20px;
+  height:160px;
+  margin-bottom:0px;
 }
 .question p {
   float:left;
@@ -67,7 +67,7 @@
     width:90%;
     margin:auto;
     background: white;
-    height:890px;
+    height:740px;
     margin-bottom:50px;
     margin-top:60px;
     padding:8px;
@@ -75,8 +75,7 @@
   }
 
   .question{
-    height:235px;
-    margin-bottom:40px;
+    height:195px;
   }
 
   .contact-outer p{
