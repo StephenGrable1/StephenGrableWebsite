@@ -17,6 +17,12 @@ class DannyBobbyWebsite extends Component {
           <div className="danny-website-link">
             <a href="https://dannybobby.com/home" >Visit DannyBobby.com</a>
           </div>
+
+          <div className="backend-section">
+            <div>
+              <h4>Fully Integrated User Login and Booking Management</h4>
+            </div>
+          </div>
         </div>
       </div>
     )
