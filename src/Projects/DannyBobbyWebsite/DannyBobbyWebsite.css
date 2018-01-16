@@ -51,10 +51,14 @@
   }
 }
 
-@media screen and (max-width:600px) and (min-width:300px){
+@media screen and (max-width:600px) and (min-width:200px){
   .computer-preview{
-    width:80%;
+    width:90%;
     float:none;
     margin:auto;
+  }
+
+  .danny-bobby-inner{
+    margin-top:-70px;
   }
 }
