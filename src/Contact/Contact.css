@@ -35,6 +35,8 @@
   margin-bottom:170px;
   margin-top:140px;
   padding-left:40px;
+  border-radius:5px;
+  border: 1px solid #ccc;
 }
 
 .my-email{
