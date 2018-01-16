@@ -1,0 +1,24 @@
+.danny-bobby-outer{
+  width:100%;
+  height:900px;
+}
+
+.danny-bobby-inner{
+  width:80%;
+  height:inherit;
+  background-color: white;
+  margin:auto;
+  padding:10px;
+}
+
+.project-title{
+  margin-top:10px;
+  margin-bottom:50px;
+}
+
+
+.computer-preview{
+  width:450px;
+  float:left;
+  margin-left:4%;
+}
