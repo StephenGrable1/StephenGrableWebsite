@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
 import './IconMarketing.css'
 
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+
+
 import analytics from './icons/analytics.svg';
 import calendar from './icons/calendar.svg';
 import responsive from './icons/responsive.svg';
@@ -33,6 +40,11 @@ class IconMarketing extends Component {
             </div>
           </div>
         </div>
+
+        <div className="icon-marketing-action-btn">
+          <Link to="/contact" className="icon-marketing-link">Contact Me</Link>
+        </div>
+
       </div>
     )
   }

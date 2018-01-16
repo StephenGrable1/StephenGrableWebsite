@@ -3,7 +3,7 @@
 }
 
 .contact-question {
-  padding-top:25px;
+  padding-top:15px;
   font-size: 24px;
   font-weight: 800;
   float:left;
@@ -67,7 +67,7 @@
     width:90%;
     margin:auto;
     background: white;
-    height:860px;
+    height:890px;
     margin-bottom:50px;
     margin-top:60px;
     padding:8px;
@@ -75,8 +75,8 @@
   }
 
   .question{
-    height:250px;
-    margin-bottom:20px;
+    height:235px;
+    margin-bottom:40px;
   }
 
   .contact-outer p{
