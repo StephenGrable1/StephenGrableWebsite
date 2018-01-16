@@ -17,7 +17,7 @@ class IconMarketing extends Component {
     return (
       <div className="icon-marketing-section">
         <div className="icon-inner">
-          <h3 className="services-section-title">IconMarketing</h3>
+          <h3 className="services-section-title">Services</h3>
 
           <div className="icon-section-inner">
             <div className="image-outer">

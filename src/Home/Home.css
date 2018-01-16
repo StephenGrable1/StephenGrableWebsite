@@ -20,6 +20,7 @@
   padding-top:35px;
   font-size: 28px;
   text-align: left;
+  font-weight: 100;
 }
 
 .intro-text-outer{
@@ -32,7 +33,7 @@
 }
 
 .intro-text-inner p{
-  font-family: 'Indie Flower', cursive;
+  font-family: monospace;
   background-color: white;
   height:200px;
   margin-top:50px;
