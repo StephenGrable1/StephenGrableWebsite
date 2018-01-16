@@ -38,11 +38,16 @@ font-family: 'Roboto', sans-serif;
 }
 
 .website-title{
+  color:black;
   float: left;
   margin-left:25px;
   margin-top:20px;
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
+}
+
+.website-title:hover{
+  cursor: pointer;
 }
 
 @media screen and (max-width:500px){

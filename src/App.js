@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  withRouter
 } from 'react-router-dom'
 
 
@@ -16,11 +17,12 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <h2 className="website-title">Stephen Grable</h2>
+        <Link to="/"><h2 className="website-title">Stephen Grable</h2></Link>
           <ul className="app-menu">
             <li><Link to='/' className="nav-link">Home</Link></li>
             <li><Link to='/projects' className="nav-link">Projects</Link></li>
             <li><Link to='/contact' className="nav-link">Contact</Link></li>
+
           </ul>
 
           <Route exact path='/' component={Home}/>
