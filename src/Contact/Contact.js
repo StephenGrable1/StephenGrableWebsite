@@ -20,8 +20,8 @@ class Contact extends React.Component {
         <div className="contact-inner">
 
             <div className="question">
-              <h2 className="contact-question">How do I contact you?</h2>
-              <p className="my-email">Email me at stephengrable@gmail.com.</p>
+              <h2 className="contact-question">How do I request my first quote?</h2>
+              <p className="my-email">Please email me at stephengrable@gmail.com and I will get back in touch as soon as possible!</p>
 
                 <CopyToClipboard text={this.state.value}
                   onCopy={() => this.setState({copied: true})}>

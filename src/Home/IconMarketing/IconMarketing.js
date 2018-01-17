@@ -42,8 +42,8 @@ class IconMarketing extends Component {
               <h3 className="marketing-title">Design for everyone.</h3>
 
               <p className="marketing-text">
-              Visitors expect your website to look good on every screen.
-              My website designs will help you look great at any screen size.
+              Visitors expect your website to look good everywhere.
+              My website designs will help you look great on any screen size.
               </p>
 
               <p className="flip-screen-text">

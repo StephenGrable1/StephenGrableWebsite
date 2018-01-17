@@ -48,8 +48,8 @@ class DannyBobbyWebsite extends Component {
               home page to show potential clients past work, customer reviews and more.
               </p>
               <p>
-              We began the project with a interview and questionaire. I made sure I had a strong grasp of his vision for the website before beginning work.
-              This way, I could present an accurate time line for completion and keep it within his desired budget.
+              We began the project with a interview and questionnaire. I made sure I had a strong grasp of his vision for the website before beginning work.
+              This way, I could present an accurate timeline for completion and keep it within his desired budget.
               </p>
               <p>
               Danny now has a place to send customers and manage studio sessions. As he grows his business, he can take advantage of
@@ -58,13 +58,13 @@ class DannyBobbyWebsite extends Component {
               </p>
 
               <p>
-              Want to learn how you can create your own custom website? Request a free quote by clicking the link below.
+              Want to learn how I can help you create your own custom website? Request a free quote by clicking the link below.
               </p>
             </div>
           </div>
 
           <div className="project-action-btn">
-            <Link to="/contact" className="project-action-link">Get a Quote</Link>
+            <Link to="/contact" className="project-action-link">Request a quote</Link>
           </div>
 
         </div>

@@ -67,6 +67,7 @@
 
 .marketing-text{
   padding:12px;
+  font-size: 18px;
 }
 
 .flip-screen-text{
@@ -129,7 +130,7 @@
   .image-outer{
     height:500px;
     float:none;
-    width:90%;
+    width:80%;
     margin:auto;
     margin-bottom:25px;
   }
