@@ -43,22 +43,28 @@ class DannyBobbyWebsite extends Component {
             <div className="danny-bobby-overview-outer">
             <h5>Project Overview:</h5>
               <p>
-              Project overview will go here. Want to keep this long so the user reads into how we worked and the requirements. Do
-              sections about 2-3 senteces max like this. Want to make this compelling.
+              Danny Bobby approached me wanting a complete revamp of his website. He had a few requirements. First, He wanted
+              a scheduling dashboard where his clients could easily signup for a studio session. Second, he wanted a elegant
+              home page to show potential clients past work, customer reviews and more.
               </p>
               <p>
-              Project overview will go here. Want to keep this long so the user reads into how we worked and the requirements. Do
-              sections about 2-3 sentke this compelling. eces max like this. Want to ma eces max like this. Want to maeces max like this. Want to ma
+              We began the project with a interview and questionaire. I made sure I had a strong grasp of his vision for the website before beginning work.
+              This way, I could present an accurate time line for completion and keep it within his desired budget.
               </p>
               <p>
-              Project oveces max like this. Want to maerview will go here. eces muser reads into how we worked and the requirements. Do
-              sections aeces max like this. Want to mabout 2-3 senteces max like this. Want to make this compelling.
+              Danny now has a place to send customers and manage studio sessions. As he grows his business, he can take advantage of
+              a fully integrated web application with user login and account management. Now, with his new website, it is easy for Danny to continue to add custom features to better
+              serve his customers.
+              </p>
+
+              <p>
+              Want to learn how you can create your own custom website? Request a free quote by clicking the link below.
               </p>
             </div>
           </div>
 
           <div className="project-action-btn">
-            <Link to="/contact" className="project-action-link">Request a Quote</Link>
+            <Link to="/contact" className="project-action-link">Get a Quote</Link>
           </div>
 
         </div>
