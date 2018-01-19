@@ -37,7 +37,7 @@ class Home extends Component {
               <p className="intro-text">
                 Hi, my name is Stephen and welcome to my website.
                 <br/>
-                I'm a web developer who believes in clean code,
+                I'm a web developer who believes in
                 elegant design and exceptional user experiences.
               </p>
             </div>

@@ -31,8 +31,8 @@
   width:90%;
   margin:auto;
   background: white;
-  height:560px;
-  margin-bottom:170px;
+  height:580px;
+  margin-bottom:370px;
   margin-top:140px;
   padding-left:40px;
   border-radius:5px;
@@ -69,7 +69,7 @@
     width:90%;
     margin:auto;
     background: white;
-    height:740px;
+    height:760px;
     margin-bottom:50px;
     margin-top:60px;
     padding:8px;
@@ -91,7 +91,7 @@
     border-radius: 4px;
     color:white;
     padding:15px;
-    margin-top:40px;
+    margin-top:10px;
     float:none;
     clear:both;
   }
@@ -101,6 +101,10 @@
     font-size: 24px;
     font-weight: 800;
     float:none;
+  }
+
+  .two-question{
+    margin-top:60px;
   }
 
 }

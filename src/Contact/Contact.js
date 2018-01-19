@@ -33,7 +33,7 @@ class Contact extends React.Component {
                 {this.state.copied ? <span  style={{color: 'green'}}><p>Copied. Paste Away!</p></span> : null}
             </div>
 
-            <div className="question">
+            <div className="question two-question">
               <h2 className="contact-question">I need a website, can you help?</h2>
               <p>I can! Let me guide you through the website development process. I'll design and
               develope a website you can be proud to show to your clients.
