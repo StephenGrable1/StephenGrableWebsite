@@ -17,15 +17,13 @@ class ProjectDashboard extends Component {
     return (
     <div className="project-dash-outer">
         <div className="project-dash-inner">
-        <div className="projects">
-        <div>
-        <Link to='/projects/danny-bobby-website'>Danny Bobby Website</Link>
-        <Link to='/projects/deaf-boy-website'>Deaf Boy Website</Link>
-
-        </div>
-        <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite}/>
-        <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite}/>
-        </div>
+            <div>
+                <Link to='/projects/danny-bobby-website'>Danny Bobby Website</Link>
+                <Link to='/projects/deaf-boy-website'>Deaf Boy Website</Link>
+            </div>
+        
+            <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite}/>
+            <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite}/>
         </div>
     </div>
     )

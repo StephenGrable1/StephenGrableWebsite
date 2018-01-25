@@ -10,7 +10,9 @@ class Projects extends Component {
   render(){
     return (
      <div>
-        <ProjectDashboard/>
+      <div className="projects">
+          <ProjectDashboard/>
+      </div>
     </div>
     )
   }
