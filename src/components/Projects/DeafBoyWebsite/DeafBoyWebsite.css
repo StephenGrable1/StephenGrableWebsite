@@ -1,0 +1,14 @@
+.deaf-boy-outer{
+    width:100%;
+    height:2450px;
+  }
+  
+.deaf-boy-inner{
+width:90%;
+height:inherit;
+background-color: white;
+margin:auto;
+padding:10px;
+border-radius:5px;
+border: 1px solid #ccc;
+}

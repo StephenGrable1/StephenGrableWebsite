@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import './IconMarketing.css'
 
 import {
-  BrowserRouter as Router,
-  Route,
   Link
 } from 'react-router-dom'
 
@@ -17,8 +15,6 @@ class IconMarketing extends Component {
     return (
       <div className="icon-marketing-section">
         <div className="icon-inner">
-          <h3 className="services-section-title"></h3>
-
           <div className="icon-section-inner">
             <div className="image-outer">
               <img src={analytics} alt="analytics"></img>

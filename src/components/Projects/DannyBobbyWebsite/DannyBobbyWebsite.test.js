@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Projects from './DannyBobbyWebsite.js';
+import DannyBobbyWebsite from './DannyBobbyWebsite.js';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
