@@ -20,7 +20,6 @@ class IconMarketing extends Component {
               <img src={analytics} alt="analytics"></img>
               <h3 className="marketing-title">Grow Your Business</h3>
 
-
               <p className="marketing-text">
               Reach more customers, serve more clients and grow your business through a new website.
               </p>
