@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import './ProjectDashboard.css'
 
-import computerImage from './media/computer_website_display.png'
+import dannyBobbyPreview from './media/computer_website_display.png'
+import deafBoyPreview from './media/deafboy_website_display.png'
+import todoPreview from './media/todo_website_display.png'
+import timerPreview from './media/timer_website_display.png'
+
+
 
 import {
     Route,
@@ -23,7 +28,7 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image" alt="Danny Bobby Website Preview"></img>
+                        <img src={dannyBobbyPreview} className="project-snippet-image" alt="Danny Bobby Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                     <p>
@@ -37,7 +42,7 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
+                        <img src={deafBoyPreview} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>
@@ -51,7 +56,7 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image" alt="Todo App Website Preview"></img>
+                        <img src={todoPreview} className="project-snippet-image" alt="Todo App Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>
@@ -65,7 +70,7 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image" alt="Timer App Website Preview"></img>
+                        <img src={timerPreview} className="project-snippet-image" alt="Timer App Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>

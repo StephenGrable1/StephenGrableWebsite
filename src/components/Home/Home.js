@@ -6,6 +6,8 @@ import {
 import './Home.css';
 
 import IconMarketing from './IconMarketing/IconMarketing.js'
+import ProjectDashboard from '../Projects/ProjectDashboard/ProjectDashboard.js'
+
 
 import StephenSVG from './media/stephen.png'
 
@@ -47,6 +49,8 @@ class Home extends Component {
         </div>
 
         <IconMarketing />
+
+        <ProjectDashboard />
 
         <h2 className="tech-title">Technologies</h2>
 
