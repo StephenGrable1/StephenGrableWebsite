@@ -18,7 +18,7 @@ class IconMarketing extends Component {
           <div className="icon-section-inner">
             <div className="image-outer">
               <img src={analytics} alt="analytics"></img>
-              <h3 className="marketing-title">Grow Your Business</h3>
+              <h3 className="marketing-title">Grow your business.</h3>
 
               <p className="marketing-text">
               Reach more customers, serve more clients and grow your business through a new website.
