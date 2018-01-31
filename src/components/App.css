@@ -54,7 +54,7 @@ a{
   cursor: pointer;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:510px){
   .website-title{
     float: none;
     text-align: center;

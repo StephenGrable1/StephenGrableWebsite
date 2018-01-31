@@ -25,18 +25,7 @@ class ProjectDashboard extends Component {
                     <div>
                         <img src={computerImage} className="project-snippet-image"></img>
                     </div>
-                    <p>
-                        An online BBB booking solution for Danny Bobby
-                    </p>
-                    <div className="snippet-action-btn">
-                        <Link to='/projects/danny-bobby-website'>View Project</Link>
-                    </div>
-                </div>
-
-                <div className="project-snippet-outer">
-                    <div>
-                        <img src={computerImage} className="project-snippet-image"></img>
-                    </div>
+                    <div className="text-action-outer">
                     <p>
                         An online booking solution for Danny Bobby
                     </p>
@@ -44,16 +33,19 @@ class ProjectDashboard extends Component {
                         <Link to='/projects/deaf-boy-website'>View Project</Link>
                     </div>
                 </div>
+                </div>
 
                 <div className="project-snippet-outer">
                     <div>
                         <img src={computerImage} className="project-snippet-image"></img>
                     </div>
-                    <p>
-                         A Timer solution for Danny Bobby
-                    </p>
-                    <div className="snippet-action-btn">
-                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                    <div className="text-action-outer">
+                        <p>
+                            An online booking solution for Danny Bobby
+                        </p>
+                        <div className="snippet-action-btn">
+                            <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        </div>
                     </div>
                 </div>
 
@@ -61,11 +53,27 @@ class ProjectDashboard extends Component {
                     <div>
                         <img src={computerImage} className="project-snippet-image"></img>
                     </div>
-                    <p>
-                        An online booking solution for Danny Bobby
-                    </p>
-                    <div className="snippet-action-btn">
-                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                    <div className="text-action-outer">
+                        <p>
+                            An online booking solution for Danny Bobby
+                        </p>
+                        <div className="snippet-action-btn">
+                            <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="project-snippet-outer">
+                    <div>
+                        <img src={computerImage} className="project-snippet-image"></img>
+                    </div>
+                    <div className="text-action-outer">
+                        <p>
+                            An online booking solution for Danny Bobby
+                        </p>
+                        <div className="snippet-action-btn">
+                            <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        </div>
                     </div>
                 </div>
 
