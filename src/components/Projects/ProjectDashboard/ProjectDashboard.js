@@ -23,25 +23,25 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image"></img>
+                        <img src={computerImage} className="project-snippet-image" alt="Danny Bobby Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                     <p>
                         An online booking solution for Danny Bobby
                     </p>
                     <div className="snippet-action-btn">
-                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        <Link to='/projects/danny-bobby-website'>View Project</Link>
                     </div>
                 </div>
                 </div>
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image"></img>
+                        <img src={computerImage} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>
-                            An online booking solution for Danny Bobby
+                            Email subscription with Drip marketing integration
                         </p>
                         <div className="snippet-action-btn">
                             <Link to='/projects/deaf-boy-website'>View Project</Link>
@@ -51,11 +51,11 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image"></img>
+                        <img src={computerImage} className="project-snippet-image" alt="Todo App Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>
-                            An online booking solution for Danny Bobby
+                            A todo application with github login
                         </p>
                         <div className="snippet-action-btn">
                             <Link to='/projects/deaf-boy-website'>View Project</Link>
@@ -65,11 +65,11 @@ class ProjectDashboard extends Component {
 
                 <div className="project-snippet-outer">
                     <div>
-                        <img src={computerImage} className="project-snippet-image"></img>
+                        <img src={computerImage} className="project-snippet-image" alt="Timer App Website Preview"></img>
                     </div>
                     <div className="text-action-outer">
                         <p>
-                            An online booking solution for Danny Bobby
+                            An online timer and countdown clock
                         </p>
                         <div className="snippet-action-btn">
                             <Link to='/projects/deaf-boy-website'>View Project</Link>

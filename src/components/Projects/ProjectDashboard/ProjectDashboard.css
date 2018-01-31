@@ -31,11 +31,11 @@
 
 
 .snippet-action-btn a{
-    background-color: orange;
+    background-color: #f47a27;
     width:170px;
     height:33px;
     float:none;
-    padding:8px;
+    padding:10px;
     font-size: 28px;
     color:white;
     border:1px solid #ccc;
@@ -77,7 +77,7 @@
 @media screen and (max-width:900px) and (min-width:510px){
     .project-snippet-outer{
         width:90%;
-        height:500px;
+        height:530px;
         background: purple;
         margin:auto;
         margin-top:20px;
@@ -88,6 +88,7 @@
         width:100%;
         background: green;
         margin-top:100px;
+        padding-top:10px;
     }
 
     .text-action-outer{
@@ -99,11 +100,16 @@
         margin-top:-150px;
     }
 
+    .project-snippet-outer p{
+        padding-top:25px;
+    }
+
     .project-snippet-image{
         width:300px;
         height:240px;
         float:none;
         margin:auto;
+        margin-top:20px;
         clear:both;
     }
 
@@ -111,7 +117,6 @@
        margin:auto;
        width:265px;
        margin-top:10px;
-       background: blue;
     }
 }
 
@@ -141,6 +146,10 @@
         margin-top:-150px;
     }
 
+    .project-snippet-outer p{
+        padding-top:15px;
+    }
+    
     .project-snippet-image{
         width:300px;
         height:240px;
@@ -153,6 +162,5 @@
        margin:auto;
        width:265px;
        margin-top:10px;
-       background: blue;
     }
 }

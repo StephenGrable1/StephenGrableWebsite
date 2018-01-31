@@ -10,7 +10,7 @@ background: linear-gradient(45deg, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71ceef', endColorstr='#b7deed', GradientType=1 );
 font-family: 'Roboto', sans-serif;
 
-  height:inherit;
+  height: inherit;
   overflow: hidden;
 }
 
