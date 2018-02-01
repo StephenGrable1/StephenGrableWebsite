@@ -25,7 +25,7 @@ class ProjectDashboard extends Component {
     <div className="project-dash-outer">
         <div className="project-dash-inner">
             <div>
-
+                <h4 className="projects-title">Projects</h4>
                 <div className="project-snippet-outer">
                     <div>
                         <img src={dannyBobbyPreview} className="project-snippet-image" alt="Danny Bobby Website Preview"></img>
@@ -40,7 +40,7 @@ class ProjectDashboard extends Component {
                 </div>
                 </div>
 
-                <div className="project-snippet-outer">
+                <div className="project-snippet-outer project-left-btn">
                     <div>
                         <img src={deafBoyPreview} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
                     </div>
@@ -68,7 +68,7 @@ class ProjectDashboard extends Component {
                     </div>
                 </div>
 
-                <div className="project-snippet-outer">
+                <div className="project-snippet-outer project-left-btn">
                     <div>
                         <img src={timerPreview} className="project-snippet-image" alt="Timer App Website Preview"></img>
                     </div>
