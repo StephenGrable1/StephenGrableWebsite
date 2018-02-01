@@ -1,7 +1,6 @@
 .project-dash-outer{
-    height:3550px;
+    height:3700px;
     width:100%;
-    background: white;
     margin-top:-35px;
 }
 
@@ -12,12 +11,12 @@
 
 .project-snippet-outer{
     width:100%;
-    height:800px;
+    height:850px;
     background: white;
     margin:auto;
-    margin-top:60px;
+    margin-top:0px;
     padding:5px;
-    padding-top:15px;
+    padding-top:35px;
 }
 
 .project-snippet-outer p{
