@@ -38,51 +38,58 @@ class ProjectDashboard extends Component {
                         <Link to='/projects/danny-bobby-website'>View Project</Link>
                     </div>
                 </div>
-                </div>
-
-                <div className="project-snippet-outer project-left-btn">
-                    <div>
-                        <img src={deafBoyPreview} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
-                    </div>
-                    <div className="text-action-outer">
-                        <p>
-                            Email subscription with Drip marketing integration
-                        </p>
-                        <div className="snippet-action-btn">
-                            <Link to='/projects/deaf-boy-website'>View Project</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="project-snippet-outer">
-                    <div>
-                        <img src={todoPreview} className="project-snippet-image" alt="Todo App Website Preview"></img>
-                    </div>
-                    <div className="text-action-outer">
-                        <p>
-                            A todo application with github login
-                        </p>
-                        <div className="snippet-action-btn">
-                            <Link to='/projects/deaf-boy-website'>View Project</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="project-snippet-outer project-left-btn">
-                    <div>
-                        <img src={timerPreview} className="project-snippet-image" alt="Timer App Website Preview"></img>
-                    </div>
-                    <div className="text-action-outer">
-                        <p>
-                            An online timer and countdown clock
-                        </p>
-                        <div className="snippet-action-btn">
-                            <Link to='/projects/deaf-boy-website'>View Project</Link>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <hr className="project-separator" />
+
+            <div className="project-snippet-outer project-left-btn">
+                <div>
+                    <img src={deafBoyPreview} className="project-snippet-image" alt="Deaf Boy Website Preview"></img>
+                </div>
+                <div className="text-action-outer">
+                    <p>
+                        Email subscription with Drip marketing integration
+                    </p>
+                    <div className="snippet-action-btn">
+                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                    </div>
+                </div>
+            </div>
+
+            <hr className="project-separator" />
+
+
+            <div className="project-snippet-outer">
+                <div>
+                    <img src={todoPreview} className="project-snippet-image" alt="Todo App Website Preview"></img>
+                </div>
+                <div className="text-action-outer">
+                    <p>
+                        A todo application with github login
+                    </p>
+                    <div className="snippet-action-btn">
+                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                    </div>
+                </div>
+            </div>
+
+            <hr className="project-separator" />
+
+
+            <div className="project-snippet-outer project-left-btn">
+                <div>
+                    <img src={timerPreview} className="project-snippet-image" alt="Timer App Website Preview"></img>
+                </div>
+                <div className="text-action-outer">
+                    <p>
+                        An online timer and countdown clock
+                    </p>
+                    <div className="snippet-action-btn">
+                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                    </div>
+                </div>
+            </div>
+         </div>
         
             <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite}/>
             <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite}/>
