@@ -8,6 +8,9 @@ import backendRequests from './media/backend-requests.gif'
 import backendUserRequests from './media/backend-user-view.gif'
 
 class DannyBobbyWebsite extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0,0);
+  }
   render(){
     return (
       <div className="danny-bobby-outer">

@@ -65,7 +65,7 @@ class ProjectDashboard extends Component {
                 </div>
                 <div className="text-action-outer">
                     <p>
-                        A todo application with github login
+                        A to-do application with github login
                     </p>
                     <div className="snippet-action-btn">
                         <Link to='/projects/deaf-boy-website'>View Project</Link>
