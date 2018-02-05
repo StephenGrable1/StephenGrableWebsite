@@ -15,6 +15,9 @@ import {
   
 import DannyBobbyWebsite from '../DannyBobbyWebsite/DannyBobbyWebsite.js'
 import DeafBoyWebsite from '../DeafBoyWebsite/DeafBoyWebsite.js'
+import TodoAppWebsite from '../TodoAppWebsite/TodoAppWebsite.js'
+import TimerAppWebsite from '../TimerAppWebsite/TimerAppWebsite.js'
+
 
 class ProjectDashboard extends Component {
   componentDidMount(){
@@ -40,7 +43,7 @@ class ProjectDashboard extends Component {
                 </div>
             </div>
 
-            <hr className="project-separator" />
+            <hr className="one-separator" />
 
             <div className="project-snippet-outer project-left-btn">
                 <div>
@@ -65,10 +68,10 @@ class ProjectDashboard extends Component {
                 </div>
                 <div className="text-action-outer">
                     <p>
-                        A to-do application with github login
+                        A to-do application with social media login
                     </p>
                     <div className="snippet-action-btn">
-                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        <Link to='/projects/todo-app-website'>View Project</Link>
                     </div>
                 </div>
             </div>
@@ -85,7 +88,7 @@ class ProjectDashboard extends Component {
                         An online timer and countdown clock
                     </p>
                     <div className="snippet-action-btn">
-                        <Link to='/projects/deaf-boy-website'>View Project</Link>
+                        <Link to='/projects/timer-app-website'>View Project</Link>
                     </div>
                 </div>
             </div>
@@ -93,6 +96,10 @@ class ProjectDashboard extends Component {
         
             <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite}/>
             <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite}/>
+            <Route exact path='/projects/todo-app-website' component={TodoAppWebsite}/>
+            <Route exact path='/projects/timer-app-website' component={TimerAppWebsite}/>
+
+
         </div>
     </div>
     )

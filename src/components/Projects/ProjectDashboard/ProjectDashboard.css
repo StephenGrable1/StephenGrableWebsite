@@ -22,9 +22,20 @@
 
 .project-separator{
     width:70%;
+    height:1px;
+    border:none;
+    border-radius:2px;
+    background-color:#484848;
+}
+
+/*
+this is being buggy so i added a new id for first seperator 
+*/
+.one-separator{
+    width:70%;
     height:2px;
-    border:0px;
-    border-radius:3px;
+    border:none;
+    border-radius:2px;
     background-color:#484848;
 }
 
@@ -111,9 +122,6 @@
         margin-top:200px;
     }
 
-    .project-left-btn {
-        background: orange; 
-    }
     
     .project-left-btn .project-snippet-image{
         height:310px;
@@ -148,7 +156,6 @@
         float:none;
         width:100%;
         height:200px;
-        background: white;
         margin:auto;
         margin-top:-150px;
     }
@@ -156,7 +163,6 @@
     .project-snippet-outer{
         width:90%;
         height:530px;
-        background: purple;
         margin:auto;
         margin-top:20px;
     }
@@ -164,16 +170,14 @@
     .project-dash-outer{
         height:2550px;
         width:100%;
-        background: green;
-        margin-top:100px;
-        padding-top:10px;
+        margin-top:-35px;
+        padding-top:5px;
     }
 
     .text-action-outer{
         float:none;
         width:100%;
         height:200px;
-        background: white;
         margin:auto;
         margin-top:-150px;
     }
@@ -187,7 +191,7 @@
         height:240px;
         float:none;
         margin:auto;
-        margin-top:20px;
+        margin-top:0px;
         clear:both;
     }
 
@@ -214,7 +218,6 @@
         float:none;
         width:100%;
         height:200px;
-        background: white;
         margin:auto;
         margin-top:-150px;
     }
@@ -222,7 +225,6 @@
     .project-snippet-outer{
         width:90%;
         height:500px;
-        background: yellow;
         margin:auto;
         margin-top:50px;
     }
@@ -230,15 +232,13 @@
     .project-dash-outer{
         height:2500px;
         width:100%;
-        background: green;
-        margin-top:50px;
+        margin-top:-35px;
     }
 
     .text-action-outer{
         float:none;
         width:100%;
         height:200px;
-        background: white;
         margin:auto;
         margin-top:-150px;
     }

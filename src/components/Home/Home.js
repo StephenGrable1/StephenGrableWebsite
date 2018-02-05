@@ -35,7 +35,7 @@ class Home extends Component {
           <div className="intro-text-outer">
             <div className="intro-text-inner">
               <p className="intro-text">
-                Hi, my name is Stephen and welcome to my website.
+                My name is Stephen and welcome to my website.
                 <br/>
                 I'm a web developer who believes in
                 elegant design and exceptional user experiences.

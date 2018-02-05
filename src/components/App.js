@@ -12,6 +12,9 @@ import Contact from './Contact/Contact.js'
 import Home from './Home/Home.js'
 import DannyBobbyWebsite from './Projects/DannyBobbyWebsite/DannyBobbyWebsite.js'
 import DeafBoyWebsite from './Projects/DeafBoyWebsite/DeafBoyWebsite.js'
+import TodoAppWebsite from './Projects/TodoAppWebsite/TodoAppWebsite.js';
+import TimerAppWebsite from './Projects/TimerAppWebsite/TimerAppWebsite.js';
+
 
 
 class App extends Component {
@@ -31,7 +34,9 @@ class App extends Component {
           <Route exact path='/contact' component={Contact}/>
           <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite}/>
           <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite}/>
-          
+          <Route exact path='/projects/todo-app-website' component={TodoAppWebsite}/>
+          <Route exact path='/projects/timer-app-website' component={TimerAppWebsite}/>
+
         </div>
       </Router>
     );
