@@ -9,7 +9,9 @@ class TimerAppWebsite extends Component {
     return (
     <div className="timer-app-outer">
         <div className="timer-app-inner">
-            <p>Timer App</p>
+            <p>Overview coming soon. For now, check out the site in the link below</p>
+            <a href="http://secret-woodland-23466.herokuapp.com/#/?_k=79nppc">Visit Timer App Website</a>
+
         </div>
     </div>
     )

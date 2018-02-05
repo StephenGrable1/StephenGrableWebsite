@@ -9,7 +9,8 @@ class TodoAppWebsite extends Component {
     return (
     <div className="todo-app-outer">
         <div className="todo-app-inner">
-            <p>Todo App</p>
+            <p>Overview coming soon, for now visit the to-do app in the link below</p>
+            <a href="http://tranquil-cliffs-85870.herokuapp.com/#/todos?_k=jtrh7t">Visit the To-Do app website</a>
         </div>
     </div>
     )
