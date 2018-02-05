@@ -1,9 +1,9 @@
 .deaf-boy-outer{
     width:100%;
-    height:2450px;
+    height:2050px;
     margin-top:130px;
     margin-bottom:15px;
-    overflow: none;
+    overflow: hidden;
   }
   
   .deaf-boy-inner{
@@ -92,7 +92,7 @@
     border:1px solid #ccc;
     border-radius:5px;
     margin:auto;
-    margin-top:120px;
+    margin-top:220px;
   }
   
   .project-action-link-db{
@@ -116,7 +116,8 @@
     }
     .deaf-boy-outer{
       width:100%;
-      height:2650px;
+      height:2250px;
+      overflow:hidden;
     }
   
     .backend-request-gif-db{
@@ -128,7 +129,7 @@
       margin-top:80px;
     }
     .project-action-btn-db{
-      margin-top:180px;
+      margin-top:280px;
     }
   }
   
@@ -147,7 +148,8 @@
     }
     .deaf-boy-outer{
       width:100%;
-      height:2650px;
+      height:2250px;
+      overflow:hidden;
     }
   
     .backend-request-gif-db{
@@ -159,7 +161,7 @@
       margin-top:50px;
     }
     .project-action-btn-db{
-      margin-top:270px;
+      margin-top:400px;
     }
   }
   
@@ -194,7 +196,8 @@
   
     .deaf-boy-outer{
       width:100%;
-      height:2550px;
+      height:2450px;
+      overflow: hidden;
     }
   
     .backend-section-db{
@@ -206,7 +209,7 @@
     }
   
     .project-action-btn-db{
-      margin-top:460px;
+      margin-top:620px;
     }
   }
   
@@ -242,7 +245,9 @@
     }
     .deaf-boy-outer{
       width:100%;
-      height:2780px; }
+      height:2400px; 
+      overflow: hidden;
+    }
   
     .backend-section-db{
       padding-top:50px;
@@ -252,7 +257,7 @@
       margin-bottom:160px;
     }
     .project-action-btn-db{
-      margin-top:610px;
+      margin-top:700px;
     }
   }
   
@@ -288,7 +293,9 @@
     }
     .deaf-boy-outer{
       width:100%;
-      height:2850px;
+      height:2700px;
+      overflow: hidden;
+      margin-bottom:10px;
     }
   
     .backend-section-db{
@@ -300,7 +307,7 @@
     }
   
     .project-action-btn-db{
-      margin-top:760px;
+      margin-top:980px;
     }
   }
   

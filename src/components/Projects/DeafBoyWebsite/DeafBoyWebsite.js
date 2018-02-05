@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 
 import deafBoyPreview from './media/deafboy_website_display.png'
 
+import emailSignup from './media/email_signup.gif'
+
+
 class DeafBoyWebsite extends Component {
   componentDidMount(){
     window.scrollTo(0, 0);
@@ -24,9 +27,9 @@ class DeafBoyWebsite extends Component {
 
           <div className="backend-section-db">
             <div>
-              <h4>Fully Integrated Admin Login and Booking Management</h4>
-              <h5>Admin Login and Scheduling Dashboard</h5>
-              <img src="" className="backend-request-gif-db" alt="backend fof handling studio time requests"></img>
+              <h4>Email signup with progress bar and drip email marketing integration</h4>
+              <h5>Responsive email signup form with progress bar</h5>
+              <img src={emailSignup} className="backend-request-gif-db" alt="email signup gif showing progress bar and reCaptcha"></img>
             </div>
           </div>
 
@@ -35,7 +38,7 @@ class DeafBoyWebsite extends Component {
             <div className="deaf-boy-overview-outer">
             <h5>Project Overview:</h5>
               <p>
-              <a href="https://mbsy.co/lfLNg">Drip email marketing</a> is one of the most advanced email automation software in the market today. I wanted to build
+              <a href="https://www.getdrip.com/">Drip email marketing</a> is one of the most advanced email automation software in the market today. I wanted to build
               a landing page that would enable users to easily sign up to a email newsletter. I also wanted to integrate a reCaptcha from Google to prevent spam and bots
               from accessing and singing up for the newsletter. 
               </p>
