@@ -102,7 +102,7 @@
   }
   
   @media screen and (max-width:1100px) and (min-width:900px){
-    .deaf-boy-website-intro{
+    .deaf-boy-intro{
       margin-top:80px;
       font-size: 22px;
     }
@@ -168,7 +168,7 @@
   
   
   @media screen and (max-width:600px) and (min-width:500px){
-    .deaf-boy-website-intro{
+    .deaf-boy-intro{
       margin-top:80px;
       font-size: 22px;
     }
@@ -239,14 +239,12 @@
       float:none;
       margin:auto;
     }
-  
-    .deaf-boy-inner{
-      margin-top:-70px;
-    }
+
     .deaf-boy-outer{
       width:100%;
       height:2400px; 
       overflow: hidden;
+      margin-top:50px;
     }
   
     .backend-section-db{
@@ -257,12 +255,12 @@
       margin-bottom:160px;
     }
     .project-action-btn-db{
-      margin-top:700px;
+      margin-top:800px;
     }
   }
   
   @media screen and (max-width:400px) and (min-width:200px){
-    .deaf-boy-website-intro{
+    .deaf-boy-intro{
       margin-top:80px;
       font-size: 22px;
     }
@@ -289,13 +287,14 @@
     }
   
     .deaf-boy-inner{
-      margin-top:-70px;
     }
+
     .deaf-boy-outer{
       width:100%;
       height:2700px;
-      overflow: hidden;
+      overflow: none;
       margin-bottom:10px;
+      margin-top:50px;
     }
   
     .backend-section-db{
