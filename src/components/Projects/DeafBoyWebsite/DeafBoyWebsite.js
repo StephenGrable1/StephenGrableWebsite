@@ -39,11 +39,11 @@ class DeafBoyWebsite extends Component {
             <h5>Project Overview:</h5>
               <p>
               <a href="https://www.getdrip.com/">Drip email marketing</a> is one of the most advanced email automation software in the market today. I wanted to build
-              a landing page that would enable users to easily sign up to a email newsletter. I also wanted to integrate a reCaptcha from Google to prevent spam and bots
+              a landing page that would enable users to easily sign up to a drip email newsletter. I also wanted to integrate a reCaptcha from Google to prevent spam and bots
               from accessing and signing up for the newsletter. 
               </p>
               <p>
-              Users always comes first. So, I decided to implement a progress bar to update the user on their progress while entering and submitting their email.
+              Users always come first. So, I decided to implement a progress bar to update the user on their progress while entering and submitting their email.
               As soon as the user starts to type their email, the progress bar responds and gives them immediate feedback. This feature turns a simple email signup form
               into a game. A game that the user is compelled to finish. 
               </p>

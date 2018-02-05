@@ -23,8 +23,8 @@
 .project-separator{
     width:70%;
     height:1px;
-    border:none;
-    border-radius:2px;
+    border:0px solid black;
+    border-radius:0px;
     background-color:#484848;
 }
 
@@ -33,9 +33,9 @@ this is being buggy so i added a new id for first seperator
 */
 .one-separator{
     width:70%;
-    height:2px;
-    border:none;
-    border-radius:2px;
+    height:1px;
+    border:0px solid black;
+    border-radius:0px;
     background-color:#484848;
 }
 
@@ -59,7 +59,7 @@ this is being buggy so i added a new id for first seperator
     width:170px;
     height:33px;
     float:none;
-    padding:10px;
+    padding:14px;
     font-size: 28px;
     color:white;
     border:1px solid #ccc;
