@@ -19,7 +19,7 @@ class TodoAppWebsite extends Component {
         </p>
 
         <div className="todo-website-link">
-          <a href="https://dannybobby.com/home" >Visit Website</a>
+          <a href="http://tranquil-cliffs-85870.herokuapp.com/" >Visit Website</a>
         </div>
 
         <div className="backend-section-todo">
