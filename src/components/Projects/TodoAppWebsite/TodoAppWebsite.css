@@ -1,9 +1,9 @@
 .todo-app-outer{
     width:100%;
-    height:2450px;
+    height:1850px;
     margin-top:130px;
     margin-bottom:15px;
-    overflow: none;
+    overflow: hidden;
   }
   
   .todo-app-inner{
@@ -92,7 +92,7 @@
     border:1px solid #ccc;
     border-radius:5px;
     margin:auto;
-    margin-top:120px;
+    margin-top:50px;
   }
   
   .project-action-link-todo{
@@ -116,7 +116,8 @@
     }
     .todo-app-outer{
       width:100%;
-      height:2650px;
+      height:2050px;
+      overflow:hidden;
     }
   
     .backend-request-gif-todo{
@@ -128,7 +129,7 @@
       margin-top:80px;
     }
     .project-action-btn-todo{
-      margin-top:180px;
+      margin-top:120px;
     }
   }
   
@@ -147,7 +148,8 @@
     }
     .todo-app-outer{
       width:100%;
-      height:2650px;
+      height:2050px;
+      overflow: hidden;
     }
   
     .backend-request-gif-todo{
@@ -159,7 +161,7 @@
       margin-top:50px;
     }
     .project-action-btn-todo{
-      margin-top:270px;
+      margin-top:180px;
     }
   }
   
@@ -194,7 +196,8 @@
   
     .todo-app-outer{
       width:100%;
-      height:2550px;
+      height:2150px;
+      overflow: hidden;
     }
   
     .backend-section-todo{
@@ -206,7 +209,7 @@
     }
   
     .project-action-btn-todo{
-      margin-top:460px;
+      margin-top:360px;
     }
   }
   
@@ -245,7 +248,9 @@
     }
     .todo-app-outer{
       width:100%;
-      height:2780px; }
+      height:2100px; 
+      overflow:hidden;
+    }
   
     .backend-section-todo{
       padding-top:50px;
@@ -255,7 +260,7 @@
       margin-bottom:160px;
     }
     .project-action-btn-todo{
-      margin-top:610px;
+      margin-top:350px;
     }
   }
   
@@ -291,7 +296,9 @@
     }
     .todo-app-outer{
       width:100%;
-      height:2850px;
+      height:2150px;
+      margin-bottom:10px;
+      overflow: hidden;
     }
   
     .backend-section-todo{
@@ -303,7 +310,7 @@
     }
   
     .project-action-btn-todo{
-      margin-top:760px;
+      margin-top:430px;
     }
   }
   

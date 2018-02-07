@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom'
 
 import todoAppWebsite from './media/todo_website_display.png'
+import todoAppGif from './media/todo-website-gif.gif'
+
 import './TodoAppWebsite.css'
 
 class TodoAppWebsite extends Component {
@@ -24,9 +26,9 @@ class TodoAppWebsite extends Component {
 
         <div className="backend-section-todo">
           <div>
-            <h4>Fully Integrated Admin Login and Booking Management</h4>
-            <h5>Admin Login and Scheduling Dashboard</h5>
-            <img src="" className="backend-request-gif-todo" alt="backend fof handling studio time requests"></img>
+            <h4>Add things to do, search to do's and mark them as completed</h4>
+            <h5>Login flow and UX</h5>
+            <img src={todoAppGif} className="backend-request-gif-todo" alt="backend fof handling studio time requests"></img>
           </div>
         </div>
 
@@ -35,22 +37,16 @@ class TodoAppWebsite extends Component {
           <div className="todo-overview-outer">
           <h5>Project Overview:</h5>
             <p>
-            Danny Bobby approached me wanting a complete revamp of his website. He had a few requirements. First, He wanted
-            a scheduling dashboard where his clients could easily signup for a studio session. Second, he wanted a elegant
-            home page to show potential clients past work, customer reviews and more.
+            This project was one that I completed while enrolled in <a href="https://www.udemy.com/react-2nd-edition/">this great React/Redux introduction course on Udemy. </a>
+            Users can login with their github accounts and create, search and complete tasks. Helps you stay productive and keep track of completed tasks. 
             </p>
             <p>
-            We began the project with a interview and questionnaire. I made sure I had a strong grasp of his vision for the website before beginning work.
-            This way, I could present an accurate timeline for completion and keep it within his desired budget.
-            </p>
-            <p>
-            Danny now has a place to send customers and manage studio sessions. As he grows his business, he can take advantage of
-            a fully integrated web application with user login and account management. Now, with his new website, it is easy for Danny to continue to add custom features to better
-            serve his customers.
+            This is a demonstration of how you can create a simple and secure user login feature quickly. Social media login makes the user management simple. Just plug in 
+            your users preferred social media channel. Now you can expedite the signup and login process. Safe and secure. <span role="img" alt="emoji lock">🔒</span>
             </p>
 
             <p>
-            Want to learn how I can help you create your own custom website? Request a free quote by clicking the link below.
+            Want to learn how I can help you create your own custom website with social media login? Request a free quote by clicking the link below.
             </p>
           </div>
         </div>
