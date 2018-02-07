@@ -94,14 +94,49 @@
     margin:auto;
     margin-top:50px;
   }
-  
+
+  .warning-slow-upload{
+    width:30%;
+    margin:auto;
+    margin-right:15%;
+    padding:8px;
+  }
+
   .project-action-link-todo{
     text-decoration: none;
     color:white;
     font-size: 26px;
   }
+
+  @media screen and (max-width:1800px) and (min-width:1500px){
+    .warning-slow-upload{
+      margin:auto;
+      margin-right:17%;
+    }
+  }
+
+  @media screen and (max-width:1500px) and (min-width:1300px){
+    .warning-slow-upload{
+      margin:auto;
+      margin-right:14%;
+    }
+  }
+
+  @media screen and (max-width:1300px) and (min-width:1100px){
+    .warning-slow-upload{
+      margin:auto;
+      margin-right:11.5%;
+    }
+  }
+
+
   
   @media screen and (max-width:1100px) and (min-width:900px){
+    .warning-slow-upload{
+      width:50%;
+      margin:auto;
+    }
+
     .todo-website-intro{
       margin-top:80px;
       font-size: 22px;
@@ -134,6 +169,11 @@
   }
   
   @media screen and (max-width:900px) and (min-width:600px){
+
+  .warning-slow-upload{
+      width:50%;
+      margin:auto;
+    }
     .todo-website-intro{
       margin-top:80px;
       font-size: 22px;
@@ -168,6 +208,11 @@
   
   
   @media screen and (max-width:600px) and (min-width:510px){
+
+    .warning-slow-upload{
+      width:50%;
+      margin:auto;
+    }
     .todo-website-intro{
       margin-top:80px;
       font-size: 22px;
@@ -214,6 +259,11 @@
   }
   
   @media screen and (max-width:510px) and (min-width:400px){
+    .warning-slow-upload{
+      width:50%;
+      margin:auto;
+    }
+
     .todo-website-intro{
       margin-top:80px;
       font-size: 22px;
@@ -265,6 +315,10 @@
   }
   
   @media screen and (max-width:400px) and (min-width:200px){
+    .warning-slow-upload{
+      width:50%;
+      margin:auto;
+    }
     .todo-website-intro{
       margin-top:80px;
       font-size: 22px;

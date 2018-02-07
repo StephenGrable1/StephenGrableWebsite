@@ -24,6 +24,11 @@ class TodoAppWebsite extends Component {
           <a href="http://tranquil-cliffs-85870.herokuapp.com/" >Visit Website</a>
         </div>
 
+        <div className="warning-slow-upload">
+          <h6 >(Warning: could take up to <span>10 seconds to load.)</span> </h6>
+        </div>
+
+
         <div className="backend-section-todo">
           <div>
             <h4>Add things to do, search to do's and mark them as completed</h4>
@@ -42,7 +47,7 @@ class TodoAppWebsite extends Component {
             </p>
             <p>
             This is a demonstration of how you can create a simple and secure user login feature quickly. Social media login makes the user management simple. Just plug in 
-            your users preferred social media channel. Now you can expedite the signup and login process. Safe and secure. <span role="img" alt="emoji lock">🔒</span>
+            your users preferred social media channel. Now you can expedite the signup and login process. Safe and secure. <span role="img" alt="emoji lock">🔐</span>
             </p>
 
             <p>
