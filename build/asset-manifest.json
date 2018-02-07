@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.91ff1054.css",
-  "main.css.map": "static/css/main.91ff1054.css.map",
-  "main.js": "static/js/main.c839516d.js",
-  "main.js.map": "static/js/main.c839516d.js.map",
+  "main.css": "static/css/main.bf515b13.css",
+  "main.css.map": "static/css/main.bf515b13.css.map",
+  "main.js": "static/js/main.78ed37ba.js",
+  "main.js.map": "static/js/main.78ed37ba.js.map",
   "static/media/CSS3_logo.svg.png": "static/media/CSS3_logo.svg.ac36808d.png",
   "static/media/DigitalOcean_logo.svg.png": "static/media/DigitalOcean_logo.svg.cb89b2f8.png",
   "static/media/Github.svg": "static/media/Github.8dfd0b29.svg",
@@ -14,7 +14,10 @@
   "static/media/backend-user-view.gif": "static/media/backend-user-view.2a00dae8.gif",
   "static/media/calendar.svg": "static/media/calendar.dbab3102.svg",
   "static/media/computer_website_display.png": "static/media/computer_website_display.ee685822.png",
+  "static/media/crossword.png": "static/media/crossword.b5c5ab66.png",
+  "static/media/deafboy_website_display.png": "static/media/deafboy_website_display.706c8faa.png",
   "static/media/dust_scratches.png": "static/media/dust_scratches.608ab5fe.png",
+  "static/media/email_signup.gif": "static/media/email_signup.86e62378.gif",
   "static/media/express.png": "static/media/express.8df51564.png",
   "static/media/firebase-logo.png": "static/media/firebase-logo.e0db5459.png",
   "static/media/heroku.svg": "static/media/heroku.b38ff61a.svg",
@@ -25,5 +28,8 @@
   "static/media/redux_logo.png": "static/media/redux_logo.b4e23a50.png",
   "static/media/responsive.svg": "static/media/responsive.eb821ecb.svg",
   "static/media/stephen.png": "static/media/stephen.3a621c21.png",
+  "static/media/timer_website_display.png": "static/media/timer_website_display.796b186f.png",
+  "static/media/todo-website-gif.gif": "static/media/todo-website-gif.5b8db256.gif",
+  "static/media/todo_website_display.png": "static/media/todo_website_display.d0c7a783.png",
   "static/media/webpack_logo.png": "static/media/webpack_logo.80570b80.png"
 }
