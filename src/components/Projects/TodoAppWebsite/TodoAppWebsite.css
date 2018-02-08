@@ -2,8 +2,7 @@
     width:100%;
     height:1850px;
     margin-top:130px;
-    margin-bottom:15px;
-    overflow: hidden;
+    margin-bottom:55px;
   }
   
   .todo-app-inner{
@@ -152,7 +151,6 @@
     .todo-app-outer{
       width:100%;
       height:2050px;
-      overflow:hidden;
     }
   
     .backend-request-gif-todo{
@@ -189,7 +187,6 @@
     .todo-app-outer{
       width:100%;
       height:2050px;
-      overflow: hidden;
     }
   
     .backend-request-gif-todo{
@@ -242,7 +239,6 @@
     .todo-app-outer{
       width:100%;
       height:2150px;
-      overflow: hidden;
     }
   
     .backend-section-todo{
@@ -299,7 +295,6 @@
     .todo-app-outer{
       width:100%;
       height:2100px; 
-      overflow:hidden;
     }
   
     .backend-section-todo{
@@ -351,8 +346,6 @@
     .todo-app-outer{
       width:100%;
       height:2150px;
-      margin-bottom:10px;
-      overflow: hidden;
     }
   
     .backend-section-todo{

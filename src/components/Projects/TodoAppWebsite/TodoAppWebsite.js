@@ -25,7 +25,7 @@ class TodoAppWebsite extends Component {
         </div>
 
         <div className="warning-slow-upload">
-          <h6 >(Warning: could take up to <span>10 seconds to load.)</span> </h6>
+          <h6 >(Warning: could take up to <span>20 seconds to load.)</span> </h6>
         </div>
 
 
@@ -43,11 +43,11 @@ class TodoAppWebsite extends Component {
           <h5>Project Overview:</h5>
             <p>
             This project was one that I completed while enrolled in <a href="https://www.udemy.com/react-2nd-edition/">this great React/Redux introduction course on Udemy. </a>
-            Users can login with their github accounts and create, search and complete tasks. Helps you stay productive and keep track of completed tasks. 
+            Users can login with their github accounts and create, search and complete tasks. This little app can help you stay productive throughout the day. 
             </p>
             <p>
-            This is a demonstration of how you can create a simple and secure user login feature quickly. Social media login makes the user management simple. Just plug in 
-            your users preferred social media channel. Now you can expedite the signup and login process. Safe and secure. <span role="img" alt="emoji lock">🔐</span>
+            This is a demonstration of how you can quickly create a simple and secure user login feature. Social media login makes user management simple. Just plug in 
+            your preferred social media channel and you can expedite the signup and login process for your users. Safe and secure. <span role="img" alt="emoji lock">🔐</span>
             </p>
 
             <p>

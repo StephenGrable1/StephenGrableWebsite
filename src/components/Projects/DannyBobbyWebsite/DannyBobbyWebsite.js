@@ -6,6 +6,7 @@ import './DannyBobbyWebsite.css'
 import computerDisplay from './media/computer_website_display.png';
 import backendRequests from './media/backend-requests.gif'
 import backendUserRequests from './media/backend-user-view.gif'
+import responsiveMarketing from './media/targeted-responsive-marketing.gif'
 
 class DannyBobbyWebsite extends Component {
   componentDidMount(){
@@ -25,10 +26,19 @@ class DannyBobbyWebsite extends Component {
             <a href="https://dannybobby.com/home" >Visit DannyBobby.com</a>
           </div>
 
+
+          <div className="backend-section">
+            <div>
+              <h4>Targeted Marketing Messages</h4>
+              <h5>Marketing messages will change depending on the type of visitor</h5>
+              <img src={responsiveMarketing} className="backend-request-gif" alt="targeted marketing gif"></img>
+            </div>
+          </div>
+
           <div className="backend-section">
             <div>
               <h4>User Login and Scheduling</h4>
-              <h5>User Signin and Scheduling Dashboard</h5>
+              <h5>Users can create an account with their Facebook and manage requested and approved studio sessions</h5>
               <img src={backendUserRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
             </div>
           </div>
@@ -36,7 +46,7 @@ class DannyBobbyWebsite extends Component {
           <div className="backend-section">
             <div>
               <h4>Fully Integrated Admin Login and Booking Management</h4>
-              <h5>Admin Login and Scheduling Dashboard</h5>
+              <h5>Administrators can login to a custom dashboard to view session requests and manage their clients</h5>
               <img src={backendRequests} className="backend-request-gif" alt="backend fof handling studio time requests"></img>
             </div>
           </div>
