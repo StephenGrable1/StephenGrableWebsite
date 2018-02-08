@@ -43,11 +43,11 @@ class TodoAppWebsite extends Component {
           <h5>Project Overview:</h5>
             <p>
             This project was one of the first projects that I completed while enrolled in <a href="https://www.udemy.com/react-2nd-edition/">a great React/Redux introduction course on Udemy. </a>
-            Even though this was a learning project, countdown clocks can be useful in many real world applicatons. I recently implimented a more complex countdown clock for <a href="https://dannybobby.com/home">Danny Bobby's music studio. </a>
+            Even though this was a learning project, countdown clocks can be useful in many real world applicatons. I recently implemented a more complex countdown clock for <a href="https://dannybobby.com/home">Danny Bobby's music studio. </a>
              You can see the overview of that project <Link to="/projects/danny-bobby-website">here.</Link> 
             </p>
             <p>
-            Working on this project gave me the confidence to work with a reactive front-end. I grew a lot as a developer from working on this project. The one thing I struggled the most with was all of the edge cases (when you are working with time... there are a lot of them). 
+            Working on this project gave me the confidence to work with a reactive front-end. I grew a lot as a developer from this one. The one thing I struggled the most with was all of the edge cases (when you are working with time... there are a lot of them). 
             However, I made it through and now feel comfortable working with fast changing data. Although this project was one of my first, I learned a lot about responsive design 
             and handling dynamic font-end information.
             </p>
