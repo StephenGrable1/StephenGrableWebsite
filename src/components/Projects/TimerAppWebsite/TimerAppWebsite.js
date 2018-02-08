@@ -47,9 +47,9 @@ class TodoAppWebsite extends Component {
              You can see the overview of that project <Link to="/projects/danny-bobby-website">here.</Link> 
             </p>
             <p>
-            Working on this project gave me confidence to work with a reactive front-end. Working with fast moving data is hard. However, I grew a lot as a developer from working on this project. The one thing I struggled the most with was all of the edge cases (trust me, when you are working with time... there are a lot of them) 
-            However, I made it through and I managed to feel comfortable updating the front-end of a website to quickly reflect changing data (like time). Although this project was one of my firsts, I learn a great deal about responsive design 
-            and handling dynamic data. 
+            Working on this project gave me the confidence to work with a reactive front-end. I grew a lot as a developer from working on this project. The one thing I struggled the most with was all of the edge cases (when you are working with time... there are a lot of them). 
+            However, I made it through and now feel comfortable working with fast changing data. Although this project was one of my first, I learned a lot about responsive design 
+            and handling dynamic font-end information.
             </p>
 
             <p>
