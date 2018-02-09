@@ -21,7 +21,8 @@ class IconMarketing extends Component {
               <h3 className="marketing-title">Grow your business.</h3>
 
               <p className="marketing-text">
-              Reach more customers, serve more clients and grow your business through a new website.
+              Reach more customers, serve more clients and grow your business. Let me handle all the aspects of getting your
+              website up and running so you can focus on your product. 
               </p>
             </div>
             <div className="image-outer">
@@ -29,7 +30,7 @@ class IconMarketing extends Component {
               <h3 className="marketing-title">Meet your budget goals.</h3>
 
               <p className="marketing-text">
-               I am a FullStack developer who can save you the time and hassle of a full team.
+               I am a full-stack developer who can save you the time and hassle of a hiring a full web development team. I can design, build and deploy websites that will help you achieve your business goals.
               </p>
             </div>
             <div className="image-outer">
