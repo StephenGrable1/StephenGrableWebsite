@@ -26,6 +26,9 @@
   cursor: pointer;
 }
 
+.contact-outer{
+  margin-top:-20px;
+}
 
 .contact-inner{
   width:90%;

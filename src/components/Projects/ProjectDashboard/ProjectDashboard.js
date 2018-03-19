@@ -51,7 +51,7 @@ class ProjectDashboard extends Component {
                 </div>
                 <div className="text-action-outer">
                     <p>
-                        Email subscription with Drip marketing integration
+                        Email subscription with Drip email marketing integration
                     </p>
                     <div className="snippet-action-btn">
                         <Link to='/projects/deaf-boy-website'>View Project</Link>
