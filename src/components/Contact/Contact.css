@@ -68,7 +68,7 @@
 }
 
 
-@media screen and (max-width:600px) and (min-width:40px){
+@media screen and (max-width:575px) and (min-width:40px){
   .contact-inner{
     width:90%;
     margin:auto;
