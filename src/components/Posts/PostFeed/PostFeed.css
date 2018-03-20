@@ -14,13 +14,6 @@
 }
 
 
-@media screen and (min-width:1200px) and (max-width:2000px){
-    .post-feed{
-        height:730px;
-        margin-top:160px;
-    }
-}
-
 
 @media screen and (min-width:800px) and (max-width:1200px){
     .post-feed{
@@ -32,7 +25,7 @@
 
 @media screen and (min-width:575px) and (max-width:800px){
     .post-feed{
-        height:1100px;
+        height:1150px;
         margin-bottom:50px;
         margin-top:120px;
         padding-left:30px;
@@ -62,9 +55,20 @@
 }
 
 
-@media screen and (min-width:200px) and (max-width: 450px){
+@media screen and (min-width:350px) and (max-width: 450px){
     .post-feed{
-        height:1850px;
+        height:1700px;
+        margin-bottom:50px;
+        margin-top:40px;
+        padding-left:30px;
+    }
+
+}
+
+
+@media screen and (min-width:200px) and (max-width: 350px){
+    .post-feed{
+        height:1950px;
         margin-bottom:50px;
         margin-top:40px;
         padding-left:30px;
