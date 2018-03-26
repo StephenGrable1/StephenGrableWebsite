@@ -1,0 +1,90 @@
+.second-week-outer {
+    clear: both;
+}
+
+.second-week-text{
+    font-size:20px;
+}
+
+
+.second-week-outer h1{
+    margin-bottom:50px;
+}
+
+.second-week-outer h3{
+    font-size:24px;
+}
+
+
+
+.article-second-week{
+    height:1070px;
+    width:85%;
+    background-color:orange;
+    margin:auto;
+    margin-bottom:300px;
+    margin-top:0px;
+    text-align: left;
+    padding:25px;
+    padding-left:50px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    text-overflow: ellipsis;
+}
+
+
+.class-photo-container{
+    width:700px;;
+    margin:auto;
+    margin-top:40px;
+}
+
+.class-photo-container img{
+    width:100%;
+   
+}
+
+@media screen and (min-width:1200px) and (max-width:3000px){
+    .class-photo-container{
+        width:70%;
+        margin:auto;
+        margin-top:40px;
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1200px){
+    .class-photo-container{
+        width:80%;
+        margin:auto;
+        margin-top:40px;
+    }
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:800px){
+    .class-photo-container{
+        width:90%;
+        margin:auto;
+        margin-top:40px;
+    }
+}
+
+
+
+@media screen and (min-width:350px) and (max-width:500px){
+    .class-photo-container{
+        width:95%;
+        margin:auto;
+        margin-top:40px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:350px){
+    .class-photo-container{
+        width:280px;
+        margin:auto;
+        margin-top:40px;
+    }
+}
