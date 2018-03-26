@@ -50,8 +50,8 @@ const SecondWeekCodesmith = () => {
                     <br/>
                     
                     Codesmith is a marathon. You have to be willing to put in the long hours
-                    necessary to fully absorb the material. It's not easy. I am impressed with my personal growth and I 
-                    can tell you now that by the end of these 12 weeks I am confident I will have leveled up as a software engineer.
+                    necessary to fully absorb the material. It's not easy. I am fairly impressed with my personal growth so far.
+                    By the end of these 12 weeks I am confident I will have leveled up as a software engineer.
                     Overall, the material itself feels very relevant and I enjoy how the weekly challenges push me to employ skills that 
                     are beyond my comfort zone.
                     
