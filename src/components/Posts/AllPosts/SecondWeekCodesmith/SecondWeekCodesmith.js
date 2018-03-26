@@ -32,7 +32,7 @@ const SecondWeekCodesmith = () => {
                     <h3>Project demos by the seniors.</h3>
                     This week we saw the senior residents, who are 6 weeks ahead of our cohort, 
                     present their final projects. Seniors have only been working on these projects
-                     for 2 weeks and already have working prototypes. They've built <a href="https://reactjs.org/docs/state-and-lifecycle.html">React lifecycle</a> 
+                     for 2 weeks and already have working prototypes. They've built <a href="https://reactjs.org/docs/state-and-lifecycle.html">React lifecycle </a> 
                      visualizer tools,<a href="https://graphql.org/"> GraphQL </a> query tools and an addon for 
                      docker containers. Still haven't a clue for a good idea for my final project... will check back soon.
 
@@ -42,12 +42,18 @@ const SecondWeekCodesmith = () => {
                     We had to absorb a lot of information this week. Everything from 
                     <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"> HTTP requests</a> to 
                     asynchronous Javascript and the event loop. Most of the great learning moments came from paired programming 
-                    and implementing these concepts into a working web page. There was a lot of material covered 
+                    and implementing concepts we learned in lectures into working web pages. There was a lot of material covered 
                     this week and because we are moving fast, it takes discipline to understand the concepts fully
-                    before we have to move on. Codesmith is a marathon and it takes long days and strong technical 
-                    communication practice to be able to fully absorb the material. The material itself feels 
-                    very relevant and I enjoy how the challenges throughout the day push my abilities to try 
-                    things beyond my comfort zone.
+                    before we have to move on. 
+                    
+                    <br/>
+                    <br/>
+                    
+                    Codesmith is a marathon. You have to be willing to put in the long hours
+                    necessary to fully absorb the material. It's not easy. I am impressed with my personal growth and I 
+                    can tell you now that by the end of these 12 weeks I am confident I will have leveled up as a software engineer.
+                    Overall, the material itself feels very relevant and I enjoy how the weekly challenges push me to employ skills that 
+                    are beyond my comfort zone.
                     
                     <br/>
                     <br/>
