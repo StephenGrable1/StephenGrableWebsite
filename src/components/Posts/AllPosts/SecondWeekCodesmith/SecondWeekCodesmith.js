@@ -19,20 +19,22 @@ const SecondWeekCodesmith = () => {
                     complex front end designs that respond to changes in data almost
                     instantly. The object oriented programing lectures from the first 
                     week really made learning React a breeze. I finally understood the syntax
-                    of creating components and the object oriented paradigms that the 
+                    of creating components and the object oriented paradigms that 
                     React developers are employing.
 
                     <div className="class-photo-container">
                         <img width="300px"  src={ClassPhoto} alt="Classroom at Codesmtih"/>
+                        <p className="class-caption">Look at all that snow on the left 👀</p>
                     </div>
+
                     <br />
                     <br />
                     <h3>Project demos by the seniors.</h3>
-                    This week we saw the senior residents, who are 6 weeks ahead of my cohort, 
+                    This week we saw the senior residents, who are 6 weeks ahead of our cohort, 
                     present their final projects. Seniors have only been working on these projects
-                     for 2 weeks and they already have working prototypes of React visualizers,
-                     <a href="https://graphql.org/"> GraphQL </a> query tool and a addon for 
-                     docker containers. Still haven't a clue for a good idea's for my final project.
+                     for 2 weeks and already have working prototypes. They've built <a href="https://reactjs.org/docs/state-and-lifecycle.html">React lifecycle</a> 
+                     visualizer tools,<a href="https://graphql.org/"> GraphQL </a> query tools and an addon for 
+                     docker containers. Still haven't a clue for a good idea for my final project... will check back soon.
 
                     <br />
                     <br />

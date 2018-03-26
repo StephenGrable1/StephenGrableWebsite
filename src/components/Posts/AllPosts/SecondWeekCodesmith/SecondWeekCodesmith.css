@@ -18,9 +18,8 @@
 
 
 .article-second-week{
-    height:1070px;
     width:85%;
-    background-color:orange;
+    background-color:white;
     margin:auto;
     margin-bottom:300px;
     margin-top:0px;
@@ -44,7 +43,17 @@
    
 }
 
+.class-caption{
+    font-size: 14px;
+    color:#5e5e5e;
+    text-align: center;
+
+}
+
 @media screen and (min-width:1200px) and (max-width:3000px){
+    .article-second-week{
+        height:1250px;
+    }
     .class-photo-container{
         width:70%;
         margin:auto;
@@ -54,6 +63,9 @@
 
 
 @media screen and (min-width:800px) and (max-width:1200px){
+    .article-second-week{
+        height:1370px;
+    }
     .class-photo-container{
         width:80%;
         margin:auto;
@@ -64,6 +76,10 @@
 
 
 @media screen and (min-width:500px) and (max-width:800px){
+    .article-second-week{
+        height:1670px;
+    }
+    
     .class-photo-container{
         width:90%;
         margin:auto;
@@ -74,6 +90,9 @@
 
 
 @media screen and (min-width:350px) and (max-width:500px){
+    .article-second-week{
+        height:2100px;
+    }
     .class-photo-container{
         width:95%;
         margin:auto;
@@ -82,6 +101,9 @@
 }
 
 @media screen and (min-width:200px) and (max-width:350px){
+    .article-second-week{
+        height:2200px;
+    }
     .class-photo-container{
         width:280px;
         margin:auto;
