@@ -79,7 +79,7 @@ const ThirdWeekCodesmith = () => {
                     This week was super busy. I had to prepare
                     <a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit#slide=id.p"> my blockchain tech talk</a>,
                     create a Chrome extension from scratch and work on multiple challenges from the units we were learning. Hectic, am I right?
-                    Through all the coding madness, we somehow managed to make room for a Nerf gun war, which my team suffered an valiant defeat.
+                    Through all the coding madness, we somehow managed to make room for a Nerf gun war, which my team suffered a valiant defeat.
                     Overall, this week was my favorite so far. The units were really enjoyable and I finally got the chance to delve into web scrapping,
                     which I had been meaning to do for a while.
 
