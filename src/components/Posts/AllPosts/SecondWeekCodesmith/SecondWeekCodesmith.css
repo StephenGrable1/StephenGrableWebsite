@@ -96,7 +96,8 @@
 @media screen and (min-width:350px) and (max-width:500px){
     .article-second-week{
         /* background-color: orange; */
-        height:2400px;
+        padding-left:30px;
+        height:2430px;
     }
     .class-photo-container{
         width:95%;
@@ -107,7 +108,9 @@
 
 @media screen and (min-width:200px) and (max-width:350px){
     .article-second-week{
-        height:2500px;
+        padding-left:30px;
+
+        height:2730px;
     }
     .class-photo-container{
         width:280px;

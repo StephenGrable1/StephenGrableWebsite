@@ -53,7 +53,7 @@
 @media screen and (min-width:1200px) and (max-width:3000px){
     .article-third-week{
         /* background-color: blue; */
-        height:1800px;
+        height:1850px;
     }
     .duck-photo-container{
         width:50%;
@@ -66,7 +66,7 @@
 @media screen and (min-width:800px) and (max-width:1200px){
     .article-third-week{
         /* background-color: green; */
-        height:2000px;
+        height:2150px;
     }
     .duck-photo-container{
         width:60%;
@@ -77,11 +77,11 @@
 
 
 
-@media screen and (min-width:500px) and (max-width:800px){
+@media screen and (min-width:650px) and (max-width:800px){
     .article-third-week{
         /* background-color: yellow; */
 
-        height:2700px;
+        height:2600px;
     }
     
     .duck-photo-container{
@@ -92,11 +92,24 @@
 }
 
 
+@media screen and (min-width:450px) and (max-width:650px){
+    .article-third-week{
+        /* background-color: red; */
+        height:3050px;
+    }
+    .duck-photo-container{
+        width:95%;
+        margin:auto;
+        margin-top:40px;
+    }
+}
 
-@media screen and (min-width:350px) and (max-width:500px){
+
+@media screen and (min-width:350px) and (max-width:450px){
     .article-third-week{
         /* background-color: orange; */
-        height:3380px;
+        padding-left:30px;
+        height:3700px;
     }
     .duck-photo-container{
         width:95%;
@@ -106,12 +119,19 @@
 }
 
 @media screen and (min-width:200px) and (max-width:350px){
+  
     .article-third-week{
-        height:3900px;
+        /* background-color: blue; */
+        padding-left:30px;
+        height:4450px;
     }
     .duck-photo-container{
         width:280px;
         margin:auto;
         margin-top:40px;
+    }
+    .third-week-text{
+        font-size:20px;
+        padding-right:10px;
     }
 }

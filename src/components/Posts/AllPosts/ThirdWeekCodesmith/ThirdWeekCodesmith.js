@@ -59,7 +59,7 @@ const ThirdWeekCodesmith = () => {
 
                     <div className="duck-photo-container">
                         <img width="300px"  src={ClassPhoto} alt="Small yellow squeaky duck trophy"/>
-                        <p className="duck-caption">Trophies 🦆 </p>
+                        <p className="duck-caption">Second place trophy 🦆... </p>
                     </div>
 
 
