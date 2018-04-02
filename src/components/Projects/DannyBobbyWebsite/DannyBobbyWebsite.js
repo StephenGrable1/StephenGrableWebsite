@@ -17,7 +17,6 @@ class DannyBobbyWebsite extends Component {
   }
   render() {
     return (
-      <Router>
         <div className="danny-bobby-outer">
           <div className="danny-bobby-inner">
             <h3 className="project-title">Danny Bobby Scheduling App</h3>
@@ -86,7 +85,6 @@ class DannyBobbyWebsite extends Component {
 
           </div>
         </div>
-      </Router>
     )
   }
 }
