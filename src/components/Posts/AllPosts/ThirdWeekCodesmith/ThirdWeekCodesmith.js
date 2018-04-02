@@ -1,26 +1,21 @@
 import React from 'react';
-import './SecondWeekCodesmith.css';
+import './ThirdWeekCodesmith.css';
 
 import ClassPhoto from './media/class.jpg';
 
 
-const SecondWeekCodesmith = () => {
+const ThirdWeekCodesmith = () => {
     return (
-        <div className="article-second-week">
-            <div className="second-week-outer">
-                <h1>Week 2. New week, new challenges.</h1>
-                <h3>Front end deep dive.</h3>
-                <div className="second-week-text">
-                    This week was a deep dive into HTML, CSS, jQuery and React. 
-                    We learned how to implement a   
-                     <a href="https://en.wikipedia.org/wiki/Linked_list"> link list </a> 
-                    to move <a href="https://en.wikipedia.org/wiki/Document_Object_Model">DOM</a> elements on a page with CSS and jQuery. We also 
-                    jumped into <a href="https://reactjs.org/tutorial/tutorial.html">React</a>, a modern Javascript framework used to create
-                    complex front end designs that respond to changes in data almost
-                    instantly. The object oriented programing lectures from the first 
-                    week really made learning React a breeze. I finally understood the syntax
-                    of creating components and the object oriented paradigms that 
-                    React developers are employing.
+        <div className="article-third-week">
+            <div className="third-week-outer">
+                <h1>Week 3. React and Redux plus Node web scrapping</h1>
+                <h3>State management, Nerf gun wars, Chrome Extensions... Oh my.</h3>
+                <div className="third-week-text">
+                   Clocked in another 60 hour week at Codesmith and built a ton of things this week. I made 
+                   a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
+                   with the help of a great Javascript library called <a href="https://cheerio.js.org/">Cheerio</a>, and 
+                   a coupon app with an image API connected to <a herf="https://pixabay.com/">PixaBay</a>. 
+
 
                     <div className="class-photo-container">
                         <img width="300px"  src={ClassPhoto} alt="Classroom at Codesmtih"/>
@@ -73,4 +68,4 @@ const SecondWeekCodesmith = () => {
 
 }
 
-export default SecondWeekCodesmith;
+export default ThirdWeekCodesmith;
