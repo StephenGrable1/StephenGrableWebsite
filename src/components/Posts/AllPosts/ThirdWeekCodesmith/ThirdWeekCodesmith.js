@@ -8,21 +8,27 @@ const ThirdWeekCodesmith = () => {
     return (
         <div className="article-third-week">
             <div className="third-week-outer">
-                <h1>Week 3. React and Redux plus Node web scrapping</h1>
+                <h1>Week 3. React and Redux plus Node web scrapping.</h1>
                 <h3>State management, Nerf gun wars, Chrome Extensions... oh my.</h3>
                 <div className="third-week-text">
                     This week I clocked in another 60+ hours at the Codesmith office in SOHO. I made a ton of fun projects like
                    a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
                     and a coupon app connected to an <a href="https://pixabay.com/">image API at PixaBay.com</a>.
                     I really enjoyed the web scrapper that my partner and I built. We used <a href="https://nodejs.org/en/about/"> Node </a>
-                    to retrieve our target sites HTML. Then we employed a great Javascript library called <a href="https://cheerio.js.org/">Cheerio</a> to parse through the HTML
-                    and scrape it for data. We made this JSON data available at custom endpoint on our server. 
-                    I would definitely like to learn more about web scrapping in the future and how to implement a rate limit feature. However, I digress.
+                    to retrieve our target sites HTML. Then we employed a Javascript library called <a href="https://cheerio.js.org/">Cheerio</a> to parse through the HTML
+                    and scrape it for data. This JSON data was then made available at a custom endpoint on our server. 
+                    
+                    <br/>
+                    <br/>
+                    
+                    We used <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises to handle asynchronous calls</a> to scrape 
+                    multiple pages from the target site at once. Really cool stuff. I would definitely like to learn more about web 
+                    scrapping in the future and how to implement a rate limit feature. However, I digress.
 
                     <br />
                     <br />
                     Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula.
-                    This part wasn't in the curriculum. My partner and I implemented this amazing library into the app we built 
+                    This part wasn't in the curriculum. My partner and I implemented this library into the app we built 
                     after we had finished all of the challenges in the React and Redux unit.
                     Dragula is a
                     <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
@@ -33,7 +39,7 @@ const ThirdWeekCodesmith = () => {
                     <br />
                     <br />
                     <h3>My first Tech Talk.</h3>
-                   Every resident in our cohort does a tech talk. You get 5 minutes to present and explain an advanced Javascript topic
+                   Every resident in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic
                         to your cohort and the senior cohort. Residents have done tech talks on
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"> operator precedence</a>,
                         <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"> hoisting in Javascript</a> and more. For my topic, I wanted to dive
@@ -44,7 +50,7 @@ const ThirdWeekCodesmith = () => {
                     <br />
                     <br />
 
-                    <h3>Hack-a-thon</h3>
+                    <h3>The Hack-a-thon.</h3>
                     The day before my tech talk, we had started a very entertaining section of the program fittingly called, the hack-a-thon.
                     We had no prior knowledge of what the challenge was before it began. They made us drumroll for the reveal and... Chrome Extensions!
                     I was excited and partially scared. My partner and I had never worked on a Chrome extension before. So, we decided to first begin at the <a href="https://developer.chrome.com/extensions/getstarted">Chrome developer get started guide</a> to get a sense of how
