@@ -1,7 +1,7 @@
 import React from 'react';
 import './ThirdWeekCodesmith.css';
 
-import ClassPhoto from './media/class.jpg';
+import ClassPhoto from './media/duck-compressor.jpg';
 
 
 const ThirdWeekCodesmith = () => {
@@ -11,57 +11,69 @@ const ThirdWeekCodesmith = () => {
                 <h1>Week 3. React and Redux plus Node web scrapping</h1>
                 <h3>State management, Nerf gun wars, Chrome Extensions... Oh my.</h3>
                 <div className="third-week-text">
-                   Clocked in another 60 hour week at Codesmith and built a ton of things this week. I made 
+                    This week I clocked in another 60+ hours at the Codesmith office in SOHO. I made a ton of fun projects like
                    a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
-                   with the help of a great Javascript library called <a href="https://cheerio.js.org/">Cheerio</a>, and 
-                   a coupon app with an image API connected to <a herf="https://pixabay.com/">PixaBay</a>. 
+                    and a coupon app connected to an <a href="https://pixabay.com/">image API called PixaBay.com</a>.
+                    I really enjoyed the web scrapper that my partner and I built. We used <a href="https://nodejs.org/en/about/">Node</a>
+                    and a great Javascript library called <a href="https://cheerio.js.org/">Cheerio</a> to collect HTML from a website
+                    and scrape it for data. When we got the data we wanted we then made it available at custom endpoint on our server.
+                    I would like to look into web scrapping more in the future. For now, we will continue with the week review.
+
+                    <br />
+                    <br />
+                    Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula. Dragula is a
+                    <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
+                    implement a drag and drop feature</a> into your React components. I think it is well worth checking
+                    out if you are searching for a easy to use drag and drop library with an elegant user interface.
 
 
-                    <div className="class-photo-container">
-                        <img width="300px"  src={ClassPhoto} alt="Classroom at Codesmtih"/>
-                        <p className="class-caption">Look at all that snow on the left 👀</p>
+                    <br />
+                    <br />
+                    <h3>My first Tech Talk.</h3>
+                    Residents during the first 6 weeks do tech talks. You get 5 minutes to present and explain an advanced Javascript topic
+                        to your cohort and the senior cohort. Residents have done tech talks on
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">operator precedence</a>,
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting">hoisting in Javascript</a> and more. For my topic, I wanted to dive
+                        into a subject that I've been very interested in recently. I chose the blockchain. While preparing for my presentation I came
+                        across an <a href="https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/">insightful tutorial on creating a simple blockchain
+                        in Javascript.</a> I decided to walk through this example in my tech talk and <a href="https://github.com/StephenGrable1/Blockchain-JS">create my own repository to display how a simple blockchain works with encryption.</a>
+
+                    <br />
+                    <br />
+
+                    <h3>Hack-a-thon</h3>
+                    The day before my tech talk, we had started a very entertaining section of the residency called the hack-a-thon.
+                    We had no prior knowledge of what the topic was for our hack-a-thon but when it came time,
+                    we learned it was going to be a Chrome extension. I had never worked with Chrome extensions and I was excited to give it a try.
+                    We first began at the <a href="https://developer.chrome.com/extensions/getstarted">Chrome developer docs</a> and got a sense of how
+                    to test and develope our extension. Our Chrome extension ended up winning my and my partner second place in the hack-a-thon. For runner-up,
+                    we received this incredible trophy.
+
+                    <div className="duck-photo-container">
+                        <img width="300px"  src={ClassPhoto} alt="Small yellow squeaky duck trophy"/>
+                        <p className="duck-caption">Trophies 🦆 </p>
                     </div>
 
-                    <br />
-                    <br />
-                    <h3>Senior Project Demos.</h3>
-                    This week we saw the senior residents, who are 6 weeks ahead of our cohort, 
-                    present the first prototype of their final projects. Seniors have only been working on these projects
-                     for 2 weeks and already have working prototypes. They've built <a href="https://reactjs.org/docs/state-and-lifecycle.html">React lifecycle </a> 
-                     visualizer tools,<a href="https://graphql.org/"> GraphQL </a> query tools and an addon for 
-                     docker containers. Still haven't a clue for a good idea for my final project... hopefully some divine inspiration will hit me soon.
 
-                    <br />
-                    <br />
-                    <h3>2nd Week Overview.</h3>
-                    This week we covered everything from <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"> HTTP requests</a> to 
-                    asynchronous Javascript and the event loop. Most of the great learning moments came from paired programming 
-                    and implementing concepts we learned in lectures into working web pages. There was a ton of material covered 
-                    this week. 
+
+                    <h3>3nd Week Overview.</h3>
+                    This week was super busy. I had to prepare 
+                    <a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit#slide=id.p">my blockchain tech talk</a>, 
+                    create a Chrome extension from scratch and work on multiple challenges from the units we were learning. Hectic, am I right? 
+                    Through all the coding madness, we somehow managed to make room for a Nerf gun war, which my team suffered an valiant defeat. 
+                    Overall, this week was my favorite so far. The units were really enjoyable and I finally got the chance to delve into web scrapping, 
+                    which I had been meaning to do for a while.
+
                     <br/>
                     <br/>
-                    
-                    Since we are moving so quickly through material, I've found it imperative to understand the current 
-                    topics before moving on. This might mean staying late and putting in extra time to fully grasp concepts. 
-                    My cohort usually doesn't leave the Codesmith office until after 9:30pm. Putting in significant time 
-                    is necessary to succeed in this endeavour. If you do decide to attend Codesmith, you should be prepared, and excited, for these long days.
-                     
-                    
-                    <br/>
-                    <br/>
-                    
-                    I am fairly impressed with my personal growth so far.
-                    By the end of these 12 weeks I am confident I will have leveled up as a software engineer.
-                    Overall, the material itself feels very relevant and I enjoy how the weekly challenges push me to employ skills that 
-                    are beyond my comfort zone.
-                    
-                    <br/>
-                    <br/>
-                    I'm excited for the upcoming week because we have <a href="https://redux.js.org/introduction">Redux </a> 
-                    and <a href="https://nodejs.org/en/about/">Node</a> on the calendar. Node has always been something I 
-                    wanted to explore further and this week will be a great opportunity to dive deeper into back end 
-                    Javascript. 
-                        </div>
+
+                    I am officially a quarter of the way through the program and I feel excited. I've found that the structure of the program is a great fit for me. 
+                    I enjoy working on 2 day units that push you to understand through doing and teaching. I particularly enjoy when I get the opportunity 
+                    to help my pair programming partner better understand a topic. As an added bonus, explaining these advanced topics helps me understand them 
+                    at a deeper level as well. 
+
+
+                </div>
             </div>
         </div>
     )
