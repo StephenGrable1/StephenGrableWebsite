@@ -11,28 +11,25 @@ const ThirdWeekCodesmith = () => {
                 <h1>Week 3. React and Redux plus Node web scrapping.</h1>
                 <h3>State management, Nerf gun wars, Chrome Extensions... oh my.</h3>
                 <div className="third-week-text">
-                    This week I clocked in another 60+ hours at the Codesmith office in SOHO. I made a ton of fun projects like
+                    This week I clocked in another 60+ hours at the Codesmith office in SOHO. 
+                    I built a ton of cool projects including
                    a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
                     and a coupon app connected to an <a href="https://pixabay.com/">image API at PixaBay.com</a>.
-                    I really enjoyed the web scrapper that my partner and I built. We used <a href="https://nodejs.org/en/about/"> Node </a>
-                    to retrieve our target sites HTML. Then we employed a Javascript library called <a href="https://cheerio.js.org/">Cheerio</a> to parse through the HTML
-                    and scrape it for data. This JSON data was then made available at a custom endpoint on our server.
+                    I particularly enjoyed the web scrapper my partner and I built. We employed some advanced technologies including 
+                    <a href="https://nodejs.org/en/about/"> Node </a> and <a href="https://cheerio.js.org/">Cheerio</a> to parse through our target site's HTML
+                    and scrape it for data. 
 
                     <br />
                     <br />
 
-                    We used <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises to handle asynchronous calls</a> to scrape
-                    multiple pages from the target site at once. Really cool stuff. I would definitely like to learn more about web
-                    scrapping in the future and how to implement a rate limit feature. However, I digress.
+                    One of the highlights from this project was learning how to use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises to handle asynchronous calls</a> to scrape
+                    multiple pages from a website site at once. Really cool stuff. I would definitely like to learn more about web
+                    scrapping in the future and how to implement a rate limit feature for a <a href="https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82">public facing API</a>. 
+                    However, I digress.
 
                     <br />
                     <br />
                     Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula.
-                    This part wasn't in the curriculum. My partner and I implemented this library into our app after we had
-                    finished all of the challenges in the React and Redux unit.
-
-                    <br />
-                    <br />
                     Dragula is an awesome
                     <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
                     implement a drag and drop feature</a> into your React components. I think it is well worth checking
