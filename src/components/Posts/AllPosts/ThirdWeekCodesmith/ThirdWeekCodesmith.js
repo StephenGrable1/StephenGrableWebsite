@@ -14,7 +14,7 @@ const ThirdWeekCodesmith = () => {
                     This week I clocked in another 60+ hours at the Codesmith office in SOHO. 
                     I built a ton of cool projects including
                    a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
-                    and a coupon app connected to an <a href="https://pixabay.com/">image API at PixaBay.com</a>.
+                    and a coupon app built on React and <a href="https://redux.js.org/">Redux</a> that we connected to an <a href="https://pixabay.com/">image API at PixaBay.com</a>.
                     I particularly enjoyed the web scrapper my partner and I built. We employed some advanced technologies including 
                     <a href="https://nodejs.org/en/about/"> Node </a> and <a href="https://cheerio.js.org/">Cheerio</a> to parse through our target site's HTML
                     and scrape it for data. 
@@ -23,32 +23,33 @@ const ThirdWeekCodesmith = () => {
                     <br />
 
                     One of the highlights from this project was learning how to use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises to handle asynchronous calls</a> to scrape
-                    multiple pages from a website site at once. Really cool stuff. I would definitely like to learn more about web
-                    scrapping in the future and how to implement a rate limit feature for a <a href="https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82">public facing API</a>. 
-                    However, I digress.
+                    multiple pages from a website site at once. Really cool stuff. I would definitely like to work more with web
+                    scrapping in the future.
 
                     <br />
                     <br />
                     Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula.
                     Dragula is an awesome
                     <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
-                    implement a drag and drop feature</a> into your React components. I think it is well worth checking
-                    out if you are searching for a easy to use library with an elegant user interface.
+                    implement a drag and drop feature</a> into your React components. It's simple to setup and just works. 
+                    I would recommend checking it out if you want to implement drag and drop functionality into your React web application.
+                      
 
 
                     <br />
                     <br />
                     <h3>My first Tech Talk.</h3>
-                    Every resident in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic
-                    to your cohort and the senior cohort. Residents have done tech talks on
+                    Every person in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic to all 
+                    of the current residents in the program. 
+                    There have been tech talks on
                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"> operator precedence</a>,
                     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"> hoisting in Javascript</a> and more.
 
                     <br/>
                     <br/>
 
-                    For my topic, I wanted to dive
-                    into a subject that I've been very interested in recently. I chose the blockchain. While preparing for my presentation I came
+                    For my topic, I wanted to explore
+                    a subject that I've been very interested in recently, the blockchain. While preparing for my presentation I came
                     across an <a href="https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/">insightful tutorial on creating a simple blockchain
                     in Javascript.</a> I decided to walk through this example in my tech talk and <a href="https://github.com/StephenGrable1/Blockchain-JS">create my own repository to display how a simple blockchain works with encryption.</a>
 
@@ -56,7 +57,7 @@ const ThirdWeekCodesmith = () => {
                     <br />
 
                     <h3>The Hack-a-thon.</h3>
-                    The day before my tech talk, we had started a very entertaining section of the program fittingly called, the hack-a-thon.
+                    The day before my tech talk, we had started a very entertaining section of the program, the hack-a-thon.
                     We had no prior knowledge of what the challenge was before it began. They made us drumroll for the reveal and... Chrome Extensions!
 
                     <br/>
@@ -73,7 +74,7 @@ const ThirdWeekCodesmith = () => {
 
 
                     <h3>3rd Week Overview.</h3>
-                    This week was super busy. I had to prepare
+                    This week was busy. I had to prepare
                     <a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit#slide=id.p"> my blockchain tech talk</a>,
                     create a Chrome extension from scratch and work on multiple challenges from the units we were learning. Hectic, am I right?
                     Through all the coding madness, we somehow managed to make room for a Nerf gun war, which my team suffered a valiant defeat.
@@ -85,7 +86,7 @@ const ThirdWeekCodesmith = () => {
 
                     I am officially a quarter of the way through the program and I feel excited. I've found that the structure of the program is a great fit for me.
                     I enjoy working on 2 day units that push you to understand through doing and teaching. I particularly enjoy when I get the opportunity
-                    to help my pair programming partner better understand a topic. As an added bonus, explaining these topics helps me understand them
+                    to help my pair programming partner better understand a topic. In addition to helping my partner, explaining these topics also helps me understand them
                     at a deeper level as well.
 
 

@@ -20,7 +20,7 @@ const SecondWeekCodesmith = () => {
                     instantly. The object oriented programing lectures from the first 
                     week really made learning React a breeze. I finally understood the syntax
                     of creating components and the object oriented paradigms that 
-                    React developers are employing.
+                    React developers use.
 
                     <div className="class-photo-container">
                         <img width="300px"  src={ClassPhoto} alt="Classroom at Codesmtih"/>
@@ -31,10 +31,11 @@ const SecondWeekCodesmith = () => {
                     <br />
                     <h3>Senior Project Demos.</h3>
                     This week we saw the senior residents, who are 6 weeks ahead of our cohort, 
-                    present the first prototype of their final projects. Seniors have only been working on these projects
+                    present the first iteration of their final projects. Seniors have only been working on these projects
                      for 2 weeks and already have working prototypes. They've built <a href="https://reactjs.org/docs/state-and-lifecycle.html">React lifecycle </a> 
-                     visualizer tools,<a href="https://graphql.org/"> GraphQL </a> query tools and an addon for 
-                     docker containers. Still haven't a clue for a good idea for my final project... hopefully some divine inspiration will hit me soon.
+                     visualizers,<a href="https://graphql.org/"> GraphQL </a> query tools and addons for 
+                     docker containers. Their prototypes were all quite impressive. It really demonstrated their grasp on the current technology landscape 
+                     and their skillful approach to solving tough, highly technological problems.
 
                     <br />
                     <br />
@@ -46,9 +47,9 @@ const SecondWeekCodesmith = () => {
                     <br/>
                     <br/>
                     
-                    Since we are moving so quickly through material, I've found it imperative to understand the current 
+                    Since we are moving so quickly through material, I've found it helpful to understand the current 
                     topics before moving on. This might mean staying late and putting in extra time to fully grasp concepts. 
-                    My cohort usually doesn't leave the Codesmith office until after 9:30pm. Putting in significant time 
+                    My cohort usually doesn't leave the Codesmith office until after 9:30pm. Putting that extra time 
                     is necessary to succeed in this endeavour. If you do decide to attend Codesmith, you should be prepared, and excited, for these long days.
                      
                     
