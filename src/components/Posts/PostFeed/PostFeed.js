@@ -6,6 +6,7 @@ import "./PostFeed.css"
 import FirstWeekCodesmith from "../AllPosts/FirstWeekCodesmith/FirstWeekCodesmith"
 import SecondWeekCodesmith from "../AllPosts/SecondWeekCodesmith/SecondWeekCodesmith"
 import ThirdWeekCodesmith from "../AllPosts/ThirdWeekCodesmith/ThirdWeekCodesmith"
+import FourthWeekCodesmith from "../AllPosts/FourthWeekCodesmith/FourthWeekCodesmith"
 
 
 class PostFeed extends Component {
@@ -15,6 +16,7 @@ class PostFeed extends Component {
             <FirstWeekCodesmith/>
             <SecondWeekCodesmith/>
             <ThirdWeekCodesmith/>
+            <FourthWeekCodesmith/>
           </div>
       );
     }

@@ -1,0 +1,75 @@
+.fourth-week-outer {
+    clear: both;
+}
+
+.fourth-week-text{
+    font-size:20px;
+}
+
+
+.fourth-week-outer h1{
+    margin-bottom:50px;
+}
+
+.fourth-week-outer h3{
+    font-size:24px;
+}
+
+
+
+.article-fourth-week{
+    width:85%;
+    background-color:white;
+    margin:auto;
+    margin-bottom:100px;
+    margin-top:0px;
+    text-align: left;
+    padding:25px;
+    padding-left:50px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    text-overflow: ellipsis;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:3000px){
+    .article-fourth-week{
+        /* background-color: blue; */
+        height:2000px;
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1200px){
+    .article-fourth-week{
+        /* background-color: green; */
+        height:1900px;
+    }
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:800px){
+    .article-fourth-week{
+        /* background-color: yellow; */
+        height:1900px;
+    }
+}
+
+
+
+@media screen and (min-width:350px) and (max-width:500px){
+    .article-fourth-week{
+        /* background-color: orange; */
+        padding-left:30px;
+        height:2430px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:350px){
+    .article-fourth-week{
+        padding-left:30px;
+
+        height:2730px;
+    }
+}

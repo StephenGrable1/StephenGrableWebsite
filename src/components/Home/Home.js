@@ -39,7 +39,7 @@ class Home extends Component {
                 <p className="intro-text">
                   My name is Stephen and welcome to my website.
                 <br />
-                  I'm a web developer who believes in
+                  I'm a software engineer who believes in
                 elegant design and exceptional user experiences.
               </p>
               </div>

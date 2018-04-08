@@ -15,9 +15,14 @@ class FirstWeekCodesmith extends Component {
                             their offices in SOHO, Manhattan. Most of the time I was either learning, teaching
                             or struggling to learn or teach. We had lectures, paired programming sessions, ping
                             pong tournaments, and very challenging problems to solve. It was a demanding week but 
-                            the Codesmith staff makes an asserted effort to keep things fun and social. They give you 2 hour 
-                            lunches every Tuesday and Thursday and the social events on Thursday nights give you a 
-                            chance to connect with the other residents in the program. Everyone at Codesmith is incredibly smart. 
+                            the Codesmith staff makes an asserted effort to keep things fun and social. 
+                            
+                            <br />
+                            <br />
+                            They give you 2 hour 
+                            lunches every Tuesday and Thursday. Which is great because it allows you time to relax, grab a nice dinner, or master your ping-pong serve.
+                            Social events are held every Thursday night. It's a great time to connect with the other residents from the program on a non-technical level.
+                            I would definitely recommend participating in the festivities. I've come to notice over the last week that everyone at Codesmith is incredibly smart. 
                             I feel lucky to be able to spend the next 12 weeks learning and growing with such an exceptional group 
                             of software engineers.  
 
