@@ -5,7 +5,7 @@ const FourthWeekCodesmith = () => {
     return (
         <div className="article-fourth-week">
             <div className="fourth-week-outer">
-                <h1>Week 4. Level up from Front End Developer to Full Stack Engineer</h1>
+                <h1>Week 4. Leveling up to Full Stack Engineer</h1>
                 <h3>Databases 4 Us.</h3>
                 <div className="fourth-week-text">
                     We started this week learning the basics of both SQL and NoSQL databases. After a short introduction, we moved on to topics like authentication,
@@ -14,44 +14,46 @@ const FourthWeekCodesmith = () => {
                     
                     <br />
                     <br />
-                    Along the way, we built a few <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD applications</a> as well as a complete testing suite for a React tic-tac-toe game.
+                    Along the way, we built a few <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD applications</a> as well as a complete testing suite for a full stack React application.
                     In our test suite, we used a host of different libraries including, <a href="https://mochajs.org/">Mocha</a>, <a href="http://airbnb.io/enzyme/">Enzyme</a>, <a href="https://github.com/mjackson/expect">Expect</a>, 
-                    and <a href="http://zombie.js.org/">Zombie</a> to test every feature of our game from the server side logic to the individual functions. 
+                    and <a href="http://zombie.js.org/">Zombie</a> to test every feature of our app from the server side logic to the individual functions. 
 
                     <br />
                     <br />
-                    My favorite section this week had to be authentication. We learned how to store data in PostgreSQL and MongoDB
-                    databases to then verify users credentials whenever they login to our interface. After that, we <a href="https://www.npmjs.com/package/bcrypt">secured our custom login with bcrypt</a> to ensure 
+                    My favorite section this week had to be authentication. We learned how to store data in <a href="https://www.postgresql.org/about/">PostgreSQL</a> and <a href="https://www.mongodb.com/company">MongoDB </a>
+                    and then verified users credentials whenever they logged in to our interface. After that, we <a href="https://www.npmjs.com/package/bcrypt">secured our custom login with bcrypt</a> to ensure 
                     our application was protected against database attacks. 
-                    
                     
                     <br />
                     <br />
 
                     I was really impressed with 
                     this week's lessons on Express middleware. Using Express middleware is a great way to ensure you are creating modular
-                    and extendable server side code. It also future-proofs your codebase since it's easier for you, or other developers, to 
-                    create additional middleware on top of the existing infrastructure. 
+                    and extendable server side code. It also future-proofs your codebase since it's easier for you, and other developers, to 
+                    create additional middleware on top of existing infrastructure. 
 
                     <h3>Build for the future. Test-driven development.</h3>
                     One of the major takeaways from this week came during the later half of our course material when we explored testing for the first time.
-                    A few weeks ago, I would have thought that building a bug free web application that works as designed was enough. However, I've realized how important testing is to maintaining 
+                    A few weeks ago, I would have thought that building a bug free web application that works as designed was enough. I've realized now how important testing is to maintaining 
                     software as it grow and evolves. 
 
                     <br />
                     <br />
                     To many developers, testing can come as an afterthought. I know I used to be that way. However, if your goal is to 
                     engineer reliable and scalable web applications, you should always keep testing in the forefront of your mind while developing software.
-                    To enforce this type mind-set, my partner and I practiced a development methodology called test-driven development. Test-driven development is simply a way of developing software that 
+                    
+                    <br />
+                    <br />
+                    To enforce this type of mind-set, my partner and I created a React application using a development methodology called test-driven development. Test-driven development is simply a way of developing software that 
                     encourages you to engineer reliable and predictable functionality into your application. It's best to "trust the process" when it comes to 
                     using this technique. 
                     
                     <br />
                     <br />
-                    This is, yet again, another moment when I have realized how impressive this program really is. In a secluded environment, 
+                    This is, yet again, another moment I've realized how impressive this program really is. In a secluded environment, 
                     like the one I was in before Codesmith, I would have been reluctant to use test-driven development. Not because I didn't recognize 
-                    the importance of it, but because I wasn't in an environment that encouraged best practices in my engineering pursuits. Codesmith provides this 
-                    environment and I've been blown away by the success it has had on my own development.
+                    the importance of it, but because I didn't have the expert guidance to encourage best practices in my engineering pursuits. Codesmith provides this 
+                    guidance and I've been blown away by the success it has had on my own development.
                     
                     <h3>4th Week Overview.</h3>
                     Every week, more and more, I have come to realize the powerful effects of participating in a program like Codesmith. I used to believe 
@@ -67,8 +69,8 @@ const FourthWeekCodesmith = () => {
                     <br />
                     Paired programming is the cornerstone of the Codesmith program. It's your duty as a pair-programing partner to make sure that both you and your 
                     partner understand why and how your code is working. It is ill-advised to move on to another challenge if your partner doesn't fully 
-                    understand what is going on in the code. This encourages you to understand and explain topics before moving on. Which is a very powerful way 
-                    to learn new topics.
+                    understand what is going on in the code. This encourages you to understand and explain topics before moving on, which is a very powerful way 
+                    to fully absorb new topics.
                     <br />
                     <br />
                     <strong> #2. The community</strong> 
@@ -76,7 +78,7 @@ const FourthWeekCodesmith = () => {
                     <br />
                     At Codesmith, the community is everything. Everyone at Codesmith is hand selected. This is important. There are no stragglers. 
                     There are no residents who don't know what they are doing. This breeds an environment that promotes high quality learning. 
-                    Over the last 4 weeks, I now realize just how important Codesmith's selection process is to the quality of learning you receive.
+                    Over the last 4 weeks, I now realize just important Codesmith's selection process is to the quality of learning you receive.
                     <br />
                     <br />
                     <strong> #3. Expert guidance and mentoring.</strong> 
@@ -86,11 +88,11 @@ const FourthWeekCodesmith = () => {
                     When you have been stuck on a problem for a significant amount of time, you do have the option to ask a Codesmith fellow
                     for guidance. The fellows have all been through the program and understand the common problems you will encounter in the course.
                     However, when you ask for help, they never tell you how to fix the problem directly. This is by design. It is a much better learning 
-                    experience to figure out the problem with a bit of guidance than it is to solve the problem by directly receiving the solution. 
+                    experience to figure out the problem with a bit of guidance than it is to solve the problem directly by receiving the solution. 
                     <br />
                     <br />
                     These three characteristics are the pillars of the Codesmith program. I can now say, without a shadow of a doubt, that learning in this 
-                    type of environment is one of the most effective ways to accelerate learning and expand your knowledge in software engineering.
+                    type of environment is one of the most effective ways to accelerate learning and expand your knowledge as a software engineer.
 
 
                 </div>
