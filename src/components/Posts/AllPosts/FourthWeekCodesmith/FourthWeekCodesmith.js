@@ -5,35 +5,44 @@ const FourthWeekCodesmith = () => {
     return (
         <div className="article-fourth-week">
             <div className="fourth-week-outer">
-                <h1>Week 4. Transition from front end developer to full stack engineer</h1>
-                <h3>We love databases.</h3>
+                <h1>Week 4. Level up from Front End Developer to Full Stack Engineer</h1>
+                <h3>Databases 4 Us.</h3>
                 <div className="fourth-week-text">
-                    Everyone in my cohort particularly enjoyed the course material for this week. 
-                    We began the week with databases and worked our way through topics like authentication,
-                    bcypt password encryption, cookie storage, OAuth, unit/integration testing and more. 
-                    Along the way, we built a complete testing suite for a React tic-tac-toe game following test-driven development methodologies.
-                    We tested our game with a host of libraries including, Mocha, Enzyme, Expect, and Zombie. 
+                    We started this week learning the basics of both SQL and NoSQL databases. After a short introduction, we moved on to topics like authentication,
+                     bcypt password encryption, cookie storage, <a href="https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth">OAuth</a>, 
+                    unit/integration testing and more. 
+                    
+                    <br />
+                    <br />
+                    Along the way, we built a few <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD applications</a> as well as a complete testing suite for a React tic-tac-toe game.
+                    In our test suite, we used a host of different libraries including, <a href="https://mochajs.org/">Mocha</a>, <a href="http://airbnb.io/enzyme/">Enzyme</a>, <a href="https://github.com/mjackson/expect">Expect</a>, 
+                    and <a href="http://zombie.js.org/">Zombie</a> to test every feature of our game from the server side logic to the individual functions. 
 
                     <br />
                     <br />
-                    My favorite section this week had to be authentication. We used both PostgreSQL and MongoDB
-                    to save our users data for future use and we secured our custom login with bcrypt to ensure 
-                    our application was protected against database attacks. I was also really impressed with 
-                    the lessons on Express and middleware. Using middleware makes your server logic modular
-                    and easily extendable. Codesmith emphasizes the use of middleware for this reason and I now understand 
-                    why it can be such a powerful technique to employ on your backend server.
+                    My favorite section this week had to be authentication. We learned how to store data in PostgreSQL and MongoDB
+                    databases to then verify users credentials whenever they login to our interface. After that, we <a href="https://www.npmjs.com/package/bcrypt">secured our custom login with bcrypt</a> to ensure 
+                    our application was protected against database attacks. 
+                    
+                    
+                    <br />
+                    <br />
+
+                    I was really impressed with 
+                    this week's lessons on Express middleware. Using Express middleware is a great way to ensure you are creating modular
+                    and extendable server side code. It also future-proofs your codebase since it's easier for you, or other developers, to 
+                    create additional middleware on top of the existing infrastructure. 
 
                     <h3>Build for the future. Test-driven development.</h3>
                     One of the major takeaways from this week came during the later half of our course material when we explored testing for the first time.
-                    Sure, you can build a full stack web application that works as designed and has no known bugs. A few weeks ago, 
-                    I would have thought that that was enough. This week I learned just how important testing was to maintaining 
-                    software as it evolves and improves. 
+                    A few weeks ago, I would have thought that building a bug free web application that works as designed was enough. However, I've realized how important testing is to maintaining 
+                    software as it grow and evolves. 
 
                     <br />
                     <br />
                     To some developers, testing came come as an afterthought. I know I used to be that way. However, if your goal is to 
                     engineer reliable and scalable web applications, you should always keep testing in the forefront of your mind while developing software.
-                    This week, my partner and I practiced test-driven development. Test-driven development is simply a way of developing software that 
+                    To enforce this type mind-set, my partner and I practiced a development methodology called test-driven development. Test-driven development is simply a way of developing software that 
                     encourages you to engineer reliable and predictable functionality into your application. It's best to "trust the process" when it comes to 
                     using this technique. 
                     
