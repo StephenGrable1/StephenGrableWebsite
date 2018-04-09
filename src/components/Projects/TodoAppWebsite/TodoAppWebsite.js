@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-
-import {
-  BrowserRouter as Router,
-  Link
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import todoAppWebsite from './media/todo_website_display.png'
 import todoAppGif from './media/todo-website-gif.gif'

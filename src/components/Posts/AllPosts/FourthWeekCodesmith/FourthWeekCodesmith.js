@@ -40,7 +40,7 @@ const FourthWeekCodesmith = () => {
 
                     <br />
                     <br />
-                    To some developers, testing came come as an afterthought. I know I used to be that way. However, if your goal is to 
+                    To many developers, testing can come as an afterthought. I know I used to be that way. However, if your goal is to 
                     engineer reliable and scalable web applications, you should always keep testing in the forefront of your mind while developing software.
                     To enforce this type mind-set, my partner and I practiced a development methodology called test-driven development. Test-driven development is simply a way of developing software that 
                     encourages you to engineer reliable and predictable functionality into your application. It's best to "trust the process" when it comes to 
@@ -48,10 +48,10 @@ const FourthWeekCodesmith = () => {
                     
                     <br />
                     <br />
-                    This is, yet again, another moment when I have realized just how impressive this program really is. In a secluded environment, 
+                    This is, yet again, another moment when I have realized how impressive this program really is. In a secluded environment, 
                     like the one I was in before Codesmith, I would have been reluctant to use test-driven development. Not because I didn't recognize 
-                    the importance of it, but because I had no reinforcement to encourage best practices in my engineering pursuits. These are the sort of
-                    lessons that are invaluable and cannot be replicated in a secluded learning environment.  
+                    the importance of it, but because I wasn't in an environment that encouraged best practices in my engineering pursuits. Codesmith provides this 
+                    environment and I've been blown away by the success it has had on my own development.
                     
                     <h3>4th Week Overview.</h3>
                     Every week, more and more, I have come to realize the powerful effects of participating in a program like Codesmith. I used to believe 
@@ -65,10 +65,10 @@ const FourthWeekCodesmith = () => {
                     <strong> #1. You don't just learn, you also teach.</strong> 
                     <br />
                     <br />
-                    Paired programming is the corner-stone to the Codesmith program. It's your duty as a pair-programing partner to make sure that you AND your 
-                    partner understand why and how the problem at hand is solved. It is ill-advised to move on to another challenge if your partner doesn't fully 
-                    understand why or how the code is working. This forces you to explain topics and techniques in a way that is informative and in turn deepens 
-                    your own understanding of those topics. 
+                    Paired programming is the cornerstone of the Codesmith program. It's your duty as a pair-programing partner to make sure that both you and your 
+                    partner understand why and how your code is working. It is ill-advised to move on to another challenge if your partner doesn't fully 
+                    understand what is going on in the code. This encourages you to understand and explain topics before moving on. Which is a very powerful way 
+                    to learn new topics.
                     <br />
                     <br />
                     <strong> #2. The community</strong> 
@@ -86,11 +86,11 @@ const FourthWeekCodesmith = () => {
                     When you have been stuck on a problem for a significant amount of time, you do have the option to ask a Codesmith fellow
                     for guidance. The fellows have all been through the program and understand the common problems you will encounter in the course.
                     However, when you ask for help, they never tell you how to fix the problem directly. This is by design. It is a much better learning 
-                    experience to figure out the problem with a bit of guidance than it is to solve a problem by directly receiving the solution. 
+                    experience to figure out the problem with a bit of guidance than it is to solve the problem by directly receiving the solution. 
                     <br />
                     <br />
                     These three characteristics are the pillars of the Codesmith program. I can now say, without a shadow of a doubt, that learning in this 
-                    type of environment is one of the most effective ways to accelerate learning and deepen your understanding in software engineering.
+                    type of environment is one of the most effective ways to accelerate learning and expand your knowledge in software engineering.
 
 
                 </div>

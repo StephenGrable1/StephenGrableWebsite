@@ -6,11 +6,7 @@ import deafBoyPreview from './media/deafboy_website_display.png'
 import todoPreview from './media/todo_website_display.png'
 import timerPreview from './media/timer_website_display.png'
 
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-} from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 
 
 import DannyBobbyWebsite from '../DannyBobbyWebsite/DannyBobbyWebsite.js'

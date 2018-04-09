@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-import {
-  BrowserRouter as Router,
-  Link
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import timerAppWebsite from './media/timer_website_display.png'
 import timerGif from "./media/timer-gif.gif"
