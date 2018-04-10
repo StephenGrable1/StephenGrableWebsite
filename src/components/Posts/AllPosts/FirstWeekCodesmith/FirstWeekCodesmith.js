@@ -8,7 +8,7 @@ class FirstWeekCodesmith extends Component {
         return (
             <div className="article-first-week">
                 <div className="first-week-outer">
-                    <h1>My experience at Codesmith. Initial thoughts and experience one week in.</h1>
+                    <h1>My first week at Codesmith. Initial thoughts and experience.</h1>
                     <h3>Work hard, play hard.</h3>
                         <div className="first-week-text">
                             My first week at <a href="https://www.codesmith.io/">Codesmith</a> was a long one. I spent approximately 70 hours at

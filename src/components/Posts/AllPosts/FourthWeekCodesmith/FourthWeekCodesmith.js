@@ -8,7 +8,7 @@ const FourthWeekCodesmith = () => {
                 <h1>Week 4. Leveling up to Full Stack Engineer</h1>
                 <h3>Databases 4 Us.</h3>
                 <div className="fourth-week-text">
-                    We started this week learning the basics of both SQL and NoSQL databases. After a short introduction, we moved on to topics like authentication,
+                    We started this week learning the basics of SQL and NoSQL databases. After a short introduction, we moved on to topics like authentication,
                      bcypt password encryption, cookie storage, <a href="https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth">OAuth</a>, 
                     unit/integration testing and more. 
                     
@@ -21,7 +21,7 @@ const FourthWeekCodesmith = () => {
                     <br />
                     <br />
                     My favorite section this week had to be authentication. We learned how to store data in <a href="https://www.postgresql.org/about/">PostgreSQL</a> and <a href="https://www.mongodb.com/company">MongoDB </a>
-                    and then verified users credentials whenever they logged in to our interface. After that, we <a href="https://www.npmjs.com/package/bcrypt">secured our custom login with bcrypt</a> to ensure 
+                    and then verify users credentials whenever they login to our app. After that, we <a href="https://www.npmjs.com/package/bcrypt">secured our custom login with bcrypt</a> to ensure 
                     our application was protected against database attacks. 
                     
                     <br />
@@ -33,9 +33,9 @@ const FourthWeekCodesmith = () => {
                     create additional middleware on top of existing infrastructure. 
 
                     <h3>Build for the future. Test-driven development.</h3>
-                    One of the major takeaways from this week came during the later half of our course material when we explored testing for the first time.
-                    A few weeks ago, I would have thought that building a bug free web application that works as designed was enough. I've realized now how important testing is to maintaining 
-                    software as it grow and evolves. 
+                    One of the major 'aha' moments from this week came to me as when we explored testing for the first time.
+                    Before Codesmith, I would have thought that building a bug-free web application that operates as designed was good enough. Now I've realized how crucial testing is to building and maintaining 
+                    high quality software through all stages of development. 
 
                     <br />
                     <br />
@@ -50,14 +50,14 @@ const FourthWeekCodesmith = () => {
                     
                     <br />
                     <br />
-                    This is, yet again, another moment I've realized how impressive this program really is. In a secluded environment, 
+                    This was, yet again, another moment I realized how impressive this program really is. In a secluded environment, 
                     like the one I was in before Codesmith, I would have been reluctant to use test-driven development. Not because I didn't recognize 
-                    the importance of it, but because I didn't have the expert guidance to encourage best practices in my engineering pursuits. Codesmith provides this 
+                    the importance of it, but because I didn't have the expert guidance needed to encourage me to use best practices in my engineering pursuits. Codesmith provides this 
                     guidance and I've been blown away by the success it has had on my own development.
                     
                     <h3>4th Week Overview.</h3>
                     Every week, more and more, I have come to realize the powerful effects of participating in a program like Codesmith. I used to believe 
-                    that learning software development was best as a solo pursuit. 4 weeks into Codesmith and I am convinced that the formula Codesmith has 
+                    that learning software development was more effective as a solo pursuit. 4 weeks into Codesmith and I'm convinced that the formula Codesmith has 
                     created is by far the best way to accelerate learning in software engineering.
                     <br />
                     <br />
