@@ -30,10 +30,65 @@
     overflow: none;
 }
 
+.audio-auction-outer{
+    width:90%;
+    margin:auto;
+    padding:3px;
+    padding-top:15px;
+    background-color: rgb(241, 241, 241);
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+
+.audio-auction-inner{
+    width:80%;
+    margin:auto;
+}
+
+.audio-auction-outer img {
+    width:100%;
+}
+
+.audio-auction-outer p {
+    margin-top:5px;
+    font-size: 14px;
+    color:#5e5e5e;
+    text-align: center;
+}
+
+
+
+.omega-space-outer{
+    width:90%;
+    margin:auto;
+    padding:3px;
+    padding-top:15px;
+    background-color: rgb(241, 241, 241);
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+
+
+.omega-space-inner{
+    width:80%;
+    margin:auto;
+}
+
+.omega-space-outer img {
+    width:100%;
+}
+
+.omega-space-outer p {
+    margin-top:5px;
+    font-size: 14px;
+    color:#5e5e5e;
+    text-align: center;
+}
+
 @media screen and (min-width:1200px) and (max-width:3000px){
     .article-fifth-week{
         /* background-color:purple; */
-        height:1340px;
+        height:2440px;
         margin-top:120px;
     }
 }
@@ -52,11 +107,21 @@
 
 @media screen and (min-width:575px) and (max-width:800px){
     .article-fifth-week{
-        /* background-color:blue; */
+        background-color:blue;
         height:1670px;
         margin-bottom:50px;
         margin-top:120px;
         padding-left:30px;
+    }
+    .audio-auction-outer{
+        width:100%;
+        margin:auto;
+        background-color: blue;
+    }
+    
+    .audio-auction-inner{
+        width:90%;
+        margin:auto;
     }
 
 }
@@ -69,6 +134,17 @@
         margin-bottom:50px;
         margin-top:40px;
         padding-left:30px;
+    }
+
+    .audio-auction-outer{
+        width:100%;
+        margin:auto;
+        background-color: blue;
+    }
+    
+    .audio-auction-inner{
+        width:95%;
+        margin:auto;
     }
 
 }
@@ -85,6 +161,17 @@
         font-size:16px;
     }
 
+    .audio-auction-outer{
+        width:100%;
+        margin:auto;
+        background-color: blue;
+    }
+    
+    .audio-auction-inner{
+        width:100%;
+        margin:auto;
+    }
+
 }
 
 
@@ -96,6 +183,18 @@
         padding-left:30px;
     }
 
+    .audio-auction-outer{
+        width:100%;
+        margin:auto;
+        background-color: blue;
+    }
+    
+    .audio-auction-inner{
+        width:100%;
+        margin:auto;
+    }
+    
+
 }
 
 
@@ -105,6 +204,20 @@
         margin-bottom:50px;
         margin-top:40px;
         padding-left:30px;
+    }
+
+    .audio-auction-outer{
+        width:100%;
+        margin:auto;
+        background-color: blue;
+    }
+    
+    .audio-auction-inner{
+        width:100%;
+        margin:auto;
+    }
+    .audio-auction-outer img {
+        width:100%;
     }
 
 }
