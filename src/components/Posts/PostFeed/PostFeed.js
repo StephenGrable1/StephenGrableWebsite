@@ -7,6 +7,8 @@ import FirstWeekCodesmith from "../AllPosts/FirstWeekCodesmith/FirstWeekCodesmit
 import SecondWeekCodesmith from "../AllPosts/SecondWeekCodesmith/SecondWeekCodesmith"
 import ThirdWeekCodesmith from "../AllPosts/ThirdWeekCodesmith/ThirdWeekCodesmith"
 import FourthWeekCodesmith from "../AllPosts/FourthWeekCodesmith/FourthWeekCodesmith"
+import FifthWeekCodesmith from "../AllPosts/FifthWeekCodesmith/FifthWeekCodesmith"
+
 
 
 class PostFeed extends Component {
@@ -17,6 +19,7 @@ class PostFeed extends Component {
             <SecondWeekCodesmith/>
             <ThirdWeekCodesmith/>
             <FourthWeekCodesmith/>
+            <FifthWeekCodesmith/>
           </div>
       );
     }

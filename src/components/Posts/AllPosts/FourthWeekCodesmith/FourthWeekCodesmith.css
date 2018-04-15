@@ -43,7 +43,7 @@
 @media screen and (min-width:800px) and (max-width:1200px){
     .article-fourth-week{
         /* background-color: green; */
-        height:2200px;
+        height:2600px;
     }
 }
 
@@ -52,7 +52,7 @@
 @media screen and (min-width:500px) and (max-width:800px){
     .article-fourth-week{
         /* background-color: yellow; */
-        height:1900px;
+        height:3450px;
     }
 }
 
@@ -62,7 +62,7 @@
     .article-fourth-week{
         /* background-color: orange; */
         padding-left:30px;
-        height:2730px;
+        height:4730px;
     }
 }
 
@@ -70,6 +70,6 @@
     .article-fourth-week{
         padding-left:30px;
 
-        height:2730px;
+        height:5330px;
     }
 }

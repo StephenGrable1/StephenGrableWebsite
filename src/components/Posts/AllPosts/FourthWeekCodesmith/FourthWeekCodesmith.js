@@ -73,7 +73,7 @@ const FourthWeekCodesmith = () => {
                     to fully absorb new topics.
                     <br />
                     <br />
-                    <strong> #2. The community</strong> 
+                    <strong> #2. The community.</strong> 
                     <br />
                     <br />
                     At Codesmith, the community is everything. Everyone at Codesmith is hand selected. This is important. There are no stragglers. 
