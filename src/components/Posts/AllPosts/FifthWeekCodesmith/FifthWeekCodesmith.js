@@ -10,7 +10,7 @@ class FifthWeekCodesmith extends Component {
             <div className="article-fifth-week">
                 <div className="fifth-week-outer">
                     <h1>My 5th week at Codesmith. Full stack apps. Tying it all together.</h1>
-                    <h3>Work hard, play hard.</h3>
+                    <h3>Build it and you will learn.</h3>
                     <div className="fifth-week-text">
                         This is where it starts to get exciting. The fifth week of Codesmith is all about
                             building projects that bring together all of the past technologies you've been working
@@ -101,9 +101,34 @@ class FifthWeekCodesmith extends Component {
                         <br />
 
                         <h3>Team collaboration and workflow</h3>
-                        One of the main things I learned during this project was how to work effectively with a team to cordinate efforts and 
-                        meet deadlines. We had a team of 3 developers and we began the week by outlining all of the tasks needed to be done 
-                        in order for use to have a working product by the end of 3 days. 
+                        One of the main things I learned during this project was how to work effectively with a team to coordinate efforts and 
+                        meet deadlines. We were a team of 3 developers and began the week by outlining all of the tasks needed to be done 
+                        in order to have a working product by the end of 3 days. We met all of our goals and I believe there 
+                        were 3 reasons why we were so successful.
+
+                        <ol>
+                            <strong><li>Project Breakdown</li></strong>
+                            <p>
+                                The very first thing we did before we started any coding was create all the tasks needed to be completed 
+                                before the deadline. This was a very helpful exercise. It helped us visualize all the steps needed to complete 
+                                the product and since we did it together, everyone in the group knew each and every task, even if they weren't 
+                                working on it. 
+
+                                <br />
+                                <br />
+
+                                When each team member went on to work on their seperate tasks, we each had in mind what the others were working on 
+                                at any given time. This made it really easy to come together and merge our progress seamlessly. This process was 
+                                inspired by Scrum, which is a workflow framework that promotes productivity and speed of execution.  
+                            </p>
+                            <strong><li>Proper Scoping</li></strong>
+                            <p>
+                                One of the main indicators of a embarking on a successful project is properly scoping the feature set. 
+                                No matter how fast you are, if your team scopes a feature set to be too big, you will fail. We 
+                                
+                                 </p>
+                            <strong><li>Communication</li></strong>
+                        </ol>
 
                         </div>
                 </div>
