@@ -87,8 +87,8 @@
 
 @media screen and (min-width:1200px) and (max-width:3000px){
     .article-fifth-week{
-        /* background-color:purple; */
-        height:2840px;
+        background-color:purple;
+        height:3140px;
         margin-top:120px;
     }
 }
@@ -153,7 +153,7 @@
 
 @media screen and (min-width:450px) and (max-width: 500px){
     .article-fifth-week{
-        /* background-color: blue; */
+        background-color: blue;
         height:1800px;
         margin-bottom:50px;
         margin-top:40px;
