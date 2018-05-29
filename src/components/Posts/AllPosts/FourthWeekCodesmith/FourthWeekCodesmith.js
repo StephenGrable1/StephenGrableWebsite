@@ -29,7 +29,7 @@ const FourthWeekCodesmith = () => {
 
                     I was really impressed with 
                     this week's lessons on Express middleware. Using Express middleware is a great way to ensure you are creating modular
-                    and extendable server side code. It also future-proofs your codebase since it's easier for you, and other developers, to 
+                    and extensible server side code. It also future-proofs your codebase since it's easier for you, and other developers, to 
                     create additional middleware on top of existing infrastructure. 
 
                     <h3>Build for the future. Test-driven development.</h3>
@@ -39,19 +39,19 @@ const FourthWeekCodesmith = () => {
 
                     <br />
                     <br />
-                    To many developers, testing can come as an afterthought. I know I used to be that way. However, if your goal is to 
+                    To many developers, testing can come as an afterthought. However, if your goal is to 
                     engineer reliable and scalable web applications, you should always keep testing in the forefront of your mind while developing software.
                     
                     <br />
                     <br />
-                    To enforce this type of mind-set, my partner and I created a React application using a development methodology called test-driven development. Test-driven development is simply a way of developing software that 
+                    To enforce this type of mind-set, my partner and I created a React application using a development methodology called test driven development. Test driven development is simply a way of developing software that 
                     encourages you to engineer reliable and predictable functionality into your application. It's best to "trust the process" when it comes to 
                     using this technique. 
                     
                     <br />
                     <br />
                     This was, yet again, another moment I realized how impressive this program really is. In a secluded environment, 
-                    like the one I was in before Codesmith, I would have been reluctant to use test-driven development. Not because I didn't recognize 
+                    like the one I was in before Codesmith, I would have been reluctant to use test driven development. Not because I didn't recognize 
                     the importance of it, but because I didn't have the expert guidance needed to encourage me to use best practices in my engineering pursuits. Codesmith provides this 
                     guidance and I've been blown away by the success it has had on my own development.
                     
@@ -78,7 +78,7 @@ const FourthWeekCodesmith = () => {
                     <br />
                     At Codesmith, the community is everything. Everyone at Codesmith is hand selected. This is important. There are no stragglers. 
                     There are no residents who don't know what they are doing. This breeds an environment that promotes high quality learning. 
-                    Over the last 4 weeks, I now realize just important Codesmith's selection process is to the quality of learning you receive.
+                    Over the last 4 weeks, I now realize just how important Codesmith's selection process is to the quality of learning you receive.
                     <br />
                     <br />
                     <strong> #3. Expert guidance and mentoring.</strong> 

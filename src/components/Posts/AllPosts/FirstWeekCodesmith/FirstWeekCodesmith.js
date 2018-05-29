@@ -13,16 +13,18 @@ class FirstWeekCodesmith extends Component {
                         <div className="first-week-text">
                             My first week at <a href="https://www.codesmith.io/">Codesmith</a> was a long one. I spent approximately 70 hours at
                             their offices in SOHO, Manhattan. Most of the time I was either learning, teaching
-                            or struggling to learn or teach. We had lectures, paired programming sessions, ping
+                            or struggling to learn or teach (more on this later). We had lectures, paired programming sessions, ping
                             pong tournaments, and very challenging problems to solve. It was a demanding week but 
                             the Codesmith staff makes an asserted effort to keep things fun and social. 
                             
                             <br />
                             <br />
-                            They give you 2 hour 
-                            lunches every Tuesday and Thursday. Which is great because it allows you time to relax, grab a nice dinner, or master your ping-pong serve.
-                            Social events are held every Thursday night. It's a great time to connect with the other residents from the program on a non-technical level.
-                            I would definitely recommend participating in the festivities. I've come to notice over the last week that everyone at Codesmith is incredibly smart. 
+                            The schedule is packed full of material but, to balance that out, there are very generous 2 hour 
+                            lunches every Tuesday and Thursday which is great because it allows you time to relax, run some errands, or master your ping-pong serve.
+                            Social events are held every Thursday night and it's a great time to connect with the other residents from the program on a non-technical level.
+                            I would definitely recommend participating in the festivities since it's the one night dedicated to relaxing and given your mind a much needed break
+                            from all of the technical work you will be doing throughout the program. 
+                            This past week, I've come to notice that everyone here at Codesmith is both incredibly smart and exceptionally helpful. 
                             I feel lucky to be able to spend the next 12 weeks learning and growing with such an exceptional group 
                             of software engineers.  
 
@@ -47,10 +49,16 @@ class FirstWeekCodesmith extends Component {
                             <br/>
                             <br/>
                             <h3>Paired Programming is the key to accelerated learning.</h3>
-                            A huge portion of the program is focused on paired programming. This was one of the parts 
-                            that initially attracted me to Codesmith. Learning to solve problems with others is a huge part
-                            of the learning process. I've been very impressed by the organization of the program
-                            to optimize for learning and I'm excited to see what the next 12 weeks have in store.
+                            A huge portion of the program is focused on paired programming. Paired programming, for those who are unfamiliar, is 
+                            a learning technique designed to advance your technical communication and problem solving skills by pairing two 
+                            engineers to one computer and switching roles from typing code to communicating what needs to be implemented every 10 to 20 minutes.
+                            This hones both your technical communication, teaching abilities and problem solving skills within a team. 
+                            <br/>
+                            <br/>
+                            These 3 abilities are some of the stand-out characteristics of Codesmith graduates that I've heard time and time again. Not 
+                            only can they solve difficult technical challenges but they can also communicate their approach clearly 
+                            to others, which is a uniquely senior-level engineering skill to have. Codesmith has 
+                            clearly prioritized their curriculum to promote the development of these highly valuable skills in their residents from week one.
                         </div>
                 </div>
             </div>

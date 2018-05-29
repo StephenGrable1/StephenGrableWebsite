@@ -11,10 +11,10 @@ const ThirdWeekCodesmith = () => {
                 <h1>Week 3. React and Redux plus Node web scrapping.</h1>
                 <h3>State management, Nerf gun wars, Chrome Extensions... oh my.</h3>
                 <div className="third-week-text">
-                    This week I clocked in another 60+ hours at the Codesmith office in SOHO. 
+                    This week I clocked in another 60+ hours at the Codesmith offices in SOHO. 
                     I built a ton of cool projects including
-                   a <a href="https://developer.chrome.com/extensions/getstarted">Chrome Extension</a>, a web scrapper
-                    and a coupon app built on React and <a href="https://redux.js.org/">Redux</a> that we connected to an <a href="https://pixabay.com/">image API at PixaBay.com</a>.
+                   a Chrome Extension, a web scrapper
+                    and a coupon app built in React and <a href="https://redux.js.org/">Redux</a> that we connected to an <a href="https://pixabay.com/">image API from PixaBay.com</a>.
                     I particularly enjoyed the web scrapper my partner and I built. We employed some advanced technologies including 
                     <a href="https://nodejs.org/en/about/"> Node </a> and <a href="https://cheerio.js.org/">Cheerio</a> to parse through our target site's HTML
                     and scrape it for data. 
@@ -31,10 +31,8 @@ const ThirdWeekCodesmith = () => {
                     Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula.
                     Dragula is an awesome
                     <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
-                    implement a drag and drop feature</a> into your React components. It's simple to setup and just works. 
-                    I would recommend checking it out if you want to implement drag and drop functionality into your React web application.
-                      
-
+                    implement a drag and drop feature</a> into your React components. It's fairly simple to setup, looks great and just works. 
+                    I would recommend checking it out if you are interested in implementing a drag and drop feature into your React web application.
 
                     <br />
                     <br />
@@ -50,8 +48,8 @@ const ThirdWeekCodesmith = () => {
 
                     For my topic, I wanted to explore
                     a subject that I've been very interested in recently, the blockchain. While preparing for my presentation I came
-                    across an <a href="https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/">insightful tutorial on creating a simple blockchain
-                    in Javascript.</a> I decided to walk through this example in my tech talk and <a href="https://github.com/StephenGrable1/Blockchain-JS">create my own repository to display how a simple blockchain works with encryption.</a>
+                    across a <a href="https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/">great tutorial on implementing a simple blockchain
+                    in Javascript.</a> I decided to walk through this example in my tech talk and <a href="https://github.com/StephenGrable1/Blockchain-JS">created my own repository to display how a simple blockchain works with encryption.</a>
 
                     <br />
                     <br />
@@ -78,18 +76,16 @@ const ThirdWeekCodesmith = () => {
                     <a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit#slide=id.p"> my blockchain tech talk</a>,
                     create a Chrome extension from scratch and work on multiple challenges from the units we were learning. Hectic, am I right?
                     Through all the coding madness, we somehow managed to make room for a Nerf gun war, which my team suffered a valiant defeat.
-                    Overall, this week was my favorite so far. The units were really enjoyable and I finally got the chance to delve into web scrapping,
-                    which I had been meaning to do for a while.
+                    Overall, this was my favorite week so far. The units were really enjoyable and I finally got the chance to delve into web scrapping,
+                    which I had been wanting to do for a while.
 
                     <br />
                     <br />
 
-                    I am officially a quarter of the way through the program and I feel excited. I've found that the structure of the program is a great fit for me.
+                    I am officially a quarter of the way through the program and I feel excited for what's yet to come. I've found that the structure of the program to be a great fit for me.
                     I enjoy working on 2 day units that push you to understand through doing and teaching. I particularly enjoy when I get the opportunity
-                    to help my pair programming partner better understand a topic. In addition to helping my partner, explaining these topics also helps me understand them
+                    to help my pair programming partner better understand a topic. Explaining the material clearly and concisely helps me understand it
                     at a deeper level as well.
-
-
                 </div>
             </div>
         </div>

@@ -87,8 +87,8 @@
 
 @media screen and (min-width:1200px) and (max-width:3000px){
     .article-fifth-week{
-        background-color:purple;
-        height:3140px;
+        /* background-color:purple; */
+        height:3330px;
         margin-top:120px;
     }
 }
