@@ -22,6 +22,10 @@
   clear:both;
 }
 
+#copy-status p{
+  padding-top:10px;
+}
+
 .copy-to-clipboard-btn button:hover{
   cursor: pointer;
 }
@@ -34,7 +38,7 @@
   width:90%;
   margin:auto;
   background: white;
-  height:590px;
+  height:655px;
   margin-bottom:370px;
   margin-top:140px;
   padding-left:40px;
@@ -60,6 +64,7 @@
 .question{
   height:160px;
   margin-bottom:0px;
+  text-align: left;
 }
 .question p {
   float:left;
@@ -68,12 +73,12 @@
 }
 
 
-@media screen and (max-width:575px) and (min-width:40px){
+@media screen and (max-width:595px) and (min-width:40px){
   .contact-inner{
     width:90%;
     margin:auto;
     background: white;
-    height:780px;
+    height:840px;
     margin-bottom:50px;
     margin-top:60px;
     padding:8px;
@@ -81,7 +86,8 @@
   }
 
   .question{
-    height:195px;
+    height:205px;
+    padding-bottom:5px;
   }
 
   .contact-outer p{

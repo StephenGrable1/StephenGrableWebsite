@@ -108,6 +108,9 @@ this is being buggy so i added a new id for first seperator
         margin-right:8%;
         margin-top:200px;
     }
+    .project-dash-outer{
+        margin-top:-35px;
+    }
 }
 
 @media screen and (max-width:1100px) and (min-width:900px){
@@ -139,6 +142,9 @@ this is being buggy so i added a new id for first seperator
         height:500px;
         margin-left:4%;
         margin-top:70px;
+    }
+    .project-dash-outer{
+        margin-top:-35px;
     }
 }
 
@@ -172,7 +178,7 @@ this is being buggy so i added a new id for first seperator
     .project-dash-outer{
         height:2550px;
         width:100%;
-        margin-top:-35px;
+        margin-top:-85px;
         padding-top:5px;
     }
 

@@ -30,7 +30,7 @@ class Contact extends React.Component {
                   </div>
                 </CopyToClipboard>
 
-                {this.state.copied ? <span  style={{color: 'green'}}><p>Copied. Paste Away!</p></span> : null}
+                {this.state.copied ? <span id="copy-status" style={{color: 'green'}}><p>Copied. Paste Away!</p></span> : null}
             </div>
 
             <div className="question two-question">

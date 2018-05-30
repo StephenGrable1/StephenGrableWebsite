@@ -24,7 +24,7 @@ class ProjectDashboard extends Component {
             <div className="project-dash-outer">
                 <div className="project-dash-inner">
                     <div>
-                        <h4 className="projects-title">Projects</h4>
+                        <h4 className="projects-title">My Work</h4>
                         <div className="project-snippet-outer">
                             <div>
                                 <img src={dannyBobbyPreview} className="project-snippet-image" alt="Danny Bobby Website Preview"></img>
@@ -34,7 +34,7 @@ class ProjectDashboard extends Component {
                                     An online booking solution for Danny Bobby
                     </p>
                                 <div className="snippet-action-btn">
-                                    <Link to='/projects/danny-bobby-website'>View Project</Link>
+                                    <Link to='/my-work/danny-bobby-website'>View App</Link>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ class ProjectDashboard extends Component {
                                     Email subscription with Drip email marketing integration
                     </p>
                                 <div className="snippet-action-btn">
-                                    <Link to='/projects/deaf-boy-website'>View Project</Link>
+                                    <Link to='/my-work/deaf-boy-website'>View App</Link>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ class ProjectDashboard extends Component {
                                     A to-do application with social media login
                     </p>
                                 <div className="snippet-action-btn">
-                                    <Link to='/projects/todo-app-website'>View Project</Link>
+                                    <Link to='/my-work/todo-app-website'>View App</Link>
                                 </div>
                             </div>
                         </div>
@@ -84,16 +84,16 @@ class ProjectDashboard extends Component {
                                     An online timer and countdown clock
                     </p>
                                 <div className="snippet-action-btn">
-                                    <Link to='/projects/timer-app-website'>View Project</Link>
+                                    <Link to='/my-work/timer-app-website'>View App</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <Route exact path='/projects/danny-bobby-website' component={DannyBobbyWebsite} />
-                    <Route exact path='/projects/deaf-boy-website' component={DeafBoyWebsite} />
-                    <Route exact path='/projects/todo-app-website' component={TodoAppWebsite} />
-                    <Route exact path='/projects/timer-app-website' component={TimerAppWebsite} />
+                    <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite} />
+                    <Route exact path='/my-work/deaf-boy-website' component={DeafBoyWebsite} />
+                    <Route exact path='/my-work/todo-app-website' component={TodoAppWebsite} />
+                    <Route exact path='/my-work/timer-app-website' component={TimerAppWebsite} />
 
 
                 </div>

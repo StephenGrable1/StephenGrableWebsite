@@ -31,7 +31,6 @@ import jest from './media/jestlogo.png'
 class Home extends Component {
   render() {
     return (
-      <Router>
         <div>
           <div className="stephen-intro-outer">
             <div className="intro-text-outer">
@@ -46,7 +45,7 @@ class Home extends Component {
             </div>
             <img src={StephenSVG} className="intro-img" alt="Stephen Character"></img>
             <div className="intro-action-btn-outer">
-              <Link to="/projects" className="intro-action-btn">See My Projects</Link>
+              <Link to="/my-work" className="intro-action-btn">See My Work</Link>
             </div>
           </div>
 
@@ -125,7 +124,6 @@ class Home extends Component {
             </div>
           </div>
         </div>
-      </Router>
     );
   }
 }

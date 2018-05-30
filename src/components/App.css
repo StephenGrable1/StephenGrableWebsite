@@ -19,9 +19,9 @@ a{
 }
 
 .app-menu{
-  width:233px;
+  width:303px;
   padding:0;
-  margin-right:13%;
+  margin-right:7%;
   margin-top:32px;
   list-style: none;
   float:right;
@@ -54,7 +54,7 @@ a{
   cursor: pointer;
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width:595px){
   .website-title{
     float: none;
     text-align: center;
