@@ -84,7 +84,7 @@ const FourthWeekCodesmith = () => {
                     <strong> #3. Expert guidance and mentoring.</strong> 
                     <br />
                     <br />
-                    At Codesmith, it is highly discouraged to directly give or receive the solution to a problem you are struggling with. 
+                    At Codesmith, it is highly discouraged to directly give or receive the solution to a problem you or someone else are struggling with. 
                     When you have been stuck on a problem for a significant amount of time, you do have the option to ask a Codesmith fellow
                     for guidance. The fellows have all been through the program and understand the common problems you will encounter in the course.
                     However, when you ask for help, they never tell you how to fix the problem directly. This is by design. It is a much better learning 

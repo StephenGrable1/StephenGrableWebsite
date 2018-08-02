@@ -22,17 +22,18 @@ class Contact extends React.Component {
             <div className="question">
               <h2 className="contact-question">How do I request my first quote?</h2>
               <p className="my-email">Please email me at stephengrable@gmail.com and I will get back in touch as soon as possible!</p>
-
-                <CopyToClipboard text={this.state.value}
+              
+              <div className="copy-email-btn">
+              <CopyToClipboard text={this.state.value}
                   onCopy={() => this.setState({copied: true})}>
                   <div className="copy-to-clipboard-btn">
                   <button>Copy email to clipboard</button>
                   </div>
                 </CopyToClipboard>
-
                 {this.state.copied ? <span id="copy-status" style={{color: 'green'}}><p>Copied. Paste Away!</p></span> : null}
-            </div>
+              </div>
 
+            </div>
             <div className="question two-question">
               <h2 className="contact-question">I need a website, can you help?</h2>
               <p>I can! Let me guide you through the website development process. I'll design and

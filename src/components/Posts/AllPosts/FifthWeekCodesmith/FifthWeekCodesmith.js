@@ -62,7 +62,7 @@ class FifthWeekCodesmith extends Component {
                         <br />
                         First of all, triggers are
                             great if you want to automate database logic before or after a certain action takes place. This makes it easy to scale
-                            your application to different platforms without copy and pasting the same database logic to every server running your application. 
+                            your application to different platforms without copying and pasting the same database logic to every server running your application. 
                             This is a really cool feature of PostgreSQL. However, I ended up scratching this approach because
                             handling randomly generated times was much easier to do in my Express server than it was to do in PostgreSQL. During my 
                             research into PostgreSQL triggers, I did however, gain a better sense of how and when to use triggers to automate and simplify your database logic.
@@ -109,12 +109,12 @@ class FifthWeekCodesmith extends Component {
                             <p>
                                 The very first thing we did before we started any coding was create all the tasks needed to be completed 
                                 before the deadline. This helped us visualize all the steps needed to complete 
-                                the product and since we did this task together, everyone in the group knew each and every task, and how they fit 
+                                the product and since we did this task together, everyone in the group knew how each piece fit 
                                 together into the final product. 
                                 <br />
                                 <br />
 
-                                When each team member went on to work on their separate tasks, we each had in mind what the others were working on 
+                                When team members went on to work on their separate tasks, we each had in mind what the others were working on 
                                 at any given time. This made it really easy to come together and merge our progress seamlessly. This process was 
                                 inspired by Scrum, which is a workflow framework that promotes productivity and speed of execution.  
                             </p>
@@ -140,9 +140,9 @@ class FifthWeekCodesmith extends Component {
 
                                 <br/>
                                 <br/>
-                                Our disciplined communication also enabled us to work at an excelerated rate. When we delegated tasks to team members,
-                                we could simultaneously complete tasks and assist each other to overcome roadblocks and move quickly through features. 
-                                This coordination was possible because of the way we kept each other informed on the progress of our team members work. 
+                                Our disciplined communication also enabled us to work at an accelerated rate. We were able to successfully 
+                                delegate work to complete tasks as well as allocate time to assist each other to overcome roadblocks. 
+                                This coordination was possible because of the way we kept each other informed on the progress of our work. 
                                 
                                  </p>
                         </ol>

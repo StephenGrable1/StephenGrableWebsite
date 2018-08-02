@@ -1,5 +1,5 @@
 .project-dash-outer{
-    height:3700px;
+    height:2800px;
     width:100%;
     margin-top:-35px;
     background: url('./media/crossword.png');
@@ -176,7 +176,7 @@ this is being buggy so i added a new id for first seperator
     }
 
     .project-dash-outer{
-        height:2550px;
+        height:2000px;
         width:100%;
         margin-top:-85px;
         padding-top:5px;
@@ -238,7 +238,7 @@ this is being buggy so i added a new id for first seperator
     }
 
     .project-dash-outer{
-        height:2500px;
+        height:2000px;
         width:100%;
         margin-top:-35px;
     }

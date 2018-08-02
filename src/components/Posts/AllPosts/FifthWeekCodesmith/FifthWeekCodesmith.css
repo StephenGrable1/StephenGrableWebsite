@@ -16,7 +16,7 @@
 }
 
 .article-fifth-week{
-    height:1070px;
+    height:inherit;
     width:85%;
     background-color:white;
     margin:auto;
@@ -24,7 +24,7 @@
     margin-top:120px;
     text-align: left;
     padding:25px;
-    padding-left:50px;
+    padding-left:35px;
     border:1px solid #ccc;
     border-radius:3px;
     overflow: none;
@@ -83,141 +83,4 @@
     font-size: 14px;
     color:#5e5e5e;
     text-align: center;
-}
-
-@media screen and (min-width:1200px) and (max-width:3000px){
-    .article-fifth-week{
-        /* background-color:purple; */
-        height:3330px;
-        margin-top:120px;
-    }
-}
-
-
-
-@media screen and (min-width:800px) and (max-width:1200px){
-    .article-fifth-week{
-        /* background-color:green; */
-        height:1450px;
-        margin-top:120px;
-    }
-
-}
-
-
-@media screen and (min-width:575px) and (max-width:800px){
-    .article-fifth-week{
-        background-color:blue;
-        height:1670px;
-        margin-bottom:50px;
-        margin-top:120px;
-        padding-left:30px;
-    }
-    .audio-auction-outer{
-        width:100%;
-        margin:auto;
-        background-color: blue;
-    }
-    
-    .audio-auction-inner{
-        width:90%;
-        margin:auto;
-    }
-
-}
-
-
-@media screen and (min-width:500px) and (max-width:575px){
-    .article-fifth-week{
-        /* background-color:orange; */
-        height:1650px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
-    }
-
-    .audio-auction-outer{
-        width:100%;
-        margin:auto;
-        background-color: blue;
-    }
-    
-    .audio-auction-inner{
-        width:95%;
-        margin:auto;
-    }
-
-}
-
-
-
-@media screen and (min-width:450px) and (max-width: 500px){
-    .article-fifth-week{
-        background-color: blue;
-        height:1800px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
-        font-size:16px;
-    }
-
-    .audio-auction-outer{
-        width:100%;
-        margin:auto;
-        background-color: blue;
-    }
-    
-    .audio-auction-inner{
-        width:100%;
-        margin:auto;
-    }
-
-}
-
-
-@media screen and (min-width:350px) and (max-width: 450px){
-    .article-fifth-week{
-        height:2070px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
-    }
-
-    .audio-auction-outer{
-        width:100%;
-        margin:auto;
-        background-color: blue;
-    }
-    
-    .audio-auction-inner{
-        width:100%;
-        margin:auto;
-    }
-    
-
-}
-
-
-@media screen and (min-width:200px) and (max-width: 350px){
-    .article-fifth-week{
-        height:2150px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
-    }
-
-    .audio-auction-outer{
-        width:100%;
-        margin:auto;
-        background-color: blue;
-    }
-    
-    .audio-auction-inner{
-        width:100%;
-        margin:auto;
-    }
-    .audio-auction-outer img {
-        width:100%;
-    }
-
 }

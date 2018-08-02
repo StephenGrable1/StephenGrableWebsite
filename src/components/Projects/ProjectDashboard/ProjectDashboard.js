@@ -71,23 +71,6 @@ class ProjectDashboard extends Component {
                                 </div>
                             </div>
                         </div>
-
-                        <hr className="project-separator" />
-
-
-                        <div className="project-snippet-outer project-left-btn">
-                            <div>
-                                <img src={timerPreview} className="project-snippet-image" alt="Timer App Website Preview"></img>
-                            </div>
-                            <div className="text-action-outer">
-                                <p>
-                                    An online timer and countdown clock
-                    </p>
-                                <div className="snippet-action-btn">
-                                    <Link to='/my-work/timer-app-website'>View App</Link>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite} />

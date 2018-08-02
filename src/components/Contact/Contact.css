@@ -2,6 +2,12 @@
   width:900px;
 }
 
+.copy-email-btn{
+  width:230px;
+  margin:auto;
+  padding-top:140px;
+}
+
 .contact-question {
   padding-top:15px;
   font-size: 24px;
@@ -24,6 +30,7 @@
 
 #copy-status p{
   padding-top:10px;
+  margin-left:10px;
 }
 
 .copy-to-clipboard-btn button:hover{
@@ -35,6 +42,7 @@
 }
 
 .contact-inner{
+  height:inherit;
   width:90%;
   margin:auto;
   background: white;
@@ -75,18 +83,29 @@
 
 @media screen and (max-width:595px) and (min-width:40px){
   .contact-inner{
+    height:inherit;
     width:90%;
     margin:auto;
     background: white;
-    height:840px;
     margin-bottom:50px;
     margin-top:60px;
     padding:8px;
+    padding-bottom:80px;
     border-radius:4px;
   }
 
+  .copy-email-btn{
+    width:210px;
+    margin:auto;
+    padding-top:20px;
+  }
+
+  #copy-status p{
+    margin-left:-8px;
+  }
+
   .question{
-    height:205px;
+    height:230px;
     padding-bottom:5px;
   }
 

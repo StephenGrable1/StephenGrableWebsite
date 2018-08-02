@@ -360,7 +360,7 @@
 
   .intro-img{
     margin-left:0px;
-    margin-top:80px;
+    margin-top:90px;
   }
 
   .intro-text{
@@ -378,7 +378,7 @@
   }
 
   .intro-text-inner p{
-    height:200px;
+    height:210px;
     margin-top:10px;
     font-size: 23px;
     padding-top:20px;
@@ -435,9 +435,25 @@
   }
 
   .intro-text-inner p{
-    height:210px;
+    height:200px;
     margin-top:10px;
     padding-top:10px;
     font-size:22px;
+  }
+}
+
+
+
+@media screen and (max-width:380px) and (min-width:20px){
+  .intro-text-inner p{
+    height:255px;
+    margin-top:10px;
+    padding-top:16px;
+    font-size:22px;
+  }
+
+  .intro-img{
+    margin-left:0px;
+    margin-top:125px;
   }
 }

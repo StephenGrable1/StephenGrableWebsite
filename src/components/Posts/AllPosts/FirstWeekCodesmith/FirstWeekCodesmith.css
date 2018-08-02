@@ -33,7 +33,7 @@
 }
 
 .article-first-week{
-    height:1100px;
+    height:inherit;
     width:85%;
     background-color:white;
     margin:auto;
@@ -41,19 +41,13 @@
     margin-top:120px;
     text-align: left;
     padding:25px;
-    padding-left:50px;
+    padding-left:35px;
     border:1px solid #ccc;
     border-radius:3px;
     overflow: none;
 }
 
 @media screen and (min-width:1200px) and (max-width:3000px){
-    .article-first-week{
-        /* background-color:purple; */
-        height:1340px;
-        margin-top:120px;
-    }
-
     .pp-photo-container{
         width:600px;
         margin:auto;
@@ -64,12 +58,6 @@
 
 
 @media screen and (min-width:800px) and (max-width:1200px){
-    .article-first-week{
-        /* background-color:green; */
-        height:1680px;
-        margin-top:120px;
-    }
-
     .pp-photo-container{
         width:600px;
         margin:auto;
@@ -80,11 +68,7 @@
 
 @media screen and (min-width:575px) and (max-width:800px){
     .article-first-week{
-        /* background-color:blue; */
-        height:1670px;
-        margin-bottom:50px;
-        margin-top:120px;
-        padding-left:30px;
+        margin-top:100px;
     }
 
     .pp-photo-container{
@@ -97,13 +81,9 @@
 
 @media screen and (min-width:500px) and (max-width:575px){
     .article-first-week{
-        /* background-color:orange; */
-        height:1650px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
+        margin-top:50px;
     }
-
+    
     .pp-photo-container{
         width:400px;
         margin:auto;
@@ -115,12 +95,7 @@
 
 @media screen and (min-width:450px) and (max-width: 500px){
     .article-first-week{
-        /* background-color: blue; */
-        height:1800px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
-        font-size:16px;
+        margin-top:50px;
     }
 
     .pp-photo-container{
@@ -133,10 +108,7 @@
 
 @media screen and (min-width:350px) and (max-width: 450px){
     .article-first-week{
-        height:2070px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
+        margin-top:50px;
     }
 
     .pp-photo-container{
@@ -150,10 +122,13 @@
 
 @media screen and (min-width:200px) and (max-width: 350px){
     .article-first-week{
-        height:2150px;
-        margin-bottom:50px;
-        margin-top:40px;
-        padding-left:30px;
+        margin-top:50px;
+    }
+
+    .pp-photo-container{
+        width:260px;
+        margin:auto;
+        padding-top:30px;
     }
 
 }

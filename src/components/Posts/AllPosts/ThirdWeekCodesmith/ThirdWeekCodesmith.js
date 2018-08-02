@@ -36,7 +36,7 @@ const ThirdWeekCodesmith = () => {
 
                     <br />
                     <br />
-                    <h3>My first Tech Talk.</h3>
+                    <h3>My Blockchain Tech Talk.</h3>
                     Every person in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic to all 
                     of the current residents in the program. 
                     There have been tech talks on
@@ -61,8 +61,8 @@ const ThirdWeekCodesmith = () => {
                     <br/>
                     <br/>
                     I was excited and partially scared. My partner and I had never worked on a Chrome extension before. We decided to begin at the <a href="https://developer.chrome.com/extensions/getstarted">Chrome developer get started guide</a> to get a sense of how
-                    to test and develop software for the <a href="https://www.google.com/chrome/">Chrome browser.</a> Our Chrome extension ended up winning my partner and I second place in the hack-a-thon. For runner-up,
-                    we received this shiny, squeaky, yellow duck as our trophy.
+                    to test and develop software for the <a href="https://www.google.com/chrome/">Chrome browser.</a>  My partner and I won second place in the hack-a-thon and
+                    for runner-up we received this shiny, squeaky, yellow duck as our trophy.
 
                     <div className="duck-photo-container">
                         <img width="300px" src={ClassPhoto} alt="Small yellow squeaky duck trophy" />
