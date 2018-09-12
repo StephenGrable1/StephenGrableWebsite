@@ -1,0 +1,24 @@
+.post-feed {
+    height:inherit;
+    width:85%;
+    background-color:white;
+    margin:auto;
+    margin-bottom:500px;
+    margin-top:120px;
+    text-align: left;
+    padding:25px;
+    padding-left:35px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    overflow: none;
+}
+
+.article-list li {
+    margin-bottom:12px;
+}
+
+.article-list li span{
+    margin-left:12px;
+    font-size: 10px;
+    color:grey;
+}

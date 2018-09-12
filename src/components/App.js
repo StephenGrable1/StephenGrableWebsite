@@ -12,6 +12,9 @@ import Home from './Home/Home.js'
 import Projects from './Projects/Projects.js'
 import Contact from './Contact/Contact.js'
 import PostFeed from './Posts/PostFeed/PostFeed.js'
+import GettingHired from './Posts/AllPosts/GettingHired/GettingHired.js'
+import CodesmithFirstFiveWeeks from './Posts/AllPosts/CodesmithFirstFiveWeeks/CodesmithFirstFiveWeeks.js'
+
 
 
 //Projects
@@ -19,8 +22,6 @@ import DannyBobbyWebsite from './Projects/DannyBobbyWebsite/DannyBobbyWebsite.js
 import DeafBoyWebsite from './Projects/DeafBoyWebsite/DeafBoyWebsite.js'
 import TodoAppWebsite from './Projects/TodoAppWebsite/TodoAppWebsite.js';
 import TimerAppWebsite from './Projects/TimerAppWebsite/TimerAppWebsite.js';
-
-
 
 
 class App extends Component {
@@ -40,10 +41,13 @@ class App extends Component {
           <Route exact path='/my-work' component={Projects}/>
           <Route exact path='/contact' component={Contact}/>
           <Route exact path='/posts' component={PostFeed}/>
+          <Route exact path='/posts/getting-hired' component={GettingHired}/>
+          <Route exact path='/posts/first-five-weeks-cs' component={CodesmithFirstFiveWeeks}/>
           <Route exact path='/my-work/deaf-boy-website' component={DeafBoyWebsite}/>
           <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite}/>
           <Route exact path='/my-work/todo-app-website' component={TodoAppWebsite}/>
           <Route exact path='/my-work/timer-app-website' component={TimerAppWebsite}/>
+
 
         </div>
       </Router>

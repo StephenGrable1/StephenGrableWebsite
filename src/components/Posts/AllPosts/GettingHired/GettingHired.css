@@ -1,0 +1,39 @@
+.getting-hired-outer {
+
+}
+
+.getting-hired-text{
+    font-size:20px;
+}
+
+.getting-hired-outer h1{
+    margin-bottom:50px;
+}
+
+.getting-hired-outer h3{
+    font-size:24px;
+}
+
+.article-getting-hired{
+    height:inherit;
+    width:85%;
+    background-color:white;
+    margin:auto;
+    margin-bottom:100px;
+    margin-top:120px;
+    text-align: left;
+    padding:25px;
+    padding-left:35px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    overflow: none;
+}
+
+
+
+@media screen and (min-width:200px) and (max-width:595px){
+    .article-getting-hired{
+        width:80%;
+        margin-top:40px;
+    }
+}

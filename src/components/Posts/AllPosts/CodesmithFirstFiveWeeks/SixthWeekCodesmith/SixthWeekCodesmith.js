@@ -16,8 +16,8 @@ class SixthWeekCodesmith extends Component {
                            Last week, our cohort made 4 full stack applications. My group created
                            <a href="https://github.com/StephenGrable1/OmegaSpace"> a collaborative document editor
                            using Socket.io, React and PostgreSQL.</a> We changed groups and
-                           decided which application we wanted to improve.  Our goal was to learn how to find and improve
-                           an unfamiliar codebase.
+                        decided which application we wanted to improve.  Our goal was to learn how to find and improve
+                        an unfamiliar codebase.
 
                             <br />
                         <br />
@@ -52,11 +52,11 @@ class SixthWeekCodesmith extends Component {
                             managed to get the game working and interpolating the game state with multiple views.
 
                             <div className="axteroids-video-outer">
-                                <video width="100%" height="100%" controls autoPlay loop>
-                                    <source src={axteroidGame} type="video/mp4" />
-                                    Your browser does not support the video tag.
+                            <video width="100%" height="100%" controls autoPlay loop>
+                                <source src={axteroidGame} type="video/mp4" />
+                                Your browser does not support the video tag.
                                 </video>
-                             </div>
+                        </div>
 
                         <h3>Technical challenges</h3>
                         Making the asteroid move and ship thruster with physics wuz a toughy.
@@ -89,11 +89,9 @@ class SixthWeekCodesmith extends Component {
 
                             <br />
                         <br />
-                        Stay tuned!
 
-
-
-                        </div>
+                        
+                    </div>
                 </div>
             </div>
         );

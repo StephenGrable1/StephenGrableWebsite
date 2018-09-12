@@ -1,0 +1,32 @@
+.getting-hired-container{
+    height:auto;
+    padding:12px;
+    background-color:white;
+    width:70%;
+    margin:auto;
+    border: 1px solid #ccc;
+    border-radius:30px;
+    margin-bottom:50px;
+    margin-top:-40px;
+    padding-bottom:60px;
+    text-align: center;
+}
+
+.getting-hired-inner{
+}
+
+
+.getting-hired-inner p{
+    margin-bottom:50px;
+}
+
+.getting-hired-inner a {
+    text-decoration: none;
+    color:white;
+    background-color:#f47a27;
+    font-size: 18px;
+    padding:15px 15px 15px 15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
