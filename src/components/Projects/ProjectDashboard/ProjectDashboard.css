@@ -23,6 +23,10 @@
     padding-top:35px;
 }
 
+.project-snippet-outer:last-child{
+    margin-bottom:120px;
+}
+
 .project-snippet-outer p{
     margin-top:200px;
     font-size:28px;
