@@ -10,7 +10,6 @@
     padding-left:35px;
     border:1px solid #ccc;
     border-radius:3px;
-    overflow: none;
 }
 
 .article-list li {
@@ -21,4 +20,13 @@
     margin-left:12px;
     font-size: 10px;
     color:grey;
+}
+
+@media screen and (min-width:20px) and (max-width:600px){
+    .post-feed{
+        margin-top:50px;
+        width:95%;
+        padding:8px;
+    padding-left:0px;
+    }
 }
