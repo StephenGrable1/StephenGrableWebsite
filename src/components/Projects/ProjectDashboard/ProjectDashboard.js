@@ -39,7 +39,6 @@ class ProjectDashboard extends Component {
                             </div>
                         </div>
 
-                        <hr className="one-separator" />
 
                         <div className="project-snippet-outer project-left-btn">
                             <div>
@@ -54,9 +53,6 @@ class ProjectDashboard extends Component {
                                 </div>
                             </div>
                         </div>
-
-                        <hr className="project-separator" />
-
 
                         <div className="project-snippet-outer">
                             <div>

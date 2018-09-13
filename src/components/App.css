@@ -66,12 +66,16 @@ a{
   }
 
   .app-menu{
-    width:300px;
+    width:265px;
     padding:0;
     margin:auto;
     margin-top:27px;
     margin-bottom:15px;
     list-style: none;
     float:none;
+    
+  }
+  .app-menu a {
+    font-size:16px;
   }
 }
