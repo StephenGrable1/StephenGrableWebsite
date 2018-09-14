@@ -58,8 +58,8 @@ class SixthWeekCodesmith extends Component {
                                 </video>
                         </div>
 
-                        <h3>Technical challenges</h3>
-                        Making the asteroid move and ship thruster with physics wuz a toughy.
+                        {/* <h3>Technical challenges</h3>
+                        Making the asteroid move and ship thruster with physics wuz a toughy. */}
 
 
                             <h3>Mid-term assessment test.</h3>
