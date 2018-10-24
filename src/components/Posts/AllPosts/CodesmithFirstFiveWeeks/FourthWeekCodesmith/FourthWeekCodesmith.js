@@ -6,7 +6,7 @@ const FourthWeekCodesmith = () => {
         <div className="article-fourth-week">
             <div className="fourth-week-outer">
                 <h1>Week 4. Leveling up to Full Stack Engineer</h1>
-                <h3>Databases 4 Us.</h3>
+                <h3>Databases 4 Us</h3>
                 <div className="fourth-week-text">
                     We started this week learning the basics of SQL and NoSQL databases. After a short introduction, we moved on to topics like authentication,
                      bcypt password encryption, cookie storage, <a href="https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth">OAuth</a>, 
@@ -55,7 +55,7 @@ const FourthWeekCodesmith = () => {
                     the importance of it, but because I didn't have the expert guidance needed to encourage me to use best practices in my engineering pursuits. Codesmith provides this 
                     guidance and I've been blown away by the success it has had on my own development.
                     
-                    <h3>4th Week Overview.</h3>
+                    <h3>4th Week Overview</h3>
                     Every week, more and more, I have come to realize the powerful effects of participating in a program like Codesmith. I used to believe 
                     that learning software development was more effective as a solo pursuit. 4 weeks into Codesmith and I'm convinced that the formula Codesmith has 
                     created is by far the best way to accelerate learning in software engineering.

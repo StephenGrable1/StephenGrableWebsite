@@ -9,7 +9,7 @@ class FirstWeekCodesmith extends Component {
             <div className="article-first-week">
                 <div className="first-week-outer">
                     <h1>My first week at Codesmith. Initial thoughts and experience.</h1>
-                    <h3>Work hard, play hard.</h3>
+                    <h3>The First Week</h3>
                         <div className="first-week-text">
                             My first week at <a href="https://www.codesmith.io/">Codesmith</a> was a long one. I spent approximately 70 hours at
                             their offices in SOHO, Manhattan. Most of the time I was either learning, teaching
@@ -22,9 +22,9 @@ class FirstWeekCodesmith extends Component {
                             The schedule is packed full of material but, to balance that out, there are very generous 2 hour 
                             lunches every Tuesday and Thursday which is great because it allows you time to relax, run some errands, or master your ping-pong serve.
                             Social events are held every Thursday night and it's a great time to connect with the other residents from the program on a non-technical level.
-                            I would definitely recommend participating in the festivities since it's the one night dedicated to relaxing and given your mind a much needed break
+                            I would definitely recommend participating in the festivities since it's the one night dedicated to relaxing and giving your mind a much needed break
                             from all of the technical work you will be doing throughout the program. 
-                            This past week, I've come to notice that everyone here at Codesmith is both incredibly smart and exceptionally helpful. 
+                            This past week, I've come to notice that everyone here at Codesmith is both incredibly smart and talented. 
                             I feel lucky to be able to spend the next 12 weeks learning and growing with such an exceptional group 
                             of software engineers.  
 

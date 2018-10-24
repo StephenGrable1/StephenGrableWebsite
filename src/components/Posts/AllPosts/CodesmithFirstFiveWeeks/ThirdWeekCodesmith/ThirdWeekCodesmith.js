@@ -8,16 +8,16 @@ const ThirdWeekCodesmith = () => {
     return (
         <div className="article-third-week">
             <div className="third-week-outer">
-                <h1>Week 3. React and Redux plus Node web scrapping.</h1>
-                <h3>State management, Nerf gun wars, Chrome Extensions... oh my.</h3>
+                <h1>Week 3. React and Redux plus Node web scrapping</h1>
+                <h3>State management, Nerf gun wars, Chrome Extensions... oh my</h3>
                 <div className="third-week-text">
-                    This week I clocked in another 60+ hours at the Codesmith offices in SOHO. 
+                    This week I clocked in another 60+ hours at the Codesmith offices in SOHO.
                     I built a ton of cool projects including
                    a Chrome Extension, a web scrapper
                     and a coupon app built in React and <a href="https://redux.js.org/">Redux</a> that we connected to an <a href="https://pixabay.com/">image API from PixaBay.com</a>.
-                    I particularly enjoyed the web scrapper my partner and I built. We employed some advanced technologies including 
+                    I particularly enjoyed the web scrapper my partner and I built. We employed some advanced technologies including
                     <a href="https://nodejs.org/en/about/"> Node </a> and <a href="https://cheerio.js.org/">Cheerio</a> to parse through our target site's HTML
-                    and scrape it for data. 
+                    and scrape it for data.
 
                     <br />
                     <br />
@@ -31,20 +31,20 @@ const ThirdWeekCodesmith = () => {
                     Another highlight of the week was experimenting with a drag and drop Javascript library called Dragula.
                     Dragula is an awesome
                     <a href="http://bevacqua.github.io/react-dragula/"> React wrapper that makes it easy for you to
-                    implement a drag and drop feature</a> into your React components. It's fairly simple to setup, looks great and just works. 
+                    implement a drag and drop feature</a> into your React components. It's fairly simple to setup, looks great and just works.
                     I would recommend checking it out if you are interested in implementing a drag and drop feature into your React web application.
 
                     <br />
                     <br />
-                    <h3>My Blockchain Tech Talk.</h3>
-                    Every person in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic to all 
-                    of the current residents in the program. 
+                    <h3>My Blockchain Tech Talk</h3>
+                    Every person in our cohort does at least one tech talk during their stay at Codesmith. You get 5 minutes to present and explain an advanced Javascript topic to all
+                    of the current residents in the program.
                     There have been tech talks on
                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"> operator precedence</a>,
                     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"> hoisting in Javascript</a> and more.
 
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
 
                     For my topic, I wanted to explore
                     a subject that I've been very interested in recently, the blockchain. While preparing for my presentation I came
@@ -54,12 +54,12 @@ const ThirdWeekCodesmith = () => {
                     <br />
                     <br />
 
-                    <h3>The Hack-a-thon.</h3>
+                    <h3>The Hack-a-thon</h3>
                     The day before my tech talk, we had started a very entertaining section of the program, the hack-a-thon.
                     We had no prior knowledge of what the challenge was before it began. They made us drumroll for the reveal and... Chrome Extensions!
 
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     I was excited and partially scared. My partner and I had never worked on a Chrome extension before. We decided to begin at the <a href="https://developer.chrome.com/extensions/getstarted">Chrome developer get started guide</a> to get a sense of how
                     to test and develop software for the <a href="https://www.google.com/chrome/">Chrome browser.</a>  My partner and I won second place in the hack-a-thon and
                     for runner-up we received this shiny, squeaky, yellow duck as our trophy.
@@ -71,7 +71,7 @@ const ThirdWeekCodesmith = () => {
 
 
 
-                    <h3>3rd Week Overview.</h3>
+                    <h3>3rd Week Overview</h3>
                     This week was busy. I had to prepare
                     <a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit#slide=id.p"> my blockchain tech talk</a>,
                     create a Chrome extension from scratch and work on multiple challenges from the units we were learning. Hectic, am I right?
