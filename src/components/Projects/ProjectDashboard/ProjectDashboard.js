@@ -54,19 +54,7 @@ class ProjectDashboard extends Component {
                             </div>
                         </div>
 
-                        <div className="project-snippet-outer">
-                            <div>
-                                <img src={todoPreview} className="project-snippet-image" alt="Todo App Website Preview"></img>
-                            </div>
-                            <div className="text-action-outer">
-                                <p>
-                                    A to-do application with social media login
-                    </p>
-                                <div className="snippet-action-btn">
-                                    <Link to='/my-work/todo-app-website'>View App</Link>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
 
                     <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite} />

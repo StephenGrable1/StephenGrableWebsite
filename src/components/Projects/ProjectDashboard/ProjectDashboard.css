@@ -1,247 +1,222 @@
-.project-dash-outer{
-    height:auto;
-    width:100%;
-    margin-top:-35px;
+.project-dash-outer {
+    height: auto;
+    width: 100%;
+    margin-top: -35px;
     background: url('./media/crossword.png');
     overflow: hidden;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
-.projects-title{
-    font-size:30px;
-    padding-top:40px;
-    margin-bottom:-10px;
+.projects-title {
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: -10px;
 }
 
-.project-snippet-outer{
-    width:100%;
-    height:600px;
+.project-snippet-outer {
+    width: 100%;
+    height: 600px;
     background: url('./media/crossword.png');
-    margin:auto;
-    margin-top:0px;
-    padding:5px;
-    padding-top:35px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 5px;
+    padding-top: 35px;
 }
 
-.project-snippet-outer:last-child{
-    margin-bottom:120px;
+.project-snippet-outer:last-child {
+    margin-bottom: 120px;
 }
 
-.project-snippet-outer p{
-    margin-top:200px;
-    font-size:28px;
+.project-snippet-outer p {
+    margin-top: 200px;
+    font-size: 28px;
     padding: 10px;
 }
 
-.snippet-action-btn a{
+.snippet-action-btn a {
     background-color: #f47a27;
-    width:170px;
-    height:33px;
-    float:none;
-    padding:14px;
+    width: 170px;
+    height: 33px;
+    float: none;
+    padding: 14px;
     font-size: 28px;
-    color:white;
-    border:1px solid #ccc;
-    border-radius:8px;
-    margin:auto;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: auto;
 }
 
-.snippet-action-btn{
-    margin-top:40px;
+.snippet-action-btn {
+    margin-top: 40px;
 }
 
-.text-action-outer{
-    float:right;
-    width:40%;
-    height:500px;
-    margin-right:8%;
-    margin-top:70px;
+.text-action-outer {
+    float: right;
+    width: 40%;
+    height: 500px;
+    margin-right: 8%;
+    margin-top: 70px;
 }
 
 .project-left-btn {
-    background: url('./media/crossword.png'); 
+    background: url('./media/crossword.png');
 }
 
-
-.project-snippet-image{
-    height:380px;
-    float:left;
-    margin-left:7%;
-    margin-top:200px;
+.project-snippet-image {
+    height: 380px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 200px;
 }
 
-.project-left-btn .project-snippet-image{
-    height:380px;
-    float:right;
-    margin-right:35px;
-    margin-top:200px;
+.project-left-btn .project-snippet-image {
+    height: 380px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 200px;
 }
 
-.project-left-btn .text-action-outer{
-    float:left;
-    width:32%;
-    height:500px;
-    margin-left:5%;
-    margin-top:70px;
+.project-left-btn .text-action-outer {
+    float: left;
+    width: 32%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 70px;
 }
 
-@media screen and (max-width:1100px) and (min-width:900px){
-    .text-action-outer{
-        float:right;
-        width:40%;
-        height:500px;
-        margin-right:5%;
+@media screen and (max-width:1100px) and (min-width:900px) {
+    .text-action-outer {
+        float: right;
+        width: 40%;
+        height: 500px;
+        margin-right: 5%;
     }
-
-    .project-snippet-image{
-        height:310px;
-        float:left;
-        margin-left:7%;
-        margin-top:200px;
+    .project-snippet-image {
+        height: 310px;
+        float: left;
+        margin-left: 7%;
+        margin-top: 200px;
     }
-
-    
-    .project-left-btn .project-snippet-image{
-        height:310px;
-        float:right;
-        margin-right:5%;
-        margin-top:200px;
+    .project-left-btn .project-snippet-image {
+        height: 310px;
+        float: right;
+        margin-right: 5%;
+        margin-top: 200px;
     }
-    
-    .project-left-btn .text-action-outer{
-        float:left;
-        width:35%;
-        height:500px;
-        margin-left:4%;
-        margin-top:70px;
+    .project-left-btn .text-action-outer {
+        float: left;
+        width: 35%;
+        height: 500px;
+        margin-left: 4%;
+        margin-top: 70px;
     }
-    .project-dash-outer{
-        margin-top:-35px;
+    .project-dash-outer {
+        margin-top: -35px;
     }
 }
 
-
-
-@media screen and (max-width:900px) and (min-width:510px){
-    .project-left-btn .project-snippet-image{
-        width:300px;
-        height:240px;
-        float:none;
-        margin:auto;
-        margin-top:20px;
-        clear:both;
+@media screen and (max-width:900px) and (min-width:510px) {
+    .project-left-btn .project-snippet-image {
+        width: 300px;
+        height: 240px;
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        clear: both;
     }
-    
-    .project-left-btn .text-action-outer{
-        float:none;
-        width:100%;
-        height:200px;
-        margin:auto;
-        margin-top:-150px;
+    .project-left-btn .text-action-outer {
+        float: none;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: -150px;
     }
-
-    .project-snippet-outer{
-        width:90%;
-        height:500px;
-        margin:auto;
-        margin-top:20px;
+    .project-snippet-outer {
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        margin-top: 20px;
     }
-
-    .project-snippet-outer.project-left-btn{
-        height:560px;
+    .project-snippet-outer.project-left-btn {
+        height: 560px;
     }
-
-    .project-dash-outer{
-        height:2000px;
-        width:100%;
-        margin-top:-85px;
-        padding-top:5px;
+    .project-dash-outer {
+        height: auto;
+        width: 100%;
+        margin-top: -85px;
+        padding-top: 5px;
     }
-
-    .text-action-outer{
-        float:none;
-        width:100%;
-        height:200px;
-        margin:auto;
-        margin-top:-150px;
+    .text-action-outer {
+        float: none;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: -150px;
     }
-
-    .project-snippet-outer p{
-        padding-top:25px;
+    .project-snippet-outer p {
+        padding-top: 25px;
     }
-
-    .project-snippet-image{
-        width:300px;
-        height:240px;
-        float:none;
-        margin:auto;
-        margin-top:0px;
-        clear:both;
+    .project-snippet-image {
+        width: 300px;
+        height: 240px;
+        float: none;
+        margin: auto;
+        margin-top: 0px;
+        clear: both;
     }
-
-    .snippet-action-btn{
-       margin:auto;
-       width:265px;
-       margin-top:10px;
+    .snippet-action-btn {
+        margin: auto;
+        width: 265px;
+        margin-top: 10px;
     }
-
-    
 }
 
-
-@media screen and (max-width:510px) and (min-width:10px){
-    .project-left-btn .project-snippet-image{
-        width:280px;
-        height:240px;
-        float:none;
-        margin:auto;
-        clear:both;
+@media screen and (max-width:510px) and (min-width:10px) {
+    .project-left-btn .project-snippet-image {
+        width: 280px;
+        height: 240px;
+        float: none;
+        margin: auto;
+        clear: both;
     }
-    
-    .project-left-btn .text-action-outer{
-        float:none;
-        width:100%;
-        height:200px;
-        margin:auto;
-        margin-top:-150px;
+    .project-left-btn .text-action-outer {
+        float: none;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: -150px;
     }
-
-    .project-snippet-outer{
-        width:90%;
-        height:500px;
-        margin:auto;
-        margin-top:50px;
+    .project-snippet-outer {
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        margin-top: 50px;
     }
-
-    .project-dash-outer{
-        height:2000px;
-        width:100%;
-        margin-top:-35px;
+    .project-dash-outer {
+        height: auto;
+        width: 100%;
+        margin-top: -35px;
     }
-
-    .text-action-outer{
-        float:none;
-        width:100%;
-        height:200px;
-        margin:auto;
-        margin-top:-150px;
+    .text-action-outer {
+        float: none;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: -150px;
     }
-
-    .project-snippet-outer p{
-        padding-top:15px;
+    .project-snippet-outer p {
+        padding-top: 15px;
     }
-    
-    .project-snippet-image{
-        width:280px;
-        height:240px;
-        float:none;
-        margin:auto;
-        clear:both;
+    .project-snippet-image {
+        width: 280px;
+        height: 240px;
+        float: none;
+        margin: auto;
+        clear: both;
     }
-
-    .snippet-action-btn{
-       margin:auto;
-       width:265px;
-       margin-top:10px;
+    .snippet-action-btn {
+        margin: auto;
+        width: 265px;
+        margin-top: 10px;
     }
 }
