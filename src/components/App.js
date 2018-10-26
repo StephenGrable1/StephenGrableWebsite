@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Link to="/"><h2 className="website-title">Stephen Grable</h2></Link>
+          <Link to="/"><h2 className="website-title">Stephen Grable</h2></Link>
           <ul className="app-menu">
             <li><Link to='/' className="nav-link">Home</Link></li>
             <li><Link to='/my-work' className="nav-link">My Work</Link></li>
@@ -37,18 +37,18 @@ class App extends Component {
             <li><Link to='/contact' className="nav-link">Contact</Link></li>
 
           </ul>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/my-work' component={Projects}/>
-          <Route exact path='/contact' component={Contact}/>
-          <Route exact path='/posts' component={PostFeed}/>
-          <Route exact path='/posts/getting-hired' component={GettingHired}/>
-          <Route exact path='/posts/first-five-weeks-cs' component={CodesmithFirstFiveWeeks}/>
-          <Route exact path='/my-work/deaf-boy-website' component={DeafBoyWebsite}/>
-          <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite}/>
-          <Route exact path='/my-work/todo-app-website' component={TodoAppWebsite}/>
-          <Route exact path='/my-work/timer-app-website' component={TimerAppWebsite}/>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/my-work' component={Projects} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/posts' component={PostFeed} />
+          <Route exact path='/posts/getting-hired' component={GettingHired} />
+          <Route exact path='/posts/first-five-weeks-cs' component={CodesmithFirstFiveWeeks} />
+          <Route exact path='/my-work/deaf-boy-website' component={DeafBoyWebsite} />
+          <Route exact path='/my-work/danny-bobby-website' component={DannyBobbyWebsite} />
+          <Route exact path='/my-work/todo-app-website' component={TodoAppWebsite} />
+          <Route exact path='/my-work/timer-app-website' component={TimerAppWebsite} />
 
-
+          <footer>Stephen Grable</footer>
         </div>
       </Router>
     );
